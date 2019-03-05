@@ -3,10 +3,25 @@
   overflow: hidden;
 }
 
+.info-black {
+  color: black;
+}
+
+.info-green {
+  color: #339E2D;
+}
+
 .title-tab {
   text-align: center;
+  color: #339E2D;
 }
 
 .title-cards {
   font-size: 18px;
+  color: #339E2D;
+}
+
+ul {
+  margin-left: -24px;
+  font-size: 14px;
 }
