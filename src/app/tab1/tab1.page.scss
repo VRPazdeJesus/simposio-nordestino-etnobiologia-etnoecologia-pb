@@ -19,9 +19,20 @@
 .title-cards {
   font-size: 18px;
   color: #339E2D;
+  line-height: 1.0;
+}
+
+.description-speaker {
+  font-size: 10px;
 }
 
 ul {
   margin-left: -24px;
   font-size: 14px;
+  line-height: 1;
+}
+
+.destaque {
+  line-height: 0;
+  font-weight: bold;
 }
