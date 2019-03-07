@@ -36,3 +36,11 @@ ul {
   line-height: 0;
   font-weight: bold;
 }
+
+ion-content {
+  --background: url('../../assets/image/bg.jpg') no-repeat 100% 100%;
+}
+
+ion-card {
+  background-color: white !important;
+}
