@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { log } from 'util';
 
 @Component({
   selector: 'app-tab1',
@@ -6,6 +7,40 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  public dia;
+  public hora;
+  public minuto;
+
+  public agora:Array<object> = [];
+
+  constructor() { 
+    let date =  new Date(); 
+
+    this.dia = date.getDate();
+    this.hora = date.getHours();
+    this.minuto = date.getMinutes();
+
+    this.atribuirGrade(this.dia, this.hora, this.minuto);
+  } 
+
+  atribuirGrade(dia:any, hora:any, minuto:any){
+    let limit : string = hora+':'+minuto;
+    console.log(limit);
+    if(dia < 18) {
+      this.agora = this.dia18manha;
+      console.log('executando o agora');
+    } else if(dia == 18) {
+      if((hora < 13) && (limit != '12:30')) {
+        this.agora = this.dia18manha;
+      } else if((hora > 12) && (hora <= 15) && (limit != '15:45')){
+        this.agora = this.dia18tarde1416;
+      } else if ((hora >= 15) && (hora < 16)) {
+        this.agora = this.dia18tarde141545;
+      } else if ((hora >= 16) && (hora)) {
+
+      }
+    }
+  }
 
   // Cronograma do primeiro dia
   public dia18manha:Array<object> = [
