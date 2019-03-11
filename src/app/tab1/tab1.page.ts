@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { log } from 'util';
+import { log, isFunction } from 'util';
 
 @Component({
   selector: 'app-tab1',
@@ -34,41 +34,21 @@ export class Tab1Page {
         this.agora = this.dia18manha0830;
       } else if((hora == 8) && (minuto <= 30)) {
         this.agora = this.dia18manha0830;
-      } else if((hora == 8) && (minuto > 30)) {
-        this.agora = this.dia18manha0900;
-      } else if(hora == 9){
-        this.agora = this.dia18manha0900;
-      } else if((hora == 10) && (minuto <= 15)) {
+      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto <= 15)))  {
         this.agora = this.dia18manha0900;
       } else if((hora == 10) && (minuto > 15) && (minuto < 45)) {
         this.agora = this.dia18manha1015;
-      } else if((hora == 10) && (minuto >= 45)) {
+      } else if(((hora == 10) && (minuto >= 45)) || (hora == 11) || ((hora == 12) && (minuto <= 30))) {
         this.agora = this.dia18manha1045;
-      } else if(hora == 11){
-        this.agora = this.dia18manha1045;
-      } else if((hora == 12) && (minuto <= 30)) {
-        this.agora = this.dia18manha1045;
-      } else if((hora == 12) && (minuto >= 30)){
+      } else if(((hora == 12) && (minuto >= 30)) || ((hora > 12) && (hora <= 14)) || ((hora == 15) && (minuto < 30))){
         this.agora = this.dia18tarde1400;
-      } else if((hora > 12) && (hora <= 14)) {
-        this.agora = this.dia18tarde1400;
-      } else if((hora == 15) && (minuto < 30)) {
-        this.agora = this.dia18tarde1400;
-      } else if((hora == 15) && (minuto >= 30)) {
+      } else if(((hora == 15) && (minuto >= 30)) || ((hora == 16) && (minuto < 30))) {
         this.agora = this.dia18tarde1545;
-      } else if((hora == 16) && (minuto < 30)) {
-        this.agora = this.dia18tarde1545;
-      } else if((hora == 16) && (minuto >= 30)) {
+      } else if(((hora == 16) && (minuto >= 30)) || ((hora == 17) && (minuto <= 15))) {
         this.agora = this.dia18tarde1630;
-      } else if((hora == 17) && (minuto <= 15)) {
-        this.agora = this.dia18tarde1630;
-      } else if((hora == 17) && (minuto > 15)) {
+      } else if(((hora == 17) && (minuto > 15)) || ((hora == 18) && (minuto < 30))) {
         this.agora = this.dia18noite1800;
-      } else if((hora == 18) && (minuto < 30)) {
-        this.agora = this.dia18noite1800;
-      } else if((hora == 18) && (minuto >= 30)) {
-        this.agora = this.dia18noite1830;
-      } else if((hora >= 19) && (hora <= 20)){
+      } else if(((hora == 18) && (minuto >= 30)) || ((hora >= 19) && (hora <= 20))){
         this.agora = this.dia18noite1830;
       } else if (hora > 20){
         this.agora = this.fim;
