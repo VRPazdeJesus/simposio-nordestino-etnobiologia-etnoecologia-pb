@@ -32,17 +32,48 @@ export class Tab1Page {
     } else if(dia == 18) {
       if(hora < 8) {
         this.agora = this.dia18manha0830;
-      } else if((hora == 8) && (limit != '8:30') && (minuto <= 30)) {
+      } else if((hora == 8) && (minuto <= 30)) {
         this.agora = this.dia18manha0830;
-      } else if(hora <= 9) {
+      } else if((hora == 8) && (minuto > 30)) {
         this.agora = this.dia18manha0900;
-      } else if((hora > 12) && (hora <= 15) && (limit != '15:45')){
-        this.agora = this.dia18tarde1416;
-      } else if ((hora >= 15) && (hora < 16)) {
-        this.agora = this.dia18tarde141545;
-      } else if ((hora >= 16) && (hora)) {
-
+      } else if(hora == 9){
+        this.agora = this.dia18manha0900;
+      } else if((hora == 10) && (minuto <= 15)) {
+        this.agora = this.dia18manha0900;
+      } else if((hora == 10) && (minuto > 15) && (minuto < 45)) {
+        this.agora = this.dia18manha1015;
+      } else if((hora == 10) && (minuto >= 45)) {
+        this.agora = this.dia18manha1045;
+      } else if(hora == 11){
+        this.agora = this.dia18manha1045;
+      } else if((hora == 12) && (minuto <= 30)) {
+        this.agora = this.dia18manha1045;
+      } else if((hora == 12) && (minuto >= 30)){
+        this.agora = this.dia18tarde1400;
+      } else if((hora > 12) && (hora <= 14)) {
+        this.agora = this.dia18tarde1400;
+      } else if((hora == 15) && (minuto < 30)) {
+        this.agora = this.dia18tarde1400;
+      } else if((hora == 15) && (minuto >= 30)) {
+        this.agora = this.dia18tarde1545;
+      } else if((hora == 16) && (minuto < 30)) {
+        this.agora = this.dia18tarde1545;
+      } else if((hora == 16) && (minuto >= 30)) {
+        this.agora = this.dia18tarde1630;
+      } else if((hora == 17) && (minuto <= 15)) {
+        this.agora = this.dia18tarde1630;
+      } else if((hora == 17) && (minuto > 15)) {
+        this.agora = this.dia18noite1800;
+      } else if((hora == 18) && (minuto < 30)) {
+        this.agora = this.dia18noite1800;
+      } else if((hora == 18) && (minuto >= 30)) {
+        this.agora = this.dia18noite1830;
+      } else if((hora >= 19) && (hora <= 20)){
+        this.agora = this.dia18noite1830;
+      } else if (hora > 20){
+        this.agora = this.fim;
       }
+      
     }
   }
 
@@ -449,6 +480,16 @@ export class Tab1Page {
      'instituto':'Salão Nobre da Reitoria da UFBA (Canela)',
      'titulo':'Paisagens das desigualdades',
      'participantes': [{'nome':'Maristella Svampa', 'bio': '- Univ. La Plata/Argentina'},{'nome':'Alda Salomão', 'bio': '- CTV/Moçambique'}, {'nome':'Sonia Guajajara', 'bio': '- APIB/Brasil'}],
+     'moderadores': [{'nome':'', 'bio': ''}]
+    }
+  ];
+
+  public fim:Array<object> = [
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '--:-- - --:--',
+     'instituto':'',
+     'titulo':'Até amanhã!',
+     'participantes': [{'nome':'', 'bio': ''}],
      'moderadores': [{'nome':'', 'bio': ''}]
     }
   ];
