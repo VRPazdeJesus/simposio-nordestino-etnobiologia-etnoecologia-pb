@@ -30,9 +30,7 @@ export class Tab1Page {
       this.agora = this.dia18manha0830;
       console.log('executando o agora');
     } else if(dia == 18) {
-      if(hora < 8) {
-        this.agora = this.dia18manha0830;
-      } else if((hora == 8) && (minuto <= 30)) {
+      if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia18manha0830;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto <= 15)))  {
         this.agora = this.dia18manha0900;
@@ -54,11 +52,17 @@ export class Tab1Page {
         this.agora = this.fim;
       }
       
+    } else if(dia == 19) {
+      if((hora < 8) || ((hora == 8) && (minuto <= 30))){
+        this.agora = this.dia19manha0830;
+      }
+
+    } else if(dia == 20) {
+
     }
   }
 
   // Cronograma do primeiro dia
-
   public dia18manha0830:Array<object> = [
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '08:30 - 10:15',
@@ -475,22 +479,51 @@ export class Tab1Page {
   ];
 
   // Cronograma do segundo dia
-  public dia19manha830:Array<object> = [
+  public dia19manha0830:Array<object> = [
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'De naturalezas a naturaleza: la paradoja de la conservación a través de la financiarización', 'bio': '- Constanza Casalderrey Zapata, Universidad Nacional Rio Negro'},{'nome':'Extractivismo petrolero y conservación de la biodiversidad: tensiones y complementariedades en la reserva laguna de Llancanelo (Mendoza, Argentina)', 'bio': '- Paula D´Amico, Universidad Nacional de Cuyo'}, {'nome':'Political ecology and territorialities of conservation policy in Colombia: case study', 'bio':'- Connie Lopez-Gomez, Universidad Nacional de Colombia'}, {'nome':'Conservação ambiental, green grabbing e despossessão: a reorganização do controle da terra, dos recursos naturais e do grupo social. a APA Macaé de cima na bacia do Rio Bonito, Nova Friburgo, RJ', 'bio':'- Victor N. Urzua, UFRRJ'}],
+     'moderadores': [{'nome':'Melissa Moreano', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: Auditório 2',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'Complexo Logístico Intermodal Porto Sul: conflitos territoriais em Ilhéus, Bahia (2008-2018)', 'bio': 'Lorena Andrea Torres Higuera, UFES'},{'nome':'Formas de ocupação territorial em disputas e os conflitos ambientais', 'bio': '- Jaqueline G. Santos, UFRGS'}, {'nome':'Os conflitos territoriais na Bacia Hidrográfica do Rio Paraguaçu', 'bio':'- Claudio Dourado, Comissão Pastoral da Terra'}, {'nome':'Avanço das fronteiras do capitalismo na Amazônia, região da BR-163: espoliação, conflitos sociais e subalternidade', 'bio':'- Rosane De Seixas Brito Araújo, UFPA'}],
+     'moderadores': [{'nome':'Iñigo Arrazola', 'bio':''}]
+    },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 404',
      'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'A luta pela manutenção da autonomia comunitária em Juruti Velho, Juruti/PA: o diálogo entre saberes jurídicos acadêmicos e comunitários', 'bio': ''},{'nome':'Desprovincializar o desenvolvimento: enunciação subalterna e resistência nas bordas da acumulação capitalista na Amazônia', 'bio': ''}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':''}, {'nome':'“A gente não sabia que podia gritar”: contestando a vocação florestal do município de Imbaú, Paraná, Brasil', 'bio':''}],
+     'participantes': [{'nome':'A luta pela manutenção da autonomia comunitária em Juruti Velho, Juruti/PA: o diálogo entre saberes jurídicos acadêmicos e comunitários', 'bio': '- Lincon Sousa Aguiar, UFOP'},{'nome':'Desprovincializar o desenvolvimento: enunciação subalterna e resistência nas bordas da acumulação capitalista na Amazônia', 'bio': '- Wendell Ficher Teixeira Assis, UFAL'}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':'- Suenya Santos Da Cruz, UFF'}, {'nome':'“A gente não sabia que podia gritar”: contestando a vocação florestal do município de Imbaú, Paraná, Brasil', 'bio':'- Mailane Junkes Raizer Da Cruz, Instituto Federal Catarinense'}],
      'moderadores': [{'nome':'Luiz Enrique Souza', 'bio':''}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 406',
      'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'O entendimento da sociedade civil sob a ótica gramsciana e suas potencialidades na análise de conselhos gestores de unidades de conservação', 'bio': ''},{'nome':'Entre preservação ambiental e justiça social: um estudo de caso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio': ''},{'nome':'Transformações socioambientais e a busca pela autonomia, justiça social e ambiental de uma comunidade quilombola no Rio de Janeiro.', 'bio': ''},{'nome':'Um estudo sobre a regularização das terras das comunidades quilombolas atingidas pelo projeto de integração do rio São Francisco (PISF)', 'bio': ''}],
+     'participantes': [{'nome':'O entendimento da sociedade civil sob a ótica gramsciana e suas potencialidades na análise de conselhos gestores de unidades de conservação', 'bio': '- Renata de Souza, UFRJ'},{'nome':'Entre preservação ambiental e justiça social: um estudo de caso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio': '- Maria Medrado Nascimento, IFBA'},{'nome':'Transformações socioambientais e a busca pela autonomia, justiça social e ambiental de uma comunidade quilombola no Rio de Janeiro.', 'bio': '- Eduarda Rezende Caillava Gomes, UFRJ'},{'nome':'Um estudo sobre a regularização das terras das comunidades quilombolas atingidas pelo projeto de integração do rio São Francisco (PISF)', 'bio': '- Charles Evandre Vieira Ferreira, UFRS'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'Mapas imagéticos e raízes móveis: Repensando a crítica ontológica a processos de auto-organização cole(a)tiva na perspectiva espacial/territorial de mulheres indígenas e negras', 'bio': '- Léa Tosold (USP)'},{'nome':'Desafios metodológicos nas considerações ontológicas de "sociedade(s)" e "natureza(s)": Diálogos entre geografia e ecologia política', 'bio': '- Marco Antonio Sampaio Malagoli (UFF)'},{'nome':'Ciência sucessora na América Latina', 'bio': '- Anastasia Guidi Itokazu, UFABC'},{'nome':'Uma proposta epistemológica para a Serra da Canastra', 'bio': '- Gabrielle Luz Campos (UFOP)'}],
+     'moderadores': [{'nome':'Paulo Fonseca ', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: sala 408',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'O legado africano: A cosmovisão africana na organização das comunidades quilombolas do vale do Ribeira', 'bio': '- Maíra Rodrigues Da Silva, Casa de Cultura Fazenda Roseira e Lucas César Rodrigues Da Silva, UNICAMP'},{'nome':'Para resistir é preciso primeiro ter a opção de se libertar: O processo de re-existência dos povos e comunidades tradicionais do Rio Ribeira de Iguape - SP', 'bio': '- Camila Gomes De Mello, UFPR'},{'nome':'Reflexões feministas e decoloniais sobre raça e racismo no Brasil e na Bolívia', 'bio': '- Caroline Cotta De Mello Freitas, FESPSP'},{'nome':'A categoria de gênero no contexto de conflitos sócio-ambientais: o caso das mulheres zapatistas', 'bio': '- Laura Marquesan Eschberger (ESPM – sul)'}],
+     'moderadores': [{'nome':'Rosy Oliveira', 'bio':'- UFRB'}]
     }
   ];
+  //atualizado e corrigido até aqui
 
   public dia19manha9:Array<object> = [
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
