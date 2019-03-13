@@ -55,6 +55,24 @@ export class Tab1Page {
     } else if(dia == 19) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia19manha0830;
+      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto <= 15))) {
+        this.agora = this.dia19manha0900;
+      } else if((hora == 10) && (minuto > 15) && (minuto < 45)) {
+        this.agora = this.dia19manha1030;
+      } else if(((hora == 10) && (minuto >= 45)) || (hora == 11) || ((hora == 12) && (minuto <= 30))) {
+        this.agora = this.dia19manha1045;
+      } else if(((hora == 12) && (minuto >= 30)) || ((hora > 12) && (hora <= 14)) || ((hora == 15) && (minuto < 30))){
+        this.agora = this.dia19tarde1400;
+      } else if(((hora == 15) && (minuto >= 30)) || (hora == 16) || ((hora == 17) && (minuto < 15))) {
+        this.agora = this.dia19tarde1545;
+      } else if(((hora == 17) && (minuto > 15)) || (hora == 18)) {
+        this.agora = this.dia19noite1830;
+      } else if(hora == 19){
+        this.agora = this.dia19noite1900;
+      } else if((hora == 20) || (hora == 21)){
+        this.agora = this.dia19noite2000;
+      }else if (hora > 22){
+        this.agora = this.fim;
       }
 
     } else if(dia == 20) {
@@ -523,57 +541,84 @@ export class Tab1Page {
      'moderadores': [{'nome':'Rosy Oliveira', 'bio':'- UFRB'}]
     }
   ];
-  //atualizado e corrigido até aqui
 
-  public dia19manha9:Array<object> = [
+  public dia19manha0900:Array<object> = [
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'De naturalezas a naturaleza: la paradoja de la conservación a través de la financiarización', 'bio': '- Constanza Casalderrey Zapata, Universidad Nacional Rio Negro'},{'nome':'Extractivismo petrolero y conservación de la biodiversidad: tensiones y complementariedades en la reserva laguna de Llancanelo (Mendoza, Argentina)', 'bio': '- Paula D´Amico, Universidad Nacional de Cuyo'}, {'nome':'Political ecology and territorialities of conservation policy in Colombia: case study', 'bio':'- Connie Lopez-Gomez, Universidad Nacional de Colombia'}, {'nome':'Conservação ambiental, green grabbing e despossessão: a reorganização do controle da terra, dos recursos naturais e do grupo social. a APA Macaé de cima na bacia do Rio Bonito, Nova Friburgo, RJ', 'bio':'- Victor N. Urzua, UFRRJ'}],
+     'moderadores': [{'nome':'Melissa Moreano', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: Auditório 2',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'Complexo Logístico Intermodal Porto Sul: conflitos territoriais em Ilhéus, Bahia (2008-2018)', 'bio': 'Lorena Andrea Torres Higuera, UFES'},{'nome':'Formas de ocupação territorial em disputas e os conflitos ambientais', 'bio': '- Jaqueline G. Santos, UFRGS'}, {'nome':'Os conflitos territoriais na Bacia Hidrográfica do Rio Paraguaçu', 'bio':'- Claudio Dourado, Comissão Pastoral da Terra'}, {'nome':'Avanço das fronteiras do capitalismo na Amazônia, região da BR-163: espoliação, conflitos sociais e subalternidade', 'bio':'- Rosane De Seixas Brito Araújo, UFPA'}],
+     'moderadores': [{'nome':'Iñigo Arrazola', 'bio':''}]
+    },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 404',
      'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'A luta pela manutenção da autonomia comunitária em Juruti Velho, Juruti/PA: o diálogo entre saberes jurídicos acadêmicos e comunitários', 'bio': ''},{'nome':'Desprovincializar o desenvolvimento: enunciação subalterna e resistência nas bordas da acumulação capitalista na Amazônia', 'bio': ''}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':''}, {'nome':'“A gente não sabia que podia gritar”: contestando a vocação florestal do município de Imbaú, Paraná, Brasil', 'bio':''}],
+     'participantes': [{'nome':'A luta pela manutenção da autonomia comunitária em Juruti Velho, Juruti/PA: o diálogo entre saberes jurídicos acadêmicos e comunitários', 'bio': '- Lincon Sousa Aguiar, UFOP'},{'nome':'Desprovincializar o desenvolvimento: enunciação subalterna e resistência nas bordas da acumulação capitalista na Amazônia', 'bio': '- Wendell Ficher Teixeira Assis, UFAL'}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':'- Suenya Santos Da Cruz, UFF'}, {'nome':'“A gente não sabia que podia gritar”: contestando a vocação florestal do município de Imbaú, Paraná, Brasil', 'bio':'- Mailane Junkes Raizer Da Cruz, Instituto Federal Catarinense'}],
      'moderadores': [{'nome':'Luiz Enrique Souza', 'bio':''}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 406',
      'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'O entendimento da sociedade civil sob a ótica gramsciana e suas potencialidades na análise de conselhos gestores de unidades de conservação', 'bio': ''},{'nome':'Entre preservação ambiental e justiça social: um estudo de caso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio': ''},{'nome':'Transformações socioambientais e a busca pela autonomia, justiça social e ambiental de uma comunidade quilombola no Rio de Janeiro.', 'bio': ''},{'nome':'Um estudo sobre a regularização das terras das comunidades quilombolas atingidas pelo projeto de integração do rio São Francisco (PISF)', 'bio': ''}],
+     'participantes': [{'nome':'O entendimento da sociedade civil sob a ótica gramsciana e suas potencialidades na análise de conselhos gestores de unidades de conservação', 'bio': '- Renata de Souza, UFRJ'},{'nome':'Entre preservação ambiental e justiça social: um estudo de caso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio': '- Maria Medrado Nascimento, IFBA'},{'nome':'Transformações socioambientais e a busca pela autonomia, justiça social e ambiental de uma comunidade quilombola no Rio de Janeiro.', 'bio': '- Eduarda Rezende Caillava Gomes, UFRJ'},{'nome':'Um estudo sobre a regularização das terras das comunidades quilombolas atingidas pelo projeto de integração do rio São Francisco (PISF)', 'bio': '- Charles Evandre Vieira Ferreira, UFRS'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'Mapas imagéticos e raízes móveis: Repensando a crítica ontológica a processos de auto-organização cole(a)tiva na perspectiva espacial/territorial de mulheres indígenas e negras', 'bio': '- Léa Tosold (USP)'},{'nome':'Desafios metodológicos nas considerações ontológicas de "sociedade(s)" e "natureza(s)": Diálogos entre geografia e ecologia política', 'bio': '- Marco Antonio Sampaio Malagoli (UFF)'},{'nome':'Ciência sucessora na América Latina', 'bio': '- Anastasia Guidi Itokazu, UFABC'},{'nome':'Uma proposta epistemológica para a Serra da Canastra', 'bio': '- Gabrielle Luz Campos (UFOP)'}],
+     'moderadores': [{'nome':'Paulo Fonseca ', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '08:30 - 10:15',
+     'instituto':'PAF 5: sala 408',
+     'titulo':'Sessões de trabalho',
+     'participantes': [{'nome':'O legado africano: A cosmovisão africana na organização das comunidades quilombolas do vale do Ribeira', 'bio': '- Maíra Rodrigues Da Silva, Casa de Cultura Fazenda Roseira e Lucas César Rodrigues Da Silva, UNICAMP'},{'nome':'Para resistir é preciso primeiro ter a opção de se libertar: O processo de re-existência dos povos e comunidades tradicionais do Rio Ribeira de Iguape - SP', 'bio': '- Camila Gomes De Mello, UFPR'},{'nome':'Reflexões feministas e decoloniais sobre raça e racismo no Brasil e na Bolívia', 'bio': '- Caroline Cotta De Mello Freitas, FESPSP'},{'nome':'A categoria de gênero no contexto de conflitos sócio-ambientais: o caso das mulheres zapatistas', 'bio': '- Laura Marquesan Eschberger (ESPM – sul)'}],
+     'moderadores': [{'nome':'Rosy Oliveira', 'bio':'- UFRB'}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
      'titulo':'Candomblé e ecologia',
-     'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': 'Tanury Junçara - pendente'},{'nome':'Jussara Rego', 'bio': 'UFBA'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'- Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'- Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': ''},{'nome':'Tanury Junçara', 'bio': ''}],
+     'moderadores': [{'nome':'Jussara Rego', 'bio': '- MARSOL/UFBA: FIOCRUZ'}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
-     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
-     'moderadores': [{'nome':'', 'bio':''}]
-    },
-    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do IGEO  - Instituto de Geociências',
+     'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias ',
-     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'UNEB e UNB'},{'nome':'Franklim Baniwa', 'bio':'UNB'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes De Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
+     'moderadores': [{'nome':'FELIPE CRUZ TUXÁ', 'bio':'- UNEB E UNB'},{'nome':'FRANKLIM BANIWA', 'bio':'- UNB'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Modos de (r)existência nos territórios pesqueiros',
-     'participantes': [{'nome':'Clovis Amorim', 'bio':'- Comunidade Cajueiro -MA - Coordenação Nacional MPP'},{'nome':'Josana Serrão Pinto', 'bio':'- Comunidade Amador - PA - Coordenação Nacional MPP'},{'nome':'Eliete Paraguaçu Conceição', 'bio':'- Comunidades Pesqueiras e Quilombolas de Ilha de Maré - MPP - BA'},{'nome':'Raimundo Siri', 'bio':'- Comunidade Cova da Onça - MPP-BA'}],
-     'moderadores': [{'nome':'Maria José Pacheco', 'bio':'CPP'},{'nome':'Rafael Palermo Buti', 'bio':'Unilab'}]
+     'participantes': [{'nome':'Clovis Amorim', 'bio':'- Comunidade Cajueiro -MA - Coordenação Nacional MPP'},{'nome':'Josana Serrão Pinto', 'bio':'- Comunidade Amador - PA - Coordenação Nacional MPP'},{'nome':'Eliete Paraguaçu Conceição', 'bio':'- Comunidades Pesqueiras e Quilombolas de Ilha de Maré - MPP - BA'},{'nome':'Raimundo Siri', 'bio':'- Comunidade Cova da Onça - MPP-BA'}, {'nome':'Joselita Gonçalves', 'bio':'- Quilombo Dom João'}],
+     'moderadores': [{'nome':'Maria José Pacheco', 'bio':'- CPP'},{'nome':'Rafael Palermo Buti', 'bio':'- Unilab'}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
+     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
+     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
+     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 2 - Faculdade de Arquitetura e Urbanismo',
      'titulo':'PROSA: Escola de Formação de Autoprodutores em Processos Socioambientais',
      'participantes': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
-     'moderadores': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}]
+     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
@@ -596,36 +641,36 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
      'titulo':'Candomblé e ecologia',
-     'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': 'Tanury Junçara - pendente'},{'nome':'Jussara Rego', 'bio': 'UFBA'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'- Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'- Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': ''},{'nome':'Tanury Junçara', 'bio': ''}],
+     'moderadores': [{'nome':'Jussara Rego', 'bio': '- MARSOL/UFBA: FIOCRUZ'}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
-     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
-     'moderadores': [{'nome':'', 'bio':''}]
-    },
-    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do IGEO  - Instituto de Geociências',
+     'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias ',
-     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'UNEB e UNB'},{'nome':'Franklim Baniwa', 'bio':'UNB'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes De Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
+     'moderadores': [{'nome':'FELIPE CRUZ TUXÁ', 'bio':'- UNEB E UNB'},{'nome':'FRANKLIM BANIWA', 'bio':'- UNB'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Modos de (r)existência nos territórios pesqueiros',
-     'participantes': [{'nome':'Clovis Amorim', 'bio':'- Comunidade Cajueiro -MA - Coordenação Nacional MPP'},{'nome':'Josana Serrão Pinto', 'bio':'- Comunidade Amador - PA - Coordenação Nacional MPP'},{'nome':'Eliete Paraguaçu Conceição', 'bio':'- Comunidades Pesqueiras e Quilombolas de Ilha de Maré - MPP - BA'},{'nome':'Raimundo Siri', 'bio':'- Comunidade Cova da Onça - MPP-BA'}],
-     'moderadores': [{'nome':'Maria José Pacheco', 'bio':'CPP'},{'nome':'Rafael Palermo Buti', 'bio':'Unilab'}]
+     'participantes': [{'nome':'Clovis Amorim', 'bio':'- Comunidade Cajueiro -MA - Coordenação Nacional MPP'},{'nome':'Josana Serrão Pinto', 'bio':'- Comunidade Amador - PA - Coordenação Nacional MPP'},{'nome':'Eliete Paraguaçu Conceição', 'bio':'- Comunidades Pesqueiras e Quilombolas de Ilha de Maré - MPP - BA'},{'nome':'Raimundo Siri', 'bio':'- Comunidade Cova da Onça - MPP-BA'}, {'nome':'Joselita Gonçalves', 'bio':'- Quilombo Dom João'}],
+     'moderadores': [{'nome':'Maria José Pacheco', 'bio':'- CPP'},{'nome':'Rafael Palermo Buti', 'bio':'- Unilab'}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
+     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
+     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
+     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 2 - Faculdade de Arquitetura e Urbanismo',
      'titulo':'PROSA: Escola de Formação de Autoprodutores em Processos Socioambientais',
      'participantes': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
-     'moderadores': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}]
+     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
@@ -635,56 +680,91 @@ export class Tab1Page {
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
     }
   ];
-
+  
   public dia19manha1045:Array<object> = [
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
-     'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: sala 404',
-     'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'Todo empieza por lo local, autogobiernos y salidas del extractivismo', 'bio': 'Raquel Neyra Soupplet, Universidad de Zaragoza'},{'nome':'Cada uno, cada uno. Proyecto de reparación integral en el contexto de 50 años de extractivismo en la Amazonia Norte Ecuatoriana.', 'bio': 'Federica Giunta, Acción Ecológica'}, {'nome':'Paisagismo comestível e espaço exterior doméstico voltados à soberania alimentar: aldeia Itamarã e ocupações Bubas', 'bio':'Céline Veríssimo, Universidade Federal da Integração Latino-Americana'}, {'nome':'Territórios Tradicionalmente Ocupados e atingidos por rejeitos da mineração na Planície Costeira do Rio Doce (ES): por uma visibilidade descolonial', 'bio':'Simone Raquel Batista Ferreira, UFES'}],
-     'moderadores': [{'nome':'Isabella Lamas', 'bio':''},{'nome':'GECI-PUC-SP', 'bio':''}]
+     'hora': '10:30 - 12:30',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'Ações coletivas de consumidores com foco ambiental: qual é seu potencial transformador?', 'bio':'- Giuliana Franco Leal, UFRJ'}, {'nome':'Conflictos ambientales producidos por el diseño territorial del valle del cauca, Colombia: resistencias comunitarias frente a la expansión cañera y la urbanización', 'bio':'- Hernando Uribe Castro, Universidad Autónoma de Occidente'}, {'nome':'A quimera do desenvolvimento sustentável para supressão da pobreza e da crise ecológica', 'bio':'- Raquel Mota Mascarenhas, UFOP'}, {'nome':'Ecología política urbana: un foco a los residuo', 'bio':'- Eduardo Giesen Amtmann, Coletivo Viento Sur'}, {'nome':'Colonialidades na Amazônia urbana: produção de resíduos, desastre ambiental e narrativas em disputa. O caso do lixão de Marituba', 'bio':'- Rosane Maria Albino Steinbrenner, UFPA; Rosaly Seixas Brito, UFPA'}],
+     'moderadores': [{'nome':'Marcelo Araujo', 'bio':''}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
-     'hora': '10:45 - 12:30',
+     'hora': '10:30 - 12:30',
+     'instituto':'PAF 5: Auditório 2',
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'Equifinality in the Smallholder Slot: Cash Crop Development in the Brazilian Amazon and Indonesian Borneo', 'bio':'- Gregory Thaler, University of Georgia'}, {'nome':'Levantamento da agricultura em transição agroecológica no município de Macaé-RJ', 'bio':'- Pedro Marinho, UFRJ'}, {'nome':'Agrotóxicos: uma perspectiva a partir da ecologia política', 'bio':'- Shaiane Carla Gaboardi, Universidade Estadual do Oeste'}, {'nome':'Aportes para una ecología política de las áreas protegidas en  Argentina: entre los imaginarios de la conservación y las  realidades del extractivismo', 'bio':'- Pablo Daniel Pereira, Universidad de Buenos Aires'}],
+     'moderadores': [{'nome':'Miguel da Costa Accioly', 'bio':'Marsol / UFBA'}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '10:30 - 12:30',
+     'instituto':'PAF 3: Auditório',
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'Percepções dos pescadores remanescentes da lagoa de Imboassica-RJ, sobre alterações na diversidade do pescado e sobre a abertura da Barra', 'bio':'- Emerick, Mateus Corrêa e Andrade'}, {'nome':'Tensiones territoriales y productivas de la acuicultura en Chiloé-Chile', 'bio':'- Vladia Torres Herrera, UFBA'}, {'nome':'Discursos sobre la Floración de Algas Nocivas (FAN): Controversias en Torno a la Crisis Socioambiental de la Marea Roja en Isla Grande de Chiloé', 'bio':'- Marco Andres Herrera Mansilla, Universidad de la Frontera'}],
+     'moderadores': [{'nome':'Maria Cristina Fragkou', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '10:30 - 12:30',
+     'instituto':'PAF 5: sala 404',
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'Todo empieza por lo local, autogobiernos y salidas del extractivismo', 'bio':'- Raquel Neyra Soupplet, Universidad de Zaragoza'}, {'nome':'Cada uno, cada uno. Proyecto de reparación integral en el contexto de 50 años de extractivismo en la Amazonia Norte Ecuatoriana', 'bio':'- Federica Giunta, Acción Ecológica'}, {'nome':'Paisagismo comestível e espaço exterior doméstico voltados à soberania alimentar: aldeia Itamarã e ocupações Bubas', 'bio':'- Céline Veríssimo, Universidade Federal da Integração Latino-Americana'}, {'nome':'Territórios Tradicionalmente Ocupados e atingidos por rejeitos da mineração na Planície Costeira do Rio Doce (ES): por uma visibilidade descolonial', 'bio':'- Simone Raquel Batista Ferreira, UFES'}],
+     'moderadores': [{'nome':'Isabella Lamas', 'bio':'- GECI-PUC-SP'}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '10:30 - 12:30',
      'instituto':'PAF 5: sala 406',
-     'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'“NÓS SOMOS RAIZ DO LUGAR”: produção do espaço na Comunidade Quilombola São José do Barro Vermelho', 'bio': 'Renata Guimarães Vieira, UFOP'},{'nome':'Conflitos e resistências no território do quilombo Rio dos Macacos', 'bio': 'Paula Regina De Oliveira Cordeiro, UFBA'}, {'nome':'Granjeras del Mar: Luchas y Sueños en Coliumo. Historia del Àrea de manejo del Sindicato No.2', 'bio':'Gloria L Gallardo Fernández: Södertörn University'}, {'nome':'Conflitos, educação ambiental e ecologia política: a leitura crítica do território a partir da desigualdade e injustiça ambiental', 'bio':'Patrícia de Oliveira Plácido, Universidade Estadual do Rio de Janeiro'}],
-     'moderadores': [{'nome':'Catherine Prost', 'bio':''},{'nome':'GECI-PUC-SP', 'bio':''}]
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'“NÓS SOMOS RAIZ DO LUGAR”: produção do espaço na Comunidade Quilombola São José do Barro Vermelho', 'bio':'- Renata Guimarães Vieira, UFOP'}, {'nome':'Conflitos e resistências no território do quilombo Rio dos Macacos', 'bio':'- Paula Regina De Oliveira Cordeiro, UFBA'}, {'nome':'Conflitos, educação ambiental e ecologia política: a leitura crítica do território a partir da desigualdade e injustiça ambiental', 'bio':'- Patrícia de Oliveira Plácido, Universidade Estadual do Rio de Janeiro'}],
+     'moderadores': [{'nome':'Catherine Prost', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '10:30 - 12:30',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'Misrepresentations, asymmetries and imbalances of power: negative implications of “oriental institutionalism” for Concentrating Solar Power investments in MENA countries', 'bio':'- Luiz Souza, UFBA'}, {'nome':'SUMAK KAWSAY, MÁS ALLÁ DEL BUEN VIVIR', 'bio':'- Lissette Eliana Torres Arevalo, Universidade Federal do Rio Grande'}, {'nome':'El papel de la ciencia de los suelos en las luchas por el ecosocialismo', 'bio':'- Salvatore Engel-Di Mauro Suny'}, {'nome':'O Avanço Cosmopolítico das Plantas', 'bio':'- Salvador Andrés Schavelzon, UNIFESP'}],
+     'moderadores': [{'nome':'Horacio Machado Aráoz', 'bio':''}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '10:30 - 12:30',
+     'instituto':'PAF 5: sala 408',
+     'titulo':'Sessão de Trabalho',
+     'participantes': [{'nome':'Termo de compromisso como instrumento para promover justiça ambiental em Unidades de Conservação Brasileiras', 'bio':'- Lílian Lindoso (Instituto Chico Mendes)'}, {'nome':'Terra, papel, tesoura: sobrevivendo à expropriação', 'bio':'- Mariana Peceguini Ruggieri (UNICAMP)'}, {'nome':'O Tamanduá e a Sucuri Gigante: Autodemarcação Territorial e Colaborações  Interétnicas na Amazônia Brasileira', 'bio':'- Jeremy M. Campbell (Roger Williams University)'}, {'nome':'Autonomia nos processos decisórios como elemento fundamental para a resiliência de sistemas de co-manejo de quelônios no Baixo Amazona', 'bio':'- Fernanda Carneiro Romagnoli, Universidade Federal Rural da Amazônia'}],
+     'moderadores': [{'nome':'Bruna Rocha', 'bio':''}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
      'titulo':'Candomblé e ecologia',
-     'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': 'Tanury Junçara - pendente'},{'nome':'Jussara Rego', 'bio': 'UFBA'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'- Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'- Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': ''},{'nome':'Tanury Junçara', 'bio': ''}],
+     'moderadores': [{'nome':'Jussara Rego', 'bio': '- MARSOL/UFBA: FIOCRUZ'}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
-     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
-     'moderadores': [{'nome':'', 'bio':''}]
-    },
-    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do IGEO  - Instituto de Geociências',
+     'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias ',
-     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'UNEB e UNB'},{'nome':'Franklim Baniwa', 'bio':'UNB'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes De Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
+     'moderadores': [{'nome':'FELIPE CRUZ TUXÁ', 'bio':'- UNEB E UNB'},{'nome':'FRANKLIM BANIWA', 'bio':'- UNB'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Modos de (r)existência nos territórios pesqueiros',
-     'participantes': [{'nome':'Clovis Amorim', 'bio':'- Comunidade Cajueiro -MA - Coordenação Nacional MPP'},{'nome':'Josana Serrão Pinto', 'bio':'- Comunidade Amador - PA - Coordenação Nacional MPP'},{'nome':'Eliete Paraguaçu Conceição', 'bio':'- Comunidades Pesqueiras e Quilombolas de Ilha de Maré - MPP - BA'},{'nome':'Raimundo Siri', 'bio':'- Comunidade Cova da Onça - MPP-BA'}],
-     'moderadores': [{'nome':'Maria José Pacheco', 'bio':'CPP'},{'nome':'Rafael Palermo Buti', 'bio':'Unilab'}]
+     'participantes': [{'nome':'Clovis Amorim', 'bio':'- Comunidade Cajueiro -MA - Coordenação Nacional MPP'},{'nome':'Josana Serrão Pinto', 'bio':'- Comunidade Amador - PA - Coordenação Nacional MPP'},{'nome':'Eliete Paraguaçu Conceição', 'bio':'- Comunidades Pesqueiras e Quilombolas de Ilha de Maré - MPP - BA'},{'nome':'Raimundo Siri', 'bio':'- Comunidade Cova da Onça - MPP-BA'}, {'nome':'Joselita Gonçalves', 'bio':'- Quilombo Dom João'}],
+     'moderadores': [{'nome':'Maria José Pacheco', 'bio':'- CPP'},{'nome':'Rafael Palermo Buti', 'bio':'- Unilab'}]
+    },
+    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
+     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
+     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
+     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 2 - Faculdade de Arquitetura e Urbanismo',
      'titulo':'PROSA: Escola de Formação de Autoprodutores em Processos Socioambientais',
      'participantes': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
-     'moderadores': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}]
+     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
@@ -694,14 +774,45 @@ export class Tab1Page {
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
     }
   ];
-
+  
+  public dia19tarde1400:Array<object> = [
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '14:00 - 15:30',
+     'instituto':'Auditório externo do Instituto de Biologia',
+     'titulo':'Saberes e fazeres terapêuticos quilombolas: desafios e perspectivas no Antropoceno',
+     'participantes': [{'nome':'Ananias Viana', 'bio':'- Quilombo do Kaonge'},{'nome':'Carlos Caroso', 'bio':'- UFBA'},{'nome':'Fátima Tavares', 'bio':''},{'nome':'Fernando Morais', 'bio':''},{'nome':'Francesca Bassi', 'bio':'- UFRB'},{'nome':'Thais Penaforte', 'bio':''},{'nome':'Fátima Regina Gomes Tavares', 'bio':''},{'nome':'Iacy Pissolato', 'bio':''}],
+     'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '14:00 - 15:30',
+     'instituto':'Auditório Yeda do Instituto de Geociências',
+     'titulo':'Ecologia Política na América Latina: origens e caminhos',
+     'participantes': [{'nome':'José Augusto Pádua', 'bio':'- UFRJ'},{'nome':'Beatriz Bustos', 'bio':'- Universidad de Chile/ENTITLE'},{'nome':'Pedro Jacobi', 'bio':'- USP'},{'nome':'Catalina Toro', 'bio':'- Universidad Nacional de Colombia/CLACSO'}],
+     'moderadores': [{'nome':'Vanessa Empinotti', 'bio':'- UFABC'}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '14:00 - 15:30',
+     'instituto':'Auditório B do Instituto de Geociências',
+     'titulo':'Pós-extrativismo e alternativas sistêmicas',
+     'participantes': [{'nome':'Pablo Solon', 'bio':'- Fundación Solón'},{'nome':'Horácio Machado', 'bio':'- Conicet'},{'nome':'Maristella Svampa', 'bio':'- Universidad de La Plata, Argentina'},{'nome':'Mina Lorena Navarro', 'bio':'- Benemérita Universidad Autónoma de Puebla, México'}],
+     'moderadores': [{'nome':'Tadeu Breda', 'bio':''}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '14:00 - 15:30',
+     'instituto':'Auditório A do Instituto de Geociências',
+     'titulo':'Conflitos territoriais ',
+     'participantes': [{'nome':'Valdivino Sousa', 'bio':'- Central de Fundo e Fecho de Pasto'},{'nome':'Danilo Sodré', 'bio':'- Quilombo Pesqueiro Conceição de Salinas'},{'nome':'Clodoaldo Silva de Oliveira', 'bio':'- Assentamento Dois Riachões/CETA'},{'nome':'Carivaldo Ferreira dos Santos', 'bio':'- CPT/Barra'},{'nome':'Joaci Cunha', 'bio':'- CEAS'},{'nome':'Representante', 'bio':'- AATR'}],
+     'moderadores': [{'nome':'Gilca Garcia Oliveira', 'bio':'- Economia UFBA, POSGEO UFBA'}]
+    }
+  ];
+ 
   public dia19tarde1545:Array<object> = [
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '15:45 - 17:15',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
      'titulo':'O problema do desenvolvimento e o ambiente no contexto dos governos progressistas ou de esquerda',
-     'participantes': [{'nome':'Ricardo Calla', 'bio':'Bolivia'},{'nome':'Maristella Svampa', 'bio':'Argentina'},{'nome':'Emiliano Teran Matonvani', 'bio': 'Venezuela'},{'nome':'Diana Vela', 'bio': 'IAEN/Equador'},{'nome':'Org. Salvador Schavelzon', 'bio': 'Unifesp'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Ricardo Calla', 'bio':'Bolivia'},{'nome':'Maristella Svampa', 'bio':'Argentina'},{'nome':'Emiliano Teran Matonvani', 'bio': 'Venezuela'},{'nome':'Diana Vela', 'bio': 'IAEN/Equador'}],
+     'moderadores': [{'nome':'Salvador Schavelzon', 'bio':'- Unifesp'}]
     },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '15:45 - 17:15',
@@ -709,13 +820,6 @@ export class Tab1Page {
      'titulo':'Ecofeminismos e feminismos decoloniais',
      'participantes': [{'nome':'Stefania Barca', 'bio':'Centro de Estudos Sociais, Universidade de Coimbra, Portugal'},{'nome':'Elionice Sacramento', 'bio':'Articulação das Mulheres Pescadoras e MPP'},{'nome':'Antonia Mello', 'bio': 'Movimento Xingu Vivo'},{'nome':'Mina Lorena Navarro Trujillo', 'bio': 'Benemérita Universidad Autónoma de Puebla, México'},{'nome':'Caroline Cotta De Mello Freitas', 'bio': 'Fundação Escola de Sociologia e Política'}],
      'moderadores': [{'nome':'Luisa de Pinho Valle', 'bio':'Centro de Estudos Sociais, Universidade de Coimbra, Portugal'}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '15:45 - 17:15',
-     'instituto':'Auditório externo do Instituto de Biologia',
-     'titulo':'Conhecimento científico em movimento: práxis, ecologia e emancipação.',
-     'participantes': [{'nome':'Lídia Maria Pires Soares Cardel', 'bio':''},{'nome':'José Geraldo Aquino', 'bio':''},{'nome':'Maria Aparecida José de Oliveira', 'bio': 'UFBA'}],
-     'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '15:45 - 17:15',
@@ -728,7 +832,7 @@ export class Tab1Page {
      'hora': '15:45 - 17:15',
      'instituto':'Auditório Yeda do IGEO  - Instituto de Geociências',
      'titulo':'Os pobres do paraíso: paradoxo conservação vs. desenvolvimento',
-     'participantes': [{'nome':'Rodrigo Penna Firme', 'bio':'PUC/RJ'},{'nome':'Annelise Fernandez', 'bio':'UFRRJ'},{'nome':'Henyo Trindade Barreto Filho', 'bio': 'UNB'},{'nome':'Alba Simone', 'bio': 'UNIRIO'}],
+     'participantes': [{'nome':'Annelise Fernandez', 'bio':'UFRRJ'},{'nome':'Henyo Trindade Barreto Filho', 'bio': 'UNB'},{'nome':'Alba Simone', 'bio': 'UNIRIO'}],
      'moderadores': [{'nome':'Rodrigo Penna Firme', 'bio':'PUC/RJ'}]
     }
   ];
@@ -738,35 +842,35 @@ export class Tab1Page {
      'hora': '18:30 - 20:00',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Cartografias das existências ',
-     'participantes': [{'nome':'Catalina Toro Perez', 'bio':'UNC, Colombia'},{'nome':'Alessandra Munduruku', 'bio':'UFPA, Associação Indígena Pariri'},{'nome':'Guiomar Germani', 'bio': 'Geografar/UFBA'},{'nome':'Jeovah Meirelles', 'bio': 'UFC/Nova Cartografia Social'},{'nome':'Jussara Rêgo', 'bio': 'Marsol'}],
+     'participantes': [{'nome':'Catalina Toro Perez', 'bio':'- UNC, Colombia'},{'nome':'Alessandra Munduruku', 'bio':'- UFPA, Associação Indígena Pariri'},{'nome':'Guiomar Germani', 'bio': '- Geografar/UFBA'},{'nome':'Jeovah Meirelles', 'bio': '- UFC/Nova Cartografia Social'}],
      'moderadores': [{'nome':'Jussara Rêgo', 'bio':'Marsol'}]
     }
   ];
 
-  public dia19noite19:Array<object> = [
+  public dia19noite1900:Array<object> = [
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '18:30 - 20:00',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Cartografias das existências ',
-     'participantes': [{'nome':'Catalina Toro Perez', 'bio':'UNC, Colombia'},{'nome':'Alessandra Munduruku', 'bio':'UFPA, Associação Indígena Pariri'},{'nome':'Guiomar Germani', 'bio': 'Geografar/UFBA'},{'nome':'Jeovah Meirelles', 'bio': 'UFC/Nova Cartografia Social'},{'nome':'Jussara Rêgo', 'bio': 'Marsol'}],
+     'participantes': [{'nome':'Catalina Toro Perez', 'bio':'- UNC, Colombia'},{'nome':'Alessandra Munduruku', 'bio':'- UFPA, Associação Indígena Pariri'},{'nome':'Guiomar Germani', 'bio': '- Geografar/UFBA'},{'nome':'Jeovah Meirelles', 'bio': '- UFC/Nova Cartografia Social'}],
      'moderadores': [{'nome':'Jussara Rêgo', 'bio':'Marsol'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '19:00 - 22:00',
      'instituto':'Teatro Vila Velha, Passeio Público, Salvador',
      'titulo':'Kilomb Artes: as 7 Flechas das Ecologias Urbana, Indígena e Panafricana',
-     'participantes': [{'nome':'Naka', 'bio':'griô Mandinga Guiné-Bissau'},{'nome':'Mo Maiê', 'bio':'griô baiana'},{'nome':' Ícaro Sá', 'bio': 'Tamborinário'},{'nome':'Denilson Baniwa', 'bio': 'artísta gráfico indígena'}],
-     'moderadores': [{'nome':'Paul Regnier', 'bio':'UFBA'}]
+     'participantes': [{'nome':'Naka', 'bio':'- griô Mandinga Guiné-Bissau'},{'nome':'Mo Maiê', 'bio':'- griô baiana'},{'nome':' Ícaro Sá', 'bio': '- Tamborinário'},{'nome':'Denilson Baniwa', 'bio': '- artísta gráfico indígena'}],
+     'moderadores': [{'nome':'Paul Regnier', 'bio':'- UFBA'}]
     }
   ];
 
-  public dia19noite20:Array<object> = [
+  public dia19noite2000:Array<object> = [
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '19:00 - 22:00',
      'instituto':'Teatro Vila Velha, Passeio Público, Salvador',
      'titulo':'Kilomb Artes: as 7 Flechas das Ecologias Urbana, Indígena e Panafricana',
-     'participantes': [{'nome':'Naka', 'bio':'griô Mandinga Guiné-Bissau'},{'nome':'Mo Maiê', 'bio':'griô baiana'},{'nome':' Ícaro Sá', 'bio': 'Tamborinário'},{'nome':'Denilson Baniwa', 'bio': 'artísta gráfico indígena'}],
-     'moderadores': [{'nome':'Paul Regnier', 'bio':'UFBA'}]
+     'participantes': [{'nome':'Naka', 'bio':'- griô Mandinga Guiné-Bissau'},{'nome':'Mo Maiê', 'bio':'- griô baiana'},{'nome':' Ícaro Sá', 'bio': '- Tamborinário'},{'nome':'Denilson Baniwa', 'bio': '- artísta gráfico indígena'}],
+     'moderadores': [{'nome':'Paul Regnier', 'bio':'- UFBA'}]
     }
   ];
 
