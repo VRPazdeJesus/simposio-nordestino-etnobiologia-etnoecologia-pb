@@ -170,7 +170,7 @@ export class Tab3Page {
       maxZoom: 120
     }).on("locationfound", e => {
         if (!me) {
-            me = new leaflet.Marker(e.latlng).addTo(this.map);
+            me = new leaflet.Circle(e.latlng).addTo(this.map);
         } else {
             me.setLatLng(e.latlng);
         }

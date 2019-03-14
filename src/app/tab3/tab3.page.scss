@@ -1,11 +1,16 @@
 .map-container { 
-     position: absolute; top: 0px; 
-     bottom: 0px; 
-     width: 100%; 
-     height: 100%; 
+    position: absolute; top: 0px; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 100%; 
 }
 
 .title-tab {
     text-align: center;
     color: #339E2D;
-  }
+}
+
+.for-map {
+    width: 100%; 
+    height: 100%;
+}
