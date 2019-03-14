@@ -24,17 +24,14 @@ export class Tab1Page {
   } 
 
   atribuirGrade(dia:any, hora:any, minuto:any){
-    let limit : string = hora+':'+minuto;
-    console.log(limit);
     if(dia < 18) {
       this.agora = this.dia18manha0830;
-      console.log('executando o agora');
     } else if(dia == 18) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia18manha0830;
-      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto <= 15)))  {
+      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
         this.agora = this.dia18manha0900;
-      } else if((hora == 10) && (minuto > 15) && (minuto < 45)) {
+      } else if((hora == 10) && (minuto >= 15) && (minuto < 45)) {
         this.agora = this.dia18manha1015;
       } else if(((hora == 10) && (minuto >= 45)) || (hora == 11) || ((hora == 12) && (minuto <= 30))) {
         this.agora = this.dia18manha1045;
@@ -76,7 +73,25 @@ export class Tab1Page {
       }
 
     } else if(dia == 20) {
-
+      if((hora < 8) || ((hora == 8) && (minuto <= 30))){
+        this.agora = this.dia20manha0830;
+      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
+        this.agora = this.dia20manha0900;
+      } else if(((hora == 10) && (minuto >= 15)) || (hora == 11) || ((hora == 12) && (minuto < 30))) {
+        this.agora = this.dia20manha1015;
+      } else if(((hora == 12) && (minuto >= 30)) || ((hora > 12) && (hora <= 14)) || ((hora == 15) && (minuto < 30))){
+        this.agora = this.dia20tarde1400;
+      } else if(((hora == 15) && (minuto >= 30)) || (hora == 16)) {
+        this.agora = this.dia20tarde1545;
+      } else if((hora == 17)  || (hora == 18) || (hora == 19) || ((hora == 20) && (minuto < 30))) {
+        this.agora = this.dia20tarde1800;
+      } else if(((hora == 20) && (minuto >= 30)) || (hora == 21) || (hora == 22) || (hora == 23) ) {
+        this.agora = this.dia20noite2100;
+      } else if ((hora == 23) && (minuto > 50)){
+        this.agora = this.fim;
+      }
+    } else if(dia > 20) {
+      this.agora = this.fim;
     }
   }
 
@@ -943,6 +958,20 @@ export class Tab1Page {
      'moderadores': [{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Auditório Instituto de Matemática',
+     'titulo':'Geografiando para la resistencia: metodologías críticas para la defensa del território',
+     'participantes': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}],
+     'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Faculdade de Arquitetura de Urbanismo - Auditório 1',
+     'titulo':'Movilizar los cuerpos-territorio: Performances reflexivas para la prática política',
+     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio':''}],
+     'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
      'titulo':'Sessões de Trabalhos',
@@ -986,95 +1015,95 @@ export class Tab1Page {
     }
   ];
 
-  //Corrigido até aqui
-
-  public dia20manha10301230:Array<object> = [
+  public dia20manha1015:Array<object> = [
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA ',
-     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
-     'moderadores': [{'nome':'Lucrecia Raquel Greco', 'bio':'Universidade de Buenos Aires'}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório A do IGEO  - Instituto de Geociências',
+     'instituto':'Auditório A do Instituto de Geociências',
      'titulo':'O direito de dizer não: extrativismo e lutas territoriais',
-     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio': '- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio': '- líder Gamela, Maranhão'},{'nome':'Antenor Vaz', 'bio': '- indigenista'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio':'- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio':'- lider Gamela, Maranhão'},{'nome':'Alessandra Korap', 'bio':'- estudante de direito na UFOPA, Chefa das Guerreiras do Médio Tapajós, povo Munduruku'},{'nome':'Antenor Vaz', 'bio':'- indigenista'}],
+     'moderadores': [{'nome':'Felipe Milanez', 'bio':'- UFBA'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do IGEO  - Instituto de Geociências',
+     'instituto':'Auditório B do Instituto de Geociências',
      'titulo':'Restauração agroecológica e emancipação: a proposta da teia dos povos para o Sul da Bahia',
-     'participantes': [{'nome':'Paulo Dimas Rocha De Menezes', 'bio':'- Universidade Federal do Sul da Bahia'},{'nome':'Joelson Ferreira De Oliveira', 'bio':'- Teia dos Povos'},{'nome':'Lanns Alves De Almeida Filho', 'bio': '- Instituto Biofábrica de Cacau'},{'nome':'Pedro Marinho', 'bio': '- Universidade Federal do Rio de Janeiro'}],
-     'moderadores': [{'nome':'', 'bio':''}]
+     'participantes': [{'nome':'Joelson Ferreira De Oliveira', 'bio':'- Teia dos povos'},{'nome':'Lanns Alves De Almeida Filho', 'bio':'- Instituto Biofábrica de Cacau'},{'nome':'Pedro Marinho', 'bio':'- Universidade Federal do Rio de Janeiro'}],
+     'moderadores': [{'nome':'Paulo Dimas Rocha De Menezes', 'bio':'- Universidade Federal do Sul da Bahia'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório externo do Instituto de Biologia',
-     'titulo':'Reservas extrativistas: Institucionalizando a resistência ',
-     'participantes': [{'nome':'Representantes de Comunidades', 'bio':''},{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio': '- Analista Ambiental ICMBio'},{'nome':'Coordenação Regional (PB)', 'bio': ''},{'nome':'Coord. Sergio Fernandes Freitas', 'bio': 'Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}],
-     'moderadores': [{'nome':'Coord. Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
+     'titulo':'Reservas extrativistas: Institucionalizando a resistência',
+     'participantes': [{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio':'- Analista Ambiental ICMBio, Coordenação Regional (PB)'}],
+     'moderadores': [{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório Instituto de Matemática',
      'titulo':'Geografiando para la resistencia: metodologías críticas para la defensa del território',
      'participantes': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}],
-     'moderadores': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}]
+     'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Faculdade de Arquitetura de Urbanismo - Auditório 1',
+     'titulo':'Movilizar los cuerpos-territorio: Performances reflexivas para la prática política',
+     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio':''}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
   
-  public dia20manha10451230:Array<object> = [
+  public dia20tarde1400:Array<object> = [
     {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: sala 404',
-     'titulo':'Sessão de Trabalhos',
-     'participantes': [{'nome':'Por que a participação popular em matéria socioambiental é indispensável ao neoliberalismo? perspectivas a partir do desastre de Mariana/Rio Doce', 'bio':'- Henrique Ribeiro Afonso Domingos, UFOP'},{'nome':'Redes Epistêmicas em Educação do Campo e Ecologia Política da Luta por Hegemonia Territorial em Comunidades Camponesas e Ribeirinhas na Amazônia', 'bio':'- Evandro Medeiros (UNIFESSPA / Doutorando em Educação pela UFPB)'},{'nome':'Vivências subalternas latinoamericanas e as estratégias de re-existência para descolonização do poder', 'bio': '- Raíssa Félix, UFSB'},{'nome':'Subaltern ecologies in the “Indias de por acá”. Grassroots struggles and commoning practices in the urban environment of Naples, Southern Italy', 'bio': '- Roberto Sciarelli, Universidade de Coimbra'}],
-     'moderadores': [{'nome':'Guiomar Inez Germani', 'bio':'UFBA'}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: sala 408',
-     'titulo':'Sessão de Trabalhos',
-     'participantes': [{'nome':'Territórios tradicionais valem ouro? A expansão do extrativismo do ouro à luz da ecologia política – estudos de casos dos projetos de mineração em Paracatu (MG) e Volta  Grande do Xingu (PA)', 'bio':'- Érika Castilho Brasil, Universidade Estácio de Sá'},{'nome':'Paisajes inciertos. Ecología política del turismo en la costa de Oaxaca, Mexico', 'bio':'- Ignacio Rubio Carriquiriborde, Universidad Nacional Autónoma de Mexico'},{'nome':'El turismo como actividad neoextractivista:El caso de la isla de Holbox en APFF de Yum Balam, Quintana Roo, México', 'bio': '- Lidia Ivonne Blásquez Martínez, Universidad Autónoma Metropolitana'},{'nome':'Opará, o rio marcado para morrer', 'bio': '- Flávio José Rocha da Silva, Universidade de São Paulo'}],
-     'moderadores': [{'nome':'Iñigo arrazola', 'bio':'- UFBA'}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA ',
-     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
-     'moderadores': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório A do IGEO  - Instituto de Geociências',
-     'titulo':'O direito de dizer não: extrativismo e lutas territoriais',
-     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio': '- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio': '- líder Gamela, Maranhão'},{'nome':'Antenor Vaz', 'bio': '- indigenista'}],
-     'moderadores': [{'nome':'', 'bio':''}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do IGEO  - Instituto de Geociências',
-     'titulo':'Restauração agroecológica e emancipação: a proposta da teia dos povos para o Sul da Bahia',
-     'participantes': [{'nome':'Paulo Dimas Rocha De Menezes', 'bio':'- Universidade Federal do Sul da Bahia'},{'nome':'Joelson Ferreira De Oliveira', 'bio':'- Teia dos Povos'},{'nome':'Lanns Alves De Almeida Filho', 'bio': '- Instituto Biofábrica de Cacau'},{'nome':'Pedro Marinho', 'bio': '- Universidade Federal do Rio de Janeiro'}],
-     'moderadores': [{'nome':'', 'bio':''}]
-    },
-    {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '09:00 - 12:30',
+     'hora': '14:00 - 15:30',
      'instituto':'Auditório externo do Instituto de Biologia',
-     'titulo':'Reservas extrativistas: Institucionalizando a resistência ',
-     'participantes': [{'nome':'Representantes de Comunidades', 'bio':''},{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio': '- Analista Ambiental ICMBio'},{'nome':'Coordenação Regional (PB)', 'bio': ''},{'nome':'Coord. Sergio Fernandes Freitas', 'bio': 'Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}],
-     'moderadores': [{'nome':'Coord. Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
+     'titulo':'Ecologia política da violência e da defesa da Terra',
+     'participantes': [{'nome':'Claudelice Santos', 'bio':'- UNIFESSPA'},{'nome':'Antonia Mello', 'bio':'- Xingu Vivo'},{'nome':'Philippe Le Billon', 'bio':'- Universidade de British Columbia'},{'nome':'Patrick Alley', 'bio':'- Global Witness'}],
+     'moderadores': [{'nome':'Felipe Milanez', 'bio':'- UFBA'}, {'nome':'Tarcisio Feitosa ', 'bio':'- UFBA'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório Instituto de Matemática',
-     'titulo':'Geografiando para la resistencia: metodologías críticas para la defensa del território',
-     'participantes': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}],
-     'moderadores': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}]
+      'hora': '14:00 - 15:30',
+      'instituto':'Auditório Yeda do Instituto de Geociências',
+      'titulo':'Autonomias na América Latina: panorama ecopolítio',
+      'participantes': [{'nome':'Salvador Schavelzon', 'bio':'- UNIFESP, Argentina'},{'nome':'Spensy Pimentel', 'bio':'- UFSB'},{'nome':'Pavel Lopez', 'bio':'- Bolivia'},{'nome':'Mariana Mora', 'bio':'- Mexico'},{'nome':'Erneneck Mejia', 'bio':'- UFBA, México'}],
+      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+      'hora': '14:00 - 15:30',
+      'instituto':'Auditório B do Instituto de Geociências',
+      'titulo':'Ecologia política e as cidades: Conflitos ambientais urbanos',
+      'participantes': [{'nome':'Hortênsia Gomes Pinho', 'bio':'- Promotora de Justiça'},{'nome':'Rita Ferreira', 'bio':'- MTSB'},{'nome':'Luciana Ferrara', 'bio':'- UFABC'}],
+      'moderadores': [{'nome':'Marcelo Araujo', 'bio':''}]
+    }
+  ];
+  
+  public dia20tarde1545:Array<object> = [
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '15:45 - 17:00',
+     'instituto':'Auditório externo do Instituto de Biologia',
+     'titulo':'ASSEMBLEIA FINAL DO CONGRESSO',
+     'participantes': [{'nome':'Auditório externo do Instituto de Biologia', 'bio':''},{'nome':'Formação da Rede Brasileira de Ecologia Política', 'bio':''},{'nome':'Anúncio do próximo congresso e encaminhamentos emancipatórios', 'bio':''}],
+     'moderadores': [{'nome':'', 'bio':'- '}]
+    }
+  ];
+
+  public dia20tarde1800:Array<object> = [
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '18:00 - 20:30',
+     'instituto':'Auditório externo do Instituto de Biologia',
+     'titulo':'Horizontes emancipatórios',
+     'participantes': [{'nome':'Stefania Barca', 'bio':'- CES/Universidade de Coimbra'},{'nome':'Ivonne Yanez', 'bio':'- Acción Ecológica, Equador'},{'nome':'Ialorixá Bernadete Souza Ferreira Santos', 'bio':'- agricultora, coordenadora de educação do assentamento Dom Helder Câmara, em Ilhéus'}],
+     'moderadores': [{'nome':'', 'bio':'- '}]
+    }
+  ];
+  
+  public dia20noite2100:Array<object> = [
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '21:00 - 00:00',
+     'instituto':'Bairro do Rio Vermelho',
+     'titulo':'Sarau e noite cultural no Mercadão do Rio Vermelho',
+     'participantes': [{'nome':'', 'bio':''}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
   
