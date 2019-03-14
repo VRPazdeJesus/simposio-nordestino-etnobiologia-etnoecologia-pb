@@ -162,7 +162,24 @@ export class Tab3Page {
         [-12.99848, -38.50724]
     ]).addTo(this.map);
 
+    // Localizacao em tempo real
+    var me;
 
+    this.map.locate({
+      setView: true,
+      maxZoom: 120
+    }).on("locationfound", e => {
+        if (!me) {
+            me = new leaflet.Marker(e.latlng).addTo(this.map);
+        } else {
+            me.setLatLng(e.latlng);
+        }
+    }).on("locationerror", error => {
+        if (me) {
+            this.map.removeLayer(me);
+            me = undefined;
+        }
+    });
   }
 
 }
