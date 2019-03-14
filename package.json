@@ -28,6 +28,7 @@
     "@ionic/pro": "2.0.4",
     "cordova-plugin-advanced-http": "2.0.5",
     "core-js": "^2.5.4",
+    "leaflet": "^1.4.0",
     "rxjs": "^6.4.0",
     "rxjs-compat": "^6.4.0",
     "zone.js": "~0.8.29"
