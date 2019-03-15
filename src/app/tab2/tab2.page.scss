@@ -1,1 +1,24 @@
+.title-tab {
+    text-align: center;
+    color: #339E2D;
+}
 
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+
+    .card {
+        display: inline-block;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+ion-content {
+    --background: url('../../assets/image/bg.jpg') no-repeat 100% 100%;
+}
