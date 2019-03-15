@@ -22,3 +22,33 @@
 ion-content {
     --background: url('../../assets/image/bg.jpg') no-repeat 100% 100%;
 }
+
+.info-green {
+    color: #339E2D;
+}
+
+ion-card {
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-margin-start: 7px;
+    margin-inline-start: 7px;
+    -webkit-margin-end: 7px;
+    margin-inline-end: 7px;
+}
+
+.conteudo-card {
+    padding: 8px;
+}
+
+.imagem-card {
+    pointer-events: none;
+    border-radius: 8px;
+}
+
+.sub {
+    padding-top: 3px;
+    text-transform: none;
+    margin-bottom: 0px;
+    font-size: 10px;
+}

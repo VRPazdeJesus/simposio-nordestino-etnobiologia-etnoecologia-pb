@@ -7,17 +7,21 @@
 </ion-header>
 
 <ion-content>
-
-    <div class="scrolling-wrapper">
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-      <div class="card"><h2>Card</h2></div>
-    </div>
-  
+  <br>
+    <ion-list>
+        <ion-item lines="full" class="info-green">
+          <ion-label>
+            Livros
+          </ion-label>
+          <ion-icon name="code" slot="end"></ion-icon>
+        </ion-item>
+        <div class="scrolling-wrapper">
+            <ion-card class="welcome-card card conteudo-card" *ngFor="let livro of livros">
+                <ion-img class="imagem-card" src="{{livro.imagem}}"></ion-img>
+                <ion-card-header text-wrap>
+                  <ion-card-subtitle class="sub"> {{livro.titulo}} </ion-card-subtitle>
+                </ion-card-header>
+            </ion-card>
+        </div>
+    </ion-list>
 </ion-content>
