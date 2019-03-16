@@ -49,7 +49,7 @@ export class Tab1Page {
         this.agora = this.fim;
       }
       
-    } else if(dia == 19) {
+    } else if(dia == 16) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia19manha0830;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto <= 15))) {
@@ -72,7 +72,7 @@ export class Tab1Page {
         this.agora = this.fim;
       }
 
-    } else if(dia == 20) {
+    } else if(dia == 17) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia20manha0830;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
@@ -90,7 +90,7 @@ export class Tab1Page {
       } else if ((hora == 23) && (minuto > 50)){
         this.agora = this.fim;
       }
-    } else if(dia > 20) {
+    } else if(dia > 17) {
       this.agora = this.fim;
     }
   }

@@ -1,27 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title class="title-tab">
-      E-books
+      Livros
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <br>
-    <ion-list>
-        <ion-item lines="full" class="info-green">
-          <ion-label>
-            Livros
-          </ion-label>
-          <ion-icon name="code" slot="end"></ion-icon>
-        </ion-item>
-        <div class="scrolling-wrapper">
-            <ion-card class="welcome-card card conteudo-card" *ngFor="let livro of livros">
-                <ion-img class="imagem-card" src="{{livro.imagem}}"></ion-img>
-                <ion-card-header text-wrap>
-                  <ion-card-subtitle class="sub"> {{livro.titulo}} </ion-card-subtitle>
-                </ion-card-header>
-            </ion-card>
-        </div>
-    </ion-list>
+  <ion-list>
+      <ion-item lines="full" class="info-green">
+        <ion-label>Vitrine</ion-label>
+        <ion-icon name="code" slot="end"></ion-icon>
+      </ion-item>
+      <div class="scrolling-wrapper">
+        <ion-card class="welcome-card card conteudo-card" *ngFor="let livro of livros">
+            <ion-img class="imagem-card" src="{{livro.imagem}}"></ion-img>
+            <ion-card-content>
+              <ion-card-subtitle class="sub"> {{livro.titulo}} </ion-card-subtitle>
+            </ion-card-content>
+        </ion-card>
+      </div>
+  </ion-list>
 </ion-content>
