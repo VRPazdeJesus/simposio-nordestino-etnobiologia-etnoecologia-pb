@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import leaflet from 'leaflet';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 
 @Component({
   selector: 'app-tab3',
@@ -8,6 +9,7 @@ import leaflet from 'leaflet';
 })
 export class Tab3Page {
   map: any;
+  minhaposicao: any;
   public center:leaflet.PointTuple;
   public ibio:leaflet.PointTuple;
   public igeo:leaflet.PointTuple;
@@ -18,7 +20,7 @@ export class Tab3Page {
   public paf5:leaflet.PointTuple;
   public vilavelha:leaflet.PointTuple;
  
-  constructor() { 
+  constructor(private geolocation: Geolocation) { 
     this.center = [-13.000568540806505, -38.50881973885408];
     this.ibio = [-13.000797590631436, -38.508692781097125];
     this.igeo = [-12.998279414804692, -38.50707014393266];
@@ -162,6 +164,14 @@ export class Tab3Page {
         [-12.99848, -38.50724]
     ]).addTo(this.map);
 
+    
+    //Pegando a localizacao pelo dispositivo
+    this.geolocation.getCurrentPosition().then((resp) => {
+        this.minhaposicao = {'lat': resp.coords.latitude, 'lng': resp.coords.longitude};
+    }).catch((error) => {
+        console.log('Error getting location', error);
+    });
+    
     // Localizacao em tempo real
     var me;
 
@@ -170,7 +180,7 @@ export class Tab3Page {
       maxZoom: 120
     }).on("locationfound", e => {
         if (!me) {
-            me = new leaflet.Circle(e.latlng).addTo(this.map);
+            me = new leaflet.Circle(this.minhaposicao).addTo(this.map);
         } else {
             me.setLatLng(e.latlng);
         }
