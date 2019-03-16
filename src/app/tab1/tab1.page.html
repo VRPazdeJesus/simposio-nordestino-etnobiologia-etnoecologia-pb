@@ -8,21 +8,21 @@
 
 <ion-content>
     <ion-card class="welcome-card" *ngFor="let atividade of agora">
-        <ion-img src="{{atividade.imagem}}"></ion-img>
-        <ion-card-header>
-          <ion-card-subtitle class="info-black"><span class="destaque">Local:</span> {{atividade.instituto}} </ion-card-subtitle>
-          <ion-card-subtitle class="info-black"><span class="destaque">Hora:</span> {{atividade.hora}}</ion-card-subtitle>
-          <ion-card-title class="title-cards maiusculo">{{atividade.titulo}}</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-            <p class="info-black destaque">Participantes e Instituições</p>
-            <ul class="info-black">
-              <li *ngFor="let participante of atividade.participantes">{{participante.nome}} <span class="description-speaker">{{participante.bio}}</span></li>
-            </ul>
-            <p class="info-black destaque">Moderadores</p>
-            <ul class="info-black">
-              <li *ngFor="let moderador of atividade.moderadores">{{moderador.nome}} <span class="description-speaker">{{moderador.bio}}</span></li>
-            </ul>
-        </ion-card-content>
-      </ion-card>
+      <ion-img src="{{atividade.imagem}}"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle class="info-black"><span class="destaque">Local:</span> {{atividade.instituto}} </ion-card-subtitle>
+        <ion-card-subtitle class="info-black"><span class="destaque">Hora:</span> {{atividade.hora}}</ion-card-subtitle>
+        <ion-card-title class="title-cards maiusculo">{{atividade.titulo}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <p class="info-black destaque">Participantes e Instituições</p>
+          <ul class="info-black">
+            <li *ngFor="let participante of atividade.participantes">{{participante.nome}} <span class="description-speaker">{{participante.bio}}</span></li>
+          </ul>
+          <p class="info-black destaque">Moderadores</p>
+          <ul class="info-black">
+            <li *ngFor="let moderador of atividade.moderadores">{{moderador.nome}} <span class="description-speaker">{{moderador.bio}}</span></li>
+          </ul>
+      </ion-card-content>
+    </ion-card>
 </ion-content>

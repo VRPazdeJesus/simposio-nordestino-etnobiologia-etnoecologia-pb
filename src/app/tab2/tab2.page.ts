@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { ModalPagePage } from '../modal-page/modal-page.page';
 
 @Component({
   selector: 'app-tab2',
@@ -6,6 +8,19 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  constructor(public modalController: ModalController){
+
+  }
+  v
+  async presentModal(book: any){
+    console.log("Aqui o nome do livro");
+    console.log(book);
+    const modal = await this.modalController.create({
+      component: ModalPagePage,
+      componentProps: {'value': book}
+    });
+    await modal.present();
+  }
   public livros:Array<object> = [
     {'imagem':'/assets/image/la-selva.png',
      'titulo': 'La Selva de los Elefantes Blancos',
@@ -13,7 +28,7 @@ export class Tab2Page {
      'autores':'Japhy Wilson e Manuel Bayón',
      'ano': '2017',
      'editora': 'Ediciones Abya Yala',
-     'sinopse': 'Quem disse que na selva equatoriana não há elefantes? Existem E eles são enormes (e caros). Dois pesquisadores: Japhy Wilson e Manuel Bayón foram procurá-los. E descobriram que estão protegidos pelas "fantasias utópicas" e por um modelo de conquista da Amazônia que, desde a era da borracha, foi reproduzido.Em sua intrépida expedição, os autores deste livro, a partir de sua perspectiva crítica, revelam suas descobertas e as compartilham com os leitores: um personagem digno de uma nova versão de Fitzcarraldo; duas cidades fantasmas batizadas de Cidades do Milênio, para as quais a montanha começa a crescer e que certamente serão engolidas pela floresta em pouco tempo; um centro de estudos de nome shuar que vai do biossocialismo à bio-tecnologia; um porto para cobrir a rota Manta-Manaus em que as barcaças permanecem imóveis, as quais, na primeira viagem, foram encalhadas nos bancos de areia que formam o curso do rio Napo. Esses elefantes são brancos, vestidos em neocolonialismo e trazem com eles a desapropriação de território. Depois os elefantes vão a um imperador e a uma revolução, nus, com um grande projeto: extrair recursos não renováveis ​​e, em troca, compensar e urbanizar algumas comunidades indígenas. Os índios, por sua vez, fazem uso de seu direito à resistência, riem quando vêem passar, enquanto bebem uma enorme tigela de chicha. Eles riem, porque a história das conquistas constantes é repetida.',
+     'sinopse': 'Quem disse que na selva equatoriana não há elefantes? Existem E eles são enormes (e caros). Dois pesquisadores: Japhy Wilson e Manuel Bayón foram procurá-los. E descobriram que estão protegidos pelas "fantasias utópicas" e por um modelo de conquista da Amazônia que, desde a era da borracha, foi reproduzido. Em sua intrépida expedição, os autores deste livro, a partir de sua perspectiva crítica, revelam suas descobertas e as compartilham com os leitores: um personagem digno de uma nova versão de Fitzcarraldo; duas cidades fantasmas batizadas de Cidades do Milênio, para as quais a montanha começa a crescer e que certamente serão engolidas pela floresta em pouco tempo; um centro de estudos de nome shuar que vai do biossocialismo à bio-tecnologia; um porto para cobrir a rota Manta-Manaus em que as barcaças permanecem imóveis, as quais, na primeira viagem, foram encalhadas nos bancos de areia que formam o curso do rio Napo. Esses elefantes são brancos, vestidos em neocolonialismo e trazem com eles a desapropriação de território. Depois os elefantes vão a um imperador e a uma revolução, nus, com um grande projeto: extrair recursos não renováveis ​​e, em troca, compensar e urbanizar algumas comunidades indígenas. Os índios, por sua vez, fazem uso de seu direito à resistência, riem quando vêem passar, enquanto bebem uma enorme tigela de chicha. Eles riem, porque a história das conquistas constantes é repetida.',
      'site': ''
     }, 
     {'imagem':'/assets/image/el-sur.png',

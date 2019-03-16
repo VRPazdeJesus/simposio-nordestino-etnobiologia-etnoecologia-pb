@@ -22,7 +22,7 @@
         <ion-icon name="code" slot="end"></ion-icon>
       </ion-item>
       <div class="scrolling-wrapper">
-        <ion-card class="welcome-card card conteudo-card" *ngFor="let livro of livros">
+        <ion-card class="welcome-card card conteudo-card" *ngFor="let livro of livros" (click)="presentModal(livro)">
             <ion-img class="imagem-card" src="{{livro.imagem}}"></ion-img>
             <ion-card-content>
               <ion-card-subtitle class="sub"> {{livro.titulo}} </ion-card-subtitle>
