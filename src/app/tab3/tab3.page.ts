@@ -164,32 +164,16 @@ export class Tab3Page {
         [-12.99848, -38.50724]
     ]).addTo(this.map);
 
+    var me;
     
     //Pegando a localizacao pelo dispositivo
     this.geolocation.getCurrentPosition().then((resp) => {
         this.minhaposicao = {'lat': resp.coords.latitude, 'lng': resp.coords.longitude};
+        me = new leaflet.Circle(this.minhaposicao, 20).addTo(this.map);
     }).catch((error) => {
         console.log('Error getting location', error);
     });
     
-    // Localizacao em tempo real
-    var me;
-
-    this.map.locate({
-      setView: true,
-      maxZoom: 120
-    }).on("locationfound", e => {
-        if (!me) {
-            me = new leaflet.Circle(this.minhaposicao).addTo(this.map);
-        } else {
-            me.setLatLng(e.latlng);
-        }
-    }).on("locationerror", error => {
-        if (me) {
-            this.map.removeLayer(me);
-            me = undefined;
-        }
-    });
   }
 
 }
