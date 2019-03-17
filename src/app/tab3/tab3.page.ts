@@ -20,6 +20,7 @@ export class Tab3Page {
   public paf5:leaflet.PointTuple;
   public vilavelha:leaflet.PointTuple;
   public reitoriaufba:leaflet.PointTuple;
+  public prediodanca:leaflet.PointTuple;
  
   constructor(private geolocation: Geolocation) { 
     this.center = [-13.000568540806505, -38.50881973885408];
@@ -32,6 +33,7 @@ export class Tab3Page {
     this.paf5 = [-13.003838718191286, -38.50945870115538];
     this.vilavelha = [-12.986501260928508, -38.521125316738114];
     this.reitoriaufba = [-12.99281, -38.52059];
+    this.prediodanca = [-13.00534, -38.50983];
   }
  
   ionViewDidEnter(){
@@ -57,6 +59,7 @@ export class Tab3Page {
     var predioaulas5 = new leaflet.Marker(this.paf5);
     var teatro = new leaflet.Marker(this.vilavelha);
     var reitoria = new leaflet.Marker(this.reitoriaufba);
+    var danca = new leaflet.Marker(this.prediodanca);
 
     this.map.addLayer(auditorioibio);
     this.map.addLayer(institutogeociencia);
@@ -67,6 +70,7 @@ export class Tab3Page {
     this.map.addLayer(predioaulas5);
     this.map.addLayer(teatro);
     this.map.addLayer(reitoria);
+    this.map.addLayer(danca);
  
     auditorioibio.bindPopup("<p> Auditório Externo do IBIO </p>");
     institutogeociencia.bindPopup("<p> IGEO </p>");
@@ -77,6 +81,7 @@ export class Tab3Page {
     predioaulas5.bindPopup("<p> PAF 5 </p>");
     teatro.bindPopup("<p> Teatro Vila Velha </p>");
     reitoria.bindPopup("<p> Reitoria da UFBA </p>");
+    danca.bindPopup("<p> Escola de Dança da UFBA </p>");
 
     var shapeibio = leaflet.polygon([
         [-13.00073, -38.50886],
@@ -182,6 +187,17 @@ export class Tab3Page {
         [-12.99257, -38.52053],
         [-12.99258, -38.5207],
         [-12.99262, -38.52069]
+    ]).addTo(this.map);
+
+    var shapedanca = leaflet.polygon([
+        [-13.00531, -38.51016],
+        [-13.00548, -38.51015],
+        [-13.00545, -38.50961],
+        [-13.00523, -38.50961],
+        [-13.00522, -38.50968],
+        [-13.00472, -38.50969],
+        [-13.00472, -38.50997],
+        [-13.0053, -38.50996]
     ]).addTo(this.map);
     
     //Pegando a localizacao pelo dispositivo
