@@ -9,6 +9,11 @@
 <ion-content>
 <div class="map-container"> 
      <div id="mapId" class="for-map"> 
+        <ion-fab (click)="position()" vertical="bottom" horizontal="start" slot="fixed">
+          <ion-fab-button size="small" color="light">
+            <ion-icon name="locate"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
      </div> 
 </div>
 </ion-content>
