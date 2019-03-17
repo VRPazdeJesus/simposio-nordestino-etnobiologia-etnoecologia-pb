@@ -24,9 +24,9 @@ export class Tab1Page {
   } 
 
   atribuirGrade(dia:any, hora:any, minuto:any){
-    if(dia < 0) {
+    if(dia < 18) {
       this.agora = this.dia18manha0830;
-    } else if(dia == 15) {
+    } else if(dia == 18) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia18manha0830;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
@@ -48,7 +48,6 @@ export class Tab1Page {
       } else if (hora > 20){
         this.agora = this.fim;
       }
-      
     } else if(dia == 16) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia19manha0830;
