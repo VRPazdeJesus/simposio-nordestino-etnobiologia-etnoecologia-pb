@@ -163,10 +163,9 @@ export class Tab3Page {
         [-12.99847, -38.50718],
         [-12.99848, -38.50724]
     ]).addTo(this.map);
-
-    var me;
     
     //Pegando a localizacao pelo dispositivo
+    var me;
     this.geolocation.getCurrentPosition().then((resp) => {
         this.minhaposicao = {'lat': resp.coords.latitude, 'lng': resp.coords.longitude};
         me = new leaflet.Circle(this.minhaposicao, 20).addTo(this.map);
