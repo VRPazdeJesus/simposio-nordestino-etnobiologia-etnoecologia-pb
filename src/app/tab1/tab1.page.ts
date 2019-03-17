@@ -72,7 +72,7 @@ export class Tab1Page {
       }else if (hora >= 22){
         this.agora = this.fim;
       }
-    } else if(dia == 17) {
+    } else if(dia == 20) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia20manha0830;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
@@ -961,7 +961,7 @@ export class Tab1Page {
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'O ecomarxismo e a disputa pela água', 'bio':'- Carolina Silva Ribeiro, UFBA; Gilca Garcia de Oliveira, UFBA'},{'nome':'Escalas da injustiça hídrica: estudo de caso em Ilhabela – litoral norte de São Paulo', 'bio':'- Natalia Dias Tadeu, USP'},{'nome':'Escasez hídrica y respuestas estatales; construyendo territorios hidrosociales en Chile', 'bio':'- Maria Christina Fragkou, Universidad de Chile'},{'nome':'A peleja dos índios Anacé contra o roubo da água para as empresas do Pecém na defesa do Lagamar do Cauípe', 'bio':'- João Alfredo Telles Mello, Centro Universitário 7 de Setembro'}],
+     'participantes': [{'nome':'O ecomarxismo e a disputa pela água', 'bio':'- Carolina Silva Ribeiro, UFBA; Gilca Garcia de Oliveira, UFBA'},{'nome':'Escalas da injustiça hídrica: estudo de caso em Ilhabela – litoral norte de São Paulo', 'bio':'- Natalia Dias Tadeu, USP'},{'nome':'Escasez hídrica y respuestas estatales; construyendo territorios hidrosociales en Chile', 'bio':'- Maria Christina Fragkou - Universidad de Chile'},{'nome':'A peleja dos índios Anacé contra o roubo da água para as empresas do Pecém na defesa do Lagamar do Cauípe', 'bio':'- João Alfredo Telles Mello, Centro Universitário 7 de Setembro'}],
      'moderadores': [{'nome':'Vanessa Empinotti', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -975,28 +975,28 @@ export class Tab1Page {
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 404',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Experiência das arpilleras com as mulheres impactadas pela hidrelétrica do Estreito/MA', 'bio':'- Mariane Emanuelle da Silva Lucena, UFTO'},{'nome':'Injustiça ambiental e resistência no cotidiano de mulheres catadoras de materiais recicláveis', 'bio':'- Isabella De Carvalho Vallin, USP'},{'nome':'Pobreza energética y Género. Reflexiones sobre el caso chileno', 'bio':'- Jorgelina Sannazzaro, Universidad Alberto Hurtado'}],
+     'participantes': [{'nome':'Experiência das arpilleras com as mulheres impactadas pela hidrelétrica do Estreito/MA', 'bio':'- Mariane Emanuelle da Silva Lucena, UFTO'},{'nome':'Injustiça ambiental e resistência no cotidiano de mulheres catadoras de materiais recicláveis', 'bio':'- Isabella De Carvalho Vallin, USP'}],
      'moderadores': [{'nome':'Caroline Cotta De Mello Freitas', 'bio':'- FESPSP'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 406',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Por outra concepção de tratamento de rios em ambientes urbanos', 'bio':'- Maíra Menezes De Azevedo, Movimento Jaguaribe Vivo'},{'nome':'Por uma nova concepção de macrodrenagem', 'bio':'- Lavinia Bomsucesso, Movimento Jaguaribe Vivo'},{'nome':'Remunicipalização como opção de governança hídrica', 'bio':'- Arlindo M. Esteves Rodrigues, Pontificia Universidade Católica de São Paulo'},{'nome':'El papel de los Movimientos Sociales Latinoamericanos en defensa dela agua como bien social y derecho humano', 'bio':'- CMirta Ines Malvares Míguez, Universidad Nacional de Mar del Plata'}],
+     'participantes': [{'nome':'Por outra concepção de tratamento de rios em ambientes urbanos', 'bio':'- Maíra Menezes De Azevedo, Movimento Jaguaribe Vivo'},{'nome':'Por uma nova concepção de macrodrenagem', 'bio':'- Lavinia Bomsucesso, Movimento Jaguaribe Vivo'},{'nome':'Remunicipalização como opção de governança hídrica', 'bio':'- Arlindo M. Esteves Rodrigues, Pontificia Universidade Católica de São Paulo'},{'nome':'El papel de los Movimientos Sociales Latinoamericanos en defensa dela agua como bien social y derecho humano', 'bio':'- Mirta Ines Malvares Míguez, Universidad Nacional de Mar del Plata'}],
      'moderadores': [{'nome':'Catalina Toro Perez', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 407',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Revisando figuras sexuais da natureza', 'bio':'- Alberto Beto Canseco, UFABC'},{'nome':'Ecofeminismo E Sustentabilidade Ambiental em Comunidades Indígenas e Ecovila', 'bio':'- Bárbara Flores'},{'nome':'Encontro e Travessias de Resistências: uma ecologia (trânsito)poética na perspectiva situada, feminista e antirracista', 'bio':'- Marília Mello Pisani, UFABC'},{'nome':'Educação Háptica: Paradigma Ecosomático', 'bio':'- Marta Bezerra, UFBA'}],
+     'participantes': [{'nome':'Revisando figuras sexuais da natureza', 'bio':'- Alberto Beto Canseco, UFABC'},{'nome':'Ecofeminismo E Sustentabilidade Ambiental em Comunidades Indígenas e Ecovila', 'bio':'- Bárbara Flores'},{'nome':'Encontro e Travessias de Resistências: uma ecologia (trânsito)poética na perspectiva situada, feminista e antirracista', 'bio':'- Marília Mello Pisani, UFABC'}],
      'moderadores': [{'nome':'Marcelo de Troi', 'bio':''}]
     },
     {'imagem':'/assets/image/paf3.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 3: Auditório',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Capitaloceno, ecologia política do Sul e as narrativas do desenvolvimento de uma modernização colonial', 'bio':'- Matheus Thomaz Da Silva'},{'nome':'Territórios em disputa: retomada e conservação entre os Tupinambá de Olivença (Ihéus-BA)', 'bio':'- Laila Sandroni (UFRJ)'},{'nome':'Expressões contemporâneas da colonialidade: Os arranjos políticos de desenvolvimento e a construção do discurso ambiental em municípios do Baixo Sul da Bahia', 'bio':'- Ramon Alves Malta, Universidade Federal Rural do Rio de Janeiro'},{'nome':'Entre preservação ambiental e justiça social: Um estudo de caso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio':'- Rayssa Saidel Cortez, UFABC'}],
+     'participantes': [{'nome':'Capitaloceno, ecologia política do Sul e as narrativas do desenvolvimento de uma modernização colonial', 'bio':'- Matheus Thomaz Da Silva'},{'nome':'Territórios em disputa: retomada e conservação entre os Tupinambá de Olivença (Ihéus-BA)', 'bio':'- Laila Sandroni (UFRJ)'},{'nome':'Expressões contemporâneas da colonialidade: Os arranjos políticos de desenvolvimento e a construção do discurso ambiental em municípios do Baixo Sul da Bahia', 'bio':'- Ramon Alves Malta, Universidade Federal Rural do Rio de Janeiro'},{'nome':'O encontro entre a teoria descolonial e a ecologia política feminista: promover diálogos a partir do sul global', 'bio':'- Rayssa Saidel Cortez, UFABC'}],
      'moderadores': [{'nome':'Jurema Machado', 'bio':''}]
     }
   ];
@@ -1006,26 +1006,19 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do Instituto de Geociências',
      'titulo':'O direito de dizer não: extrativismo e lutas territoriais',
-     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio':'- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio':'- lider Gamela, Maranhão'},{'nome':'Alessandra Korap', 'bio':'- estudante de direito na UFOPA, Chefa das Guerreiras do Médio Tapajós, povo Munduruku'},{'nome':'Antenor Vaz', 'bio':'- indigenista'}],
+     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio':'- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio':'- lider Gamela, Maranhão'},{'nome':'Alessandra Korap Munduruku', 'bio':'- Chefa das Guerreiras do Médio Tapajós e estudante de direito na UFOPA'},{'nome':'Antenor Vaz', 'bio':'- indigenista'}],
      'moderadores': [{'nome':'Felipe Milanez', 'bio':'- UFBA'}]
-    },
-    {'imagem':'/assets/image/igeo.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do Instituto de Geociências',
-     'titulo':'Restauração agroecológica e emancipação: a proposta da teia dos povos para o Sul da Bahia',
-     'participantes': [{'nome':'Joelson Ferreira De Oliveira', 'bio':'- Teia dos povos'},{'nome':'Lanns Alves De Almeida Filho', 'bio':'- Instituto Biofábrica de Cacau'},{'nome':'Pedro Marinho', 'bio':'- Universidade Federal do Rio de Janeiro'}],
-     'moderadores': [{'nome':'Paulo Dimas Rocha De Menezes', 'bio':'- Universidade Federal do Sul da Bahia'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Reservas extrativistas: Institucionalizando a resistência',
-     'participantes': [{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio':'- Analista Ambiental ICMBio, Coordenação Regional (PB)'}],
+     'participantes': [{'nome':'Representantes de Comunidades', 'bio':''},{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio':'- Analista Ambiental ICMBio, Coordenação Regional (PB)'},{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'},{'nome':'Josiane Lima dos Santos', 'bio':'- Associação da Resex Extremo Norte do Tocantins  - Arent, CNS'},{'nome':'Célia Regina Nunes das Neves', 'bio':'- CONFREM - Nacional'},{'nome':'Silvia Pinto dos Santos', 'bio':'- REDE de mulheres Pescadoras'},{'nome':'Luana Pinto dos Santos', 'bio':'- REDE de mulheres Pescadoras'},{'nome':'Gabriel Pinto dos Santos', 'bio':'- Grupo de juventude da RESEX Canavieiras'},{'nome':'Gabriel Souza Ramos', 'bio':'- Grupo de juventude da RESEX Canavieiras'}],
      'moderadores': [{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
     },
-    {'imagem':'/assets/image/paf1.jpeg',
+    {'imagem':'/assets/image/congrega.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'PAF 1: Auditório Instituto de Matemática',
+     'instituto':'Congregação da Faculdade de Arquitetura',
      'titulo':'Geografiando para la resistencia: metodologías críticas para la defensa del território',
      'participantes': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}],
      'moderadores': [{'nome':'', 'bio':''}]
@@ -1041,7 +1034,7 @@ export class Tab1Page {
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'O ecomarxismo e a disputa pela água', 'bio':'- Carolina Silva Ribeiro, UFBA; Gilca Garcia de Oliveira, UFBA'},{'nome':'Escalas da injustiça hídrica: estudo de caso em Ilhabela – litoral norte de São Paulo', 'bio':'- Natalia Dias Tadeu, USP'},{'nome':'Escasez hídrica y respuestas estatales; construyendo territorios hidrosociales en Chile', 'bio':'- Maria Christina Fragkou, Universidad de Chile'},{'nome':'A peleja dos índios Anacé contra o roubo da água para as empresas do Pecém na defesa do Lagamar do Cauípe', 'bio':'- João Alfredo Telles Mello, Centro Universitário 7 de Setembro'}],
+     'participantes': [{'nome':'O ecomarxismo e a disputa pela água', 'bio':'- Carolina Silva Ribeiro, UFBA; Gilca Garcia de Oliveira, UFBA'},{'nome':'Escalas da injustiça hídrica: estudo de caso em Ilhabela – litoral norte de São Paulo', 'bio':'- Natalia Dias Tadeu, USP'},{'nome':'Escasez hídrica y respuestas estatales; construyendo territorios hidrosociales en Chile', 'bio':'- Maria Christina Fragkou - Universidad de Chile'},{'nome':'A peleja dos índios Anacé contra o roubo da água para as empresas do Pecém na defesa do Lagamar do Cauípe', 'bio':'- João Alfredo Telles Mello, Centro Universitário 7 de Setembro'}],
      'moderadores': [{'nome':'Vanessa Empinotti', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -1055,28 +1048,28 @@ export class Tab1Page {
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 404',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Experiência das arpilleras com as mulheres impactadas pela hidrelétrica do Estreito/MA', 'bio':'- Mariane Emanuelle da Silva Lucena, UFTO'},{'nome':'Injustiça ambiental e resistência no cotidiano de mulheres catadoras de materiais recicláveis', 'bio':'- Isabella De Carvalho Vallin, USP'},{'nome':'Pobreza energética y Género. Reflexiones sobre el caso chileno', 'bio':'- Jorgelina Sannazzaro, Universidad Alberto Hurtado'}],
+     'participantes': [{'nome':'Experiência das arpilleras com as mulheres impactadas pela hidrelétrica do Estreito/MA', 'bio':'- Mariane Emanuelle da Silva Lucena, UFTO'},{'nome':'Injustiça ambiental e resistência no cotidiano de mulheres catadoras de materiais recicláveis', 'bio':'- Isabella De Carvalho Vallin, USP'}],
      'moderadores': [{'nome':'Caroline Cotta De Mello Freitas', 'bio':'- FESPSP'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 406',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Por outra concepção de tratamento de rios em ambientes urbanos', 'bio':'- Maíra Menezes De Azevedo, Movimento Jaguaribe Vivo'},{'nome':'Por uma nova concepção de macrodrenagem', 'bio':'- Lavinia Bomsucesso, Movimento Jaguaribe Vivo'},{'nome':'Remunicipalização como opção de governança hídrica', 'bio':'- Arlindo M. Esteves Rodrigues, Pontificia Universidade Católica de São Paulo'},{'nome':'El papel de los Movimientos Sociales Latinoamericanos en defensa dela agua como bien social y derecho humano', 'bio':'- CMirta Ines Malvares Míguez, Universidad Nacional de Mar del Plata'}],
+     'participantes': [{'nome':'Por outra concepção de tratamento de rios em ambientes urbanos', 'bio':'- Maíra Menezes De Azevedo, Movimento Jaguaribe Vivo'},{'nome':'Por uma nova concepção de macrodrenagem', 'bio':'- Lavinia Bomsucesso, Movimento Jaguaribe Vivo'},{'nome':'Remunicipalização como opção de governança hídrica', 'bio':'- Arlindo M. Esteves Rodrigues, Pontificia Universidade Católica de São Paulo'},{'nome':'El papel de los Movimientos Sociales Latinoamericanos en defensa dela agua como bien social y derecho humano', 'bio':'- Mirta Ines Malvares Míguez, Universidad Nacional de Mar del Plata'}],
      'moderadores': [{'nome':'Catalina Toro Perez', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: sala 407',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Revisando figuras sexuais da natureza', 'bio':'- Alberto Beto Canseco, UFABC'},{'nome':'Ecofeminismo E Sustentabilidade Ambiental em Comunidades Indígenas e Ecovila', 'bio':'- Bárbara Flores'},{'nome':'Encontro e Travessias de Resistências: uma ecologia (trânsito)poética na perspectiva situada, feminista e antirracista', 'bio':'- Marília Mello Pisani, UFABC'},{'nome':'Educação Háptica: Paradigma Ecosomático', 'bio':'- Marta Bezerra, UFBA'}],
+     'participantes': [{'nome':'Revisando figuras sexuais da natureza', 'bio':'- Alberto Beto Canseco, UFABC'},{'nome':'Ecofeminismo E Sustentabilidade Ambiental em Comunidades Indígenas e Ecovila', 'bio':'- Bárbara Flores'},{'nome':'Encontro e Travessias de Resistências: uma ecologia (trânsito)poética na perspectiva situada, feminista e antirracista', 'bio':'- Marília Mello Pisani, UFABC'}],
      'moderadores': [{'nome':'Marcelo de Troi', 'bio':''}]
     },
     {'imagem':'/assets/image/paf3.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 3: Auditório',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'Capitaloceno, ecologia política do Sul e as narrativas do desenvolvimento de uma modernização colonial', 'bio':'- Matheus Thomaz Da Silva'},{'nome':'Territórios em disputa: retomada e conservação entre os Tupinambá de Olivença (Ihéus-BA)', 'bio':'- Laila Sandroni (UFRJ)'},{'nome':'Expressões contemporâneas da colonialidade: Os arranjos políticos de desenvolvimento e a construção do discurso ambiental em municípios do Baixo Sul da Bahia', 'bio':'- Ramon Alves Malta, Universidade Federal Rural do Rio de Janeiro'},{'nome':'Entre preservação ambiental e justiça social: Um estudo de caso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio':'- Rayssa Saidel Cortez, UFABC'}],
+     'participantes': [{'nome':'Capitaloceno, ecologia política do Sul e as narrativas do desenvolvimento de uma modernização colonial', 'bio':'- Matheus Thomaz Da Silva'},{'nome':'Territórios em disputa: retomada e conservação entre os Tupinambá de Olivença (Ihéus-BA)', 'bio':'- Laila Sandroni (UFRJ)'},{'nome':'Expressões contemporâneas da colonialidade: Os arranjos políticos de desenvolvimento e a construção do discurso ambiental em municípios do Baixo Sul da Bahia', 'bio':'- Ramon Alves Malta, Universidade Federal Rural do Rio de Janeiro'},{'nome':'O encontro entre a teoria descolonial e a ecologia política feminista: promover diálogos a partir do sul global', 'bio':'- Rayssa Saidel Cortez, UFABC'}],
      'moderadores': [{'nome':'Jurema Machado', 'bio':''}]
     }
   ];
@@ -1086,26 +1079,92 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do Instituto de Geociências',
      'titulo':'O direito de dizer não: extrativismo e lutas territoriais',
-     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio':'- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio':'- lider Gamela, Maranhão'},{'nome':'Alessandra Korap', 'bio':'- estudante de direito na UFOPA, Chefa das Guerreiras do Médio Tapajós, povo Munduruku'},{'nome':'Antenor Vaz', 'bio':'- indigenista'}],
+     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio':'- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio':'- lider Gamela, Maranhão'},{'nome':'Alessandra Korap Munduruku', 'bio':'- Chefa das Guerreiras do Médio Tapajós e estudante de direito na UFOPA'},{'nome':'Antenor Vaz', 'bio':'- indigenista'}],
      'moderadores': [{'nome':'Felipe Milanez', 'bio':'- UFBA'}]
-    },
-    {'imagem':'/assets/image/igeo.jpeg',
-     'hora': '09:00 - 12:30',
-     'instituto':'Auditório B do Instituto de Geociências',
-     'titulo':'Restauração agroecológica e emancipação: a proposta da teia dos povos para o Sul da Bahia',
-     'participantes': [{'nome':'Joelson Ferreira De Oliveira', 'bio':'- Teia dos povos'},{'nome':'Lanns Alves De Almeida Filho', 'bio':'- Instituto Biofábrica de Cacau'},{'nome':'Pedro Marinho', 'bio':'- Universidade Federal do Rio de Janeiro'}],
-     'moderadores': [{'nome':'Paulo Dimas Rocha De Menezes', 'bio':'- Universidade Federal do Sul da Bahia'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Reservas extrativistas: Institucionalizando a resistência',
-     'participantes': [{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio':'- Analista Ambiental ICMBio, Coordenação Regional (PB)'}],
+     'participantes': [{'nome':'Representantes de Comunidades', 'bio':''},{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio':'- Analista Ambiental ICMBio, Coordenação Regional (PB)'},{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'},{'nome':'Josiane Lima dos Santos', 'bio':'- Associação da Resex Extremo Norte do Tocantins  - Arent, CNS'},{'nome':'Célia Regina Nunes das Neves', 'bio':'- CONFREM - Nacional'},{'nome':'Silvia Pinto dos Santos', 'bio':'- REDE de mulheres Pescadoras'},{'nome':'Luana Pinto dos Santos', 'bio':'- REDE de mulheres Pescadoras'},{'nome':'Gabriel Pinto dos Santos', 'bio':'- Grupo de juventude da RESEX Canavieiras'},{'nome':'Gabriel Souza Ramos', 'bio':'- Grupo de juventude da RESEX Canavieiras'}],
      'moderadores': [{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
     },
-    {'imagem':'/assets/image/paf1.jpeg',
+    {'imagem':'/assets/image/congrega.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'PAF 1: Auditório Instituto de Matemática',
+     'instituto':'Congregação da Faculdade de Arquitetura',
+     'titulo':'Geografiando para la resistencia: metodologías críticas para la defensa del território',
+     'participantes': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}],
+     'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/arquitetura12.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Faculdade de Arquitetura de Urbanismo - Auditório 1',
+     'titulo':'Movilizar los cuerpos-territorio: Performances reflexivas para la prática política',
+     'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio':''}],
+     'moderadores': [{'nome':'', 'bio':''}]
+    }
+  ];
+
+  public dia20manha1045:Array<object> = [
+    {'imagem':'/assets/image/paf5.jpeg',
+     'hora': '10:45 - 12:30',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessão de Trabalhos',
+     'participantes': [{'nome':'Expansão urbana e questões ambientais em Redenção, Ceará', 'bio':'- Lailson Ferreira da Silva, Universidade da Integração Internacional da Lusofonia Afro-Brasileira'},{'nome':'Forum Permanente de Itapuã e a defesa do Parque Metropolitano do Abaeté', 'bio':'- Pedro Rodolpho Jungers Abib - UFB'},{'nome':'Fronteiras de água x fronteiras de poder: o caso dos rios urbanos no Brasil', 'bio':'- Renata Cristina Ferreira, UNESP'}],
+     'moderadores': [{'nome':'Heliana Faria Mettig Rocha', 'bio':'- UFBA'}]
+    },
+    {'imagem':'/assets/image/paf5.jpeg',
+     'hora': '10:45 - 12:30',
+     'instituto':'PAF 5: Auditório 2',
+     'titulo':'Sessão de Trabalhos',
+     'participantes': [{'nome':'Persistencia del colonialismo y neoextractivismo en el acceso a la justicia ambiental en Chile: el caso Quintero- Puchuncav', 'bio':'- María Paz Aedo Zuñiga - Universidad Academia de Humanismo Cristiano; Alejandra Donoso Cáceres - (ONG Defensoria Ambiental, Chile)'},{'nome':'Novas fronteiras do extrativismo fóssil: fracking no Brasil', 'bio':'- Bianca Dieile - UFR'},{'nome':'Defendiendo la vida en los territorios del caos: ecología política en el colapso de la Venezuela petrolera (2013-2019)', 'bio':'- Emiliano Teran Mantovani - Universidad Autónoma de Barcelona'}],
+     'moderadores': [{'nome':'Luiz Enrique Souza', 'bio':''}]
+    },
+    {'imagem':'/assets/image/paf5.jpeg',
+     'hora': '10:45 - 12:30',
+     'instituto':'PAF 5: sala 406',
+     'titulo':'Sessão de Trabalhos',
+     'participantes': [{'nome':'Territórios tradicionais valem ouro? A expansão do extrativismo do ouro à luz da ecologia política – estudos de casos dos projetos de mineração em Paracatu (MG) e Volta  Grande do Xingu (PA)', 'bio':'- Érika Castilho Brasil, Universidade Estácio de Sá; Larissa Vieira - UFF'},{'nome':'Paisajes inciertos. Ecología política del turismo en la costa de Oaxaca, Mexico', 'bio':'- Ignacio Rubio Carriquiriborde - Universidad Nacional Autónoma de Mexico'},{'nome':'El turismo como actividad neoextractivista: El caso de la isla de Holbox en APFF de Yum Balam, Quintana Roo, México', 'bio':'- Lidia Ivonne Blásquez Martínez, Universidad Autónoma Metropolitana'},{'nome':'Opará, o rio marcado para morrer', 'bio':'- Flávio José Rocha da Silva, Universidade de São Paulo'}],
+     'moderadores': [{'nome':'Iñigo Arrazola', 'bio':''}]
+    },
+    {'imagem':'/assets/image/paf5.jpeg',
+     'hora': '10:45 - 12:30',
+     'instituto':'PAF 5: sala 404',
+     'titulo':'Sessão de Trabalhos',
+     'participantes': [{'nome':'Por que a participação popular em matéria socioambiental é indispensável ao neoliberalismo? perspectivas a partir do desastre de Mariana/Rio Doce', 'bio':'- Henrique Ribeiro Afonso Domingos - UFOP'},{'nome':'Redes Epistêmicas em Educação do Campo e Ecologia Política da Luta por Hegemonia Territorial em Comunidades Camponesas e Ribeirinhas na Amazônia', 'bio':'- Evandro Medeiros (UNIFESSPA / Doutorando em Educação pela UFPB)'},{'nome':'Vivências subalternas latinoamericanas e as estratégias de re-existência para descolonização do poder', 'bio':'- Raíssa Félix, UFSB'},{'nome':'Subaltern ecologies in the “Indias de por acá”. Grassroots struggles and commoning practices in the urban environment of Naples, Southern Italy', 'bio':'- Roberto Sciarelli, Universidade de Coimbra'}],
+     'moderadores': [{'nome':'Guiomar Inez Germani', 'bio':''}]
+    },
+    {'imagem':'/assets/image/paf3.jpeg',
+     'hora': '10:45 - 12:30',
+     'instituto':'PAF 3: Auditório',
+     'titulo':'Sessão de Trabalhos',
+     'participantes': [{'nome':'Refazendo a fartura: Diálogos sobre agricultura e natureza com mestres camponeses', 'bio':'- Mariana Cruz De Almeida Lima, Secretaria de Educação do Distrito Federal'},{'nome':'Cultivating Subsistence, Planting Resistance: The Subaltern Sites of Food, grobiodiversity, and Survival in Plantation Economies', 'bio':'- Judith Carney (UC)'},{'nome':'Complexidade na paisagem Afro-brasileira: Expansão emergente das dendezais tradicionais na Costa do Dendê', 'bio':'- Case Watkins (JMU)'},{'nome':'Espacialidad y cosmovision en la habitabilidad de Morelos: un estudio de la relacion entre la conservacion del  maiz y el entorno habitable', 'bio':'- Fernando Oliva Borja (UAEM) e Rafel Monroy Ortiz (UAEM)'}],
+     'moderadores': [{'nome':'Stefania Barca', 'bio':'- CES, UC'}]
+    },
+    {'imagem':'/assets/image/paf5.jpeg',
+     'hora': '10:45 - 12:30',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessão de Trabalhos',
+     'participantes': [{'nome':'Disputa de hegemonia e integração regional na IIRSA pan-Amazônica', 'bio':'- Luis Araújo Acosta (IFBA)'},{'nome':'Conflito Socioambiental e resistênica: Indígenas e pequenas centrais hidreléctricas no Mato Grosso', 'bio':'- Maryanne Rizzo Galvão (UFPI)'},{'nome':'Narrativas da agência pública sobre os agentes e os conflitos nos projetos hidrelétricos do Tapajós', 'bio':'- Pedro Henryque Paes Loureiro De Bragança, UFPA'}],
+     'moderadores': [{'nome':'Franklin Carvalho', 'bio':'- UFRB'}]
+    },
+    {'imagem':'/assets/image/igeo.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Auditório A do Instituto de Geociências',
+     'titulo':'O direito de dizer não: extrativismo e lutas territoriais',
+     'participantes': [{'nome':'Milton Sanchez', 'bio':'- Colectivo Guardianas y Guardianes de la Laguna'},{'nome':'Jorge Nahuel', 'bio':'- líder Mapuche, Argentina'},{'nome':'Antônia Mello', 'bio':'- Xingu Vivo'},{'nome':'Kum Tum Gamela', 'bio':'- lider Gamela, Maranhão'},{'nome':'Alessandra Korap Munduruku', 'bio':'- Chefa das Guerreiras do Médio Tapajós e estudante de direito na UFOPA'},{'nome':'Antenor Vaz', 'bio':'- indigenista'}],
+     'moderadores': [{'nome':'Felipe Milanez', 'bio':'- UFBA'}]
+    },
+    {'imagem':'/assets/image/instituto-biologia.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Auditório externo do Instituto de Biologia',
+     'titulo':'Reservas extrativistas: Institucionalizando a resistência',
+     'participantes': [{'nome':'Representantes de Comunidades', 'bio':''},{'nome':'Lilian de Carvalho Lindoso', 'bio':'- Analista Ambiental ICMBio, APA Serra da Ibiapaba (CE)'},{'nome':'Cláudia Cunha', 'bio':'- Analista Ambiental ICMBio, Coordenação Regional (PB)'},{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'},{'nome':'Josiane Lima dos Santos', 'bio':'- Associação da Resex Extremo Norte do Tocantins  - Arent, CNS'},{'nome':'Célia Regina Nunes das Neves', 'bio':'- CONFREM - Nacional'},{'nome':'Silvia Pinto dos Santos', 'bio':'- REDE de mulheres Pescadoras'},{'nome':'Luana Pinto dos Santos', 'bio':'- REDE de mulheres Pescadoras'},{'nome':'Gabriel Pinto dos Santos', 'bio':'- Grupo de juventude da RESEX Canavieiras'},{'nome':'Gabriel Souza Ramos', 'bio':'- Grupo de juventude da RESEX Canavieiras'}],
+     'moderadores': [{'nome':'Sergio Fernandes Freitas', 'bio':'- Analista Ambiental ICMBio, Resex Baia do Iguape (BA)'}]
+    },
+    {'imagem':'/assets/image/congrega.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Congregação da Faculdade de Arquitetura',
      'titulo':'Geografiando para la resistencia: metodologías críticas para la defensa del território',
      'participantes': [{'nome':'Melissa Moreano', 'bio':'- Colectivo de Geografía Crítica del Ecuador'}],
      'moderadores': [{'nome':'', 'bio':''}]
@@ -1124,21 +1183,21 @@ export class Tab1Page {
      'hora': '14:00 - 15:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Ecologia política da violência e da defesa da Terra',
-     'participantes': [{'nome':'Claudelice Santos', 'bio':'- UNIFESSPA'},{'nome':'Antonia Mello', 'bio':'- Xingu Vivo'},{'nome':'Philippe Le Billon', 'bio':'- Universidade de British Columbia'},{'nome':'Patrick Alley', 'bio':'- Global Witness'}],
+     'participantes': [{'nome':'Claudelice Santos', 'bio':'- UNIFESSPA e Fundação Zé Cláudio e Maria'},{'nome':'Antonia Mello', 'bio':'- Xingu Vivo'},{'nome':'Airton Pereira', 'bio':'- UEPA'},{'nome':'Philippe Le Billon', 'bio':'- Universidade de British Columbia'},{'nome':'Patrick Alley', 'bio':'- Global Witness'}],
      'moderadores': [{'nome':'Felipe Milanez', 'bio':'- UFBA'}, {'nome':'Tarcisio Feitosa ', 'bio':'- UFBA'}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
       'hora': '14:00 - 15:30',
-      'instituto':'Auditório Yeda do Instituto de Geociências',
+      'instituto':'Auditório A - Instituto de Geociências',
       'titulo':'Autonomias na América Latina: panorama ecopolítio',
-      'participantes': [{'nome':'Salvador Schavelzon', 'bio':'- UNIFESP, Argentina'},{'nome':'Spensy Pimentel', 'bio':'- UFSB'},{'nome':'Pavel Lopez', 'bio':'- Bolivia'},{'nome':'Mariana Mora', 'bio':'- Mexico'},{'nome':'Erneneck Mejia', 'bio':'- UFBA, México'}],
+      'participantes': [{'nome':'Salvador Schavelzon', 'bio':'- UNIFESP, Argentina'},{'nome':'Spensy Pimentel', 'bio':'- UFSB'},{'nome':'Mariana Mora', 'bio':'- Mexico'},{'nome':'Erneneck Mejia', 'bio':'- UFBA, México'}],
       'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
       'hora': '14:00 - 15:30',
       'instituto':'Auditório B do Instituto de Geociências',
       'titulo':'Ecologia política e as cidades: Conflitos ambientais urbanos',
-      'participantes': [{'nome':'Hortênsia Gomes Pinho', 'bio':'- Promotora de Justiça'},{'nome':'Rita Ferreira', 'bio':'- MTSB'},{'nome':'Luciana Ferrara', 'bio':'- UFABC'}],
+      'participantes': [{'nome':'Hortênsia Gomes Pinho', 'bio':'- Promotora de Justiça'},{'nome':'Rita Ferreira', 'bio':'- MTSB'}],
       'moderadores': [{'nome':'Marcelo Araujo', 'bio':''}]
     }
   ];
@@ -1148,7 +1207,7 @@ export class Tab1Page {
      'hora': '15:45 - 17:00',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Assembleia Final do Congresso',
-     'participantes': [{'nome':'Auditório externo do Instituto de Biologia', 'bio':''},{'nome':'Formação da Rede Brasileira de Ecologia Política', 'bio':''},{'nome':'Anúncio do próximo congresso e encaminhamentos emancipatórios', 'bio':''}],
+     'participantes': [{'nome':'Comunicados oficiais', 'bio':''},{'nome':'Formação da Rede Brasileira de Ecologia Política', 'bio':''},{'nome':'Anúncio do próximo congresso e encaminhamentos emancipatórios', 'bio':''}],
      'moderadores': [{'nome':'', 'bio':'- '}]
     }
   ];
@@ -1158,7 +1217,7 @@ export class Tab1Page {
      'hora': '18:00 - 20:30',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Horizontes emancipatórios',
-     'participantes': [{'nome':'Stefania Barca', 'bio':'- CES/Universidade de Coimbra'},{'nome':'Ivonne Yanez', 'bio':'- Acción Ecológica, Equador'},{'nome':'Ialorixá Bernadete Souza Ferreira Santos', 'bio':'- agricultora, coordenadora de educação do assentamento Dom Helder Câmara, em Ilhéus'}],
+     'participantes': [{'nome':'Stefania Barca', 'bio':'- CES/Universidade de Coimbra'},{'nome':'Ivonne Yanez', 'bio':'- Acción Ecológica, Equador'},{'nome':'Ialorixá Bernadete Souza Ferreira Santos', 'bio':'- camponesa, ialorixá, educadora popular, graduada em Letras pela UNEB e especiasta em Educação no Campo e Agroecologia pela USP, militante do movimento negro, dirigente do PSOL'}],
      'moderadores': [{'nome':'', 'bio':'- '}]
     }
   ];
@@ -1167,7 +1226,7 @@ export class Tab1Page {
     {'imagem':'/assets/image/rv.jpeg',
      'hora': '21:00 - 00:00',
      'instituto':'Bairro do Rio Vermelho',
-     'titulo':'Sarau e noite cultural no Mercadão do Rio Vermelho',
+     'titulo':'Encerramento: Sarau e noite cultural no Mercadão do Rio Vermelho',
      'participantes': [{'nome':'', 'bio':''}],
      'moderadores': [{'nome':'', 'bio':''}]
     }
