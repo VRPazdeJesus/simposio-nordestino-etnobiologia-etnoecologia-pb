@@ -99,104 +99,104 @@ export class Tab1Page {
   public dia18manha0830:Array<object> = [
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 404',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 404',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A retomada da cidade como insurgência radical na construção de modos de “ser indígena”', 'bio': '- Gabriela De Freitas Figueiredo Rocha - Universidade de Coimbra'}, {'nome':'Análise de um processo coletivo de produção do espaço: as tensões entre o discurso de projeto e a prática da produção', 'bio':'- Carolina Laiate - Universidade de São Paulo'}, {'nome':'Conservação do pecado: trajetória e conflitos de praia em Macaé – RJ', 'bio':'- Astrea Gomes Castro - Universidade Federal do Rio de Janeiro'}, {'nome':'Estrategias de descontaminacion del aire en algunas ciudades ubicadas en condiciones de valle-montaña', 'bio':'- Dora Luz Yepes Palacio - Politécnico Colombiano Jaime Isaza Cadavid'}],
-     'moderadores': [{'nome':'PAULO FONSECA', 'bio':''}, {'nome':'UFBA','bio':''}]
+     'moderadores': [{'nome':'Paulo Fonseca', 'bio':'- UFBA'}]
     }, 
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 406',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 406',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A luta por justiça ambiental e soberania alimentar através da educação ambiental', 'bio': '- Letícia Riguetto Nunes - Universidade Federal de Juiz de Fora'}, {'nome':'Agroecologia, educação popular e resistência na primeira favella do Rio de Janeiro', 'bio':'- Lorena Portela Soares - Horta Inteligente'}, {'nome':'Caminhos para práticas de consumo responsável: o caso da feira popular agroecológica no município de Barbacena, Minas Gerais, Brasil', 'bio':'- Suelen Couto - Universidade Federal do Rio de Janeiro'}, {'nome':'O ecofeminismo como prática pedagógica e a experiência do grupo de mulheres do assentamento Dandara dos Palmares na roça agroecológica', 'bio':'- Luísa De Pinho Valle - Universidade de Coimbra'}],
-     'moderadores': [{'nome':'FRANKLIN CARVALHO', 'bio':''}]
+     'moderadores': [{'nome':'Franklin Carvalho', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 407',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Transiciones pedagogicas para la infancia desde la ecologia y la interculturalidad', 'bio': '- Correa Zanotti-Cavazzoni Chiara Leticia - Universidad San Francisco de Quito'}, {'nome':'A pertinência da ecologia política nos processos dedesconstrução de injusticas socioambientais e na construçãode alternativas decoloniais', 'bio':'- Luciano Zanetti Pessoa Candiotto - Universidade Estadual do Oeste do Paraná'}, {'nome':'Aprender a entreser: aprendizaje transformacional y formación de adultos en ecología política', 'bio':'- María Paz Aedo Zuñiga - Universidad Academia de Humanismo Cristiano'}],
-     'moderadores': [{'nome':'EVANDRO COSTA DE MEDEIROS', 'bio':''},{'nome':'UNIFESSPA', 'bio':''}]
+     'moderadores': [{'nome':'Evandro Costa de Medeiros', 'bio':'- UNIFESSPA'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 408',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 408',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Acidentes nucleares, corpos e ambientes contaminados: os processos de publicização e a questão do urânio em Caetité/Ba', 'bio': '- Israel De Jesus Rocha - Universidade Federal do Amazonas'}, {'nome':'Ocupações urbanas e autoprodução do espaço', 'bio':'- Viviane Zerlotini Da Silva - Pontificia Universidade Católica de Minas Gerais'}, {'nome':'Una lectura a la producción de la vida urbana y la naturaleza: el caso de la ptar salitre y el parque metropolitano ptar salitre, Bogotá-Colombia', 'bio':'- Jenny Marcela Peñuela López - Universidad Nacional de Colombia'}],
-     'moderadores': [{'nome':'VANESSA EMPINOTTI', 'bio':''},{'nome':'UFABC', 'bio':''}]
+     'moderadores': [{'nome':'Vanessa Empinotti', 'bio':'- UFABC'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: AUDITORIO 1',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A conquista dos recursos naturais e das paisagens de Minas Gerais (1780 - 1804)', 'bio': '- Mark De Soldi Matzner - Universidade Federal de Ouro Preto'}, {'nome':'Conflitos agroambientais e programa fomento florestal: pela historicidade e informalidade', 'bio':'- Frederico Magalhães Siman - Universidade Federal de Viçosa'}, {'nome':'Dreams of development and haunted modernity: colonial memories in contemporary potosí', 'bio':'- Sue Angélica Serra Iamamoto - Universidade Federal da Bahia'}, {'nome':'Caboclos contra o progresso: a guerra do contestado como um conflito ambiental', 'bio':'- Daniel Vieira Nunes - Universidade Federal Rural do Rio de Janeiro'}],
-     'moderadores': [{'nome':'HORACIO MACHADO ARAOZ', 'bio':''}]
+     'moderadores': [{'nome':'Horacio Machado Araoz', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: AUDITORIO 2',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: Auditório 2',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Agronegocio y extractivismo en la argentina contemporanea: un estudio de la cadena sojera', 'bio': '- Virginia Toledo López - Instituto de Investigaciones Gino Germani'}, {'nome':'Monocultivo de la caña de azucar, caso norte del valle del cauca, Colombia: una mirada desde la ecología política', 'bio':'- Fernando Moreno Betancourt - Universidad del Valle'}, {'nome':'¿objeto o proceso? un acercamiento a la construcción en madera desde una perspectiva sistémica a la sustentabilidad', 'bio':'- Massimiliano Farris - Universidad de Chile'}, {'nome':'Acumulação por despossessão: contratos de arrendamento, aquisição de terras e parques eólicos no interior semiárido brasileiro', 'bio':'- Mariana Traldi - Universidade Estadual de Campinas'}],
-     'moderadores': [{'nome':'BEATRIZ BUSTOS', 'bio':''}]
+     'moderadores': [{'nome':'Beatriz Bustos', 'bio':''}]
     },
     {'imagem':'/assets/image/paf3.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 3: AUDITORIO',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 3: Auditório',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Água e região: epistemologias alternativas a partir do enfoque hidrossocial', 'bio': '- Hugo Kamiya Tsutsui - Universidade Federal do ABC '}, {'nome':'El conflicto ambiental por el agua potable desde la visión comunidad indígena resguardo San Lorenzo, departamento de Caldas, Colombia', 'bio':'- Pastor Jaramillo Jaramillo - Politécnico Colombiano Jaime Isaza Cadavid'}, {'nome':'Plantaciones de monocultivos forestales pmf y aguas en disputa en la región del norte caucano, Colombia', 'bio':'- Felipe Castiblanco Álvarez - Universidad Nacional de Colombia'}, {'nome':'Acumulación capitalista y ecología política: el acaparamiento de tierras en los países del sur global', 'bio':'- Agostina Costantino - Instituto de Investigaciones Económicas y Sociales del Sur'}, {'nome':'Algumas reflexões sobre a questão agráriaracial no recôncavo da Bahia', 'bio':'- Jánderson Santana Dos Santos - Movimento dos Pequenos Agricultores'}, {'nome':'Cosmopolíticas na terra: construção da paisagem e regime de propriedade avá-guarani no oeste do Paraná', 'bio':'- Diogo de Oliveira - Universidade Federal de Santa Catarina'}, {'nome':'Disputas socioterritoriais no Amapá - Brasil', 'bio':'- Roni Mayer Lomba - Universidade Federal do Amapá'}],
-     'moderadores': [{'nome':'CATALINA TORO PEREZ', 'bio':''}, {'nome':'SALVATORE ENGEL-DIMAURO', 'bio':''}]
+     'moderadores': [{'nome':'Catalina Toro Perez', 'bio':''}, {'nome':'Salvatore Engel-Dimauro', 'bio':''}]
     }
   ];
 
   public dia18manha0900:Array<object> = [
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 404',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 404',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A retomada da cidade como insurgência radical na construção de modos de “ser indígena”', 'bio': '- Gabriela De Freitas Figueiredo Rocha - Universidade de Coimbra'}, {'nome':'Análise de um processo coletivo de produção do espaço: as tensões entre o discurso de projeto e a prática da produção', 'bio':'- Carolina Laiate - Universidade de São Paulo'}, {'nome':'Conservação do pecado: trajetória e conflitos de praia em Macaé – RJ', 'bio':'- Astrea Gomes Castro - Universidade Federal do Rio de Janeiro'}, {'nome':'Estrategias de descontaminacion del aire en algunas ciudades ubicadas en condiciones de valle-montaña', 'bio':'- Dora Luz Yepes Palacio - Politécnico Colombiano Jaime Isaza Cadavid'}],
-     'moderadores': [{'nome':'PAULO FONSECA', 'bio':''}, {'nome':'UFBA','bio':''}]
+     'moderadores': [{'nome':'Paulo Fonseca', 'bio':' - UFBA'}]
     }, 
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 406',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 406',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A luta por justiça ambiental e soberania alimentar através da educação ambiental', 'bio': '- Letícia Riguetto Nunes - Universidade Federal de Juiz de Fora'}, {'nome':'Agroecologia, educação popular e resistência na primeira favella do Rio de Janeiro', 'bio':'- Lorena Portela Soares - Horta Inteligente'}, {'nome':'Caminhos para práticas de consumo responsável: o caso da feira popular agroecológica no município de Barbacena, Minas Gerais, Brasil', 'bio':'- Suelen Couto - Universidade Federal do Rio de Janeiro'}, {'nome':'O ecofeminismo como prática pedagógica e a experiência do grupo de mulheres do assentamento Dandara dos Palmares na roça agroecológica', 'bio':'- Luísa De Pinho Valle - Universidade de Coimbra'}],
-     'moderadores': [{'nome':'FRANKLIN CARVALHO', 'bio':''}]
+     'moderadores': [{'nome':'Franklin Carvalho', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 407',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Transiciones pedagogicas para la infancia desde la ecologia y la interculturalidad', 'bio': '- Correa Zanotti-Cavazzoni Chiara Leticia - Universidad San Francisco de Quito'}, {'nome':'A pertinência da ecologia política nos processos dedesconstrução de injusticas socioambientais e na construçãode alternativas decoloniais', 'bio':'- Luciano Zanetti Pessoa Candiotto - Universidade Estadual do Oeste do Paraná'}, {'nome':'Aprender a entreser: aprendizaje transformacional y formación de adultos en ecología política', 'bio':'- María Paz Aedo Zuñiga - Universidad Academia de Humanismo Cristiano'}],
-     'moderadores': [{'nome':'EVANDRO COSTA DE MEDEIROS', 'bio':''},{'nome':'UNIFESSPA', 'bio':''}]
+     'moderadores': [{'nome':'Evandro Costa de Medeiros', 'bio':'- UNIFESSPA'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: SALA 408',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 408',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Acidentes nucleares, corpos e ambientes contaminados: os processos de publicização e a questão do urânio em Caetité/Ba', 'bio': '- Israel De Jesus Rocha - Universidade Federal do Amazonas'}, {'nome':'Ocupações urbanas e autoprodução do espaço', 'bio':'- Viviane Zerlotini Da Silva - Pontificia Universidade Católica de Minas Gerais'}, {'nome':'Una lectura a la producción de la vida urbana y la naturaleza: el caso de la ptar salitre y el parque metropolitano ptar salitre, Bogotá-Colombia', 'bio':'- Jenny Marcela Peñuela López - Universidad Nacional de Colombia'}],
-     'moderadores': [{'nome':'VANESSA EMPINOTTI', 'bio':''},{'nome':'UFABC', 'bio':''}]
+     'moderadores': [{'nome':'Vanessa Emponotti', 'bio':'- UFABC'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: AUDITORIO 1',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A conquista dos recursos naturais e das paisagens de Minas Gerais (1780 - 1804)', 'bio': '- Mark De Soldi Matzner - Universidade Federal de Ouro Preto'}, {'nome':'Conflitos agroambientais e programa fomento florestal: pela historicidade e informalidade', 'bio':'- Frederico Magalhães Siman - Universidade Federal de Viçosa'}, {'nome':'Dreams of development and haunted modernity: colonial memories in contemporary potosí', 'bio':'- Sue Angélica Serra Iamamoto - Universidade Federal da Bahia'}, {'nome':'Caboclos contra o progresso: a guerra do contestado como um conflito ambiental', 'bio':'- Daniel Vieira Nunes - Universidade Federal Rural do Rio de Janeiro'}],
-     'moderadores': [{'nome':'HORACIO MACHADO ARAOZ', 'bio':''}]
+     'moderadores': [{'nome':'Horacio Machado Araoz', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: AUDITORIO 2',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: Auditório 2',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Agronegocio y extractivismo en la argentina contemporanea: un estudio de la cadena sojera', 'bio': '- Virginia Toledo López - Instituto de Investigaciones Gino Germani'}, {'nome':'Monocultivo de la caña de azucar, caso norte del valle del cauca, Colombia: una mirada desde la ecología política', 'bio':'- Fernando Moreno Betancourt - Universidad del Valle'}, {'nome':'¿objeto o proceso? un acercamiento a la construcción en madera desde una perspectiva sistémica a la sustentabilidad', 'bio':'- Massimiliano Farris - Universidad de Chile'}, {'nome':'Acumulação por despossessão: contratos de arrendamento, aquisição de terras e parques eólicos no interior semiárido brasileiro', 'bio':'- Mariana Traldi - Universidade Estadual de Campinas'}],
-     'moderadores': [{'nome':'BEATRIZ BUSTOS', 'bio':''}]
+     'moderadores': [{'nome':'Beatriz Bustos', 'bio':''}]
     },
     {'imagem':'/assets/image/paf3.jpeg',
      'hora': '08:30 - 10:15',
-     'instituto':'PAF 3: AUDITORIO',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 3: Auditório',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Água e região: epistemologias alternativas a partir do enfoque hidrossocial', 'bio': '- Hugo Kamiya Tsutsui - Universidade Federal do ABC '}, {'nome':'El conflicto ambiental por el agua potable desde la visión comunidad indígena resguardo San Lorenzo, departamento de Caldas, Colombia', 'bio':'- Pastor Jaramillo Jaramillo - Politécnico Colombiano Jaime Isaza Cadavid'}, {'nome':'Plantaciones de monocultivos forestales pmf y aguas en disputa en la región del norte caucano, Colombia', 'bio':'- Felipe Castiblanco Álvarez - Universidad Nacional de Colombia'}, {'nome':'Acumulación capitalista y ecología política: el acaparamiento de tierras en los países del sur global', 'bio':'- Agostina Costantino - Instituto de Investigaciones Económicas y Sociales del Sur'}, {'nome':'Algumas reflexões sobre a questão agráriaracial no recôncavo da Bahia', 'bio':'- Jánderson Santana Dos Santos - Movimento dos Pequenos Agricultores'}, {'nome':'Cosmopolíticas na terra: construção da paisagem e regime de propriedade avá-guarani no oeste do Paraná', 'bio':'- Diogo de Oliveira - Universidade Federal de Santa Catarina'}, {'nome':'Disputas socioterritoriais no Amapá - Brasil', 'bio':'- Roni Mayer Lomba - Universidade Federal do Amapá'}],
-     'moderadores': [{'nome':'CATALINA TORO PEREZ', 'bio':''}, {'nome':'SALVATORE ENGEL-DIMAURO', 'bio':''}]
+     'moderadores': [{'nome':'Catalina Toro Perez', 'bio':''}, {'nome':'Salvatore Engel-Dimauro', 'bio':''}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
@@ -290,52 +290,52 @@ export class Tab1Page {
   public dia18manha1045:Array<object> = [
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: SALA 404',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 404',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A perspectiva ecosófica nas práticas comunitárias emergentes para transformações socioespaciais', 'bio': '- Heliana Faria Mettig Rocha - Universidade Federal da Bahia'}, {'nome':'Bem viver, gestão social e emancipação', 'bio':'- Alex Luiz Barros Vargas - Universidade Federal Rural do Rio de Janeiro'}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':'- Suenya Santos Da Cruz - Universidade Federal Fluminense'}, {'nome':'Ecologia política no reconcavo da baía da Guanabara: lutas e disputas territoriais', 'bio':'- Marcelo Stortti - Universidade Federal do Estado do Rio de Janeiro'}],
-     'moderadores': [{'nome':'LUIS ANTONIO ARAÚJO COSTA', 'bio':''}]
+     'moderadores': [{'nome':'Luis Antonio Araújo Costa', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: SALA 406',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 406',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Discursos e práticas docentes como enfrentamento à monocultura de eucalipto no município de Lima Duarte (MG)', 'bio': '- Michele Alice Da Silva - Escola Estadual Tiago Delgado'}, {'nome':'Estrategias de gobernanza ambiental desde las zonas de reserva campesina: las experiencias del valle del río Cimitarra y Pato-Balsillas, Colombia Lizet', 'bio':'- Lizeth Paola Ortiz Guengue - Universidad Nacional de Colombia'}, {'nome':'Movimentos de resistência à indústria do petróleo na perspectiva da ecologia política', 'bio':'- Matheus Thomaz Da Silva - Universidade Federal Fluminense'}, {'nome':'Percursos sustentáveis em busca de novas possibilidades para as hortas escolares a partir da agroecologia escolar', 'bio':'- Angelica Cosenza Rodrigues - Universidade Federal de Juiz de Fora'}],
-     'moderadores': [{'nome':'JUSSARA RÊGO', 'bio':'MARSOL - UFBA'}]
+     'moderadores': [{'nome':'Jussara Rego', 'bio':'MARSOL / UFBA - Fiocruz'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: SALA 407',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 407',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Além da ciência do espaço do homem: uma interlocução com a reivindicação da coexistência de diferentes formas de vida', 'bio': '- Leonarda De La Ossa Arias - Universidade Federal de Espírito Santo'}, {'nome':'Biogeografias decoloniais', 'bio':'- Ivan de Matos e Silva Junior - Universidade Federal da Bahia'}, {'nome':'La cultura guaraní y sus aportaciones ecocéntricas a las epistemologías ambientales', 'bio':'- Daniel Alberto Oviedo Sotelo - Instituto Nacional de Educación Superior'}, {'nome':'Las audiencias públicas judiciales como mecanismo de amplificación de la existencia de seres considerados padecientes: el caso de la orangutana sandra y del niño jordi quisberth en Buenos Aires', 'bio':'- María Carman - Universidad de Buenos Aires, María Valeria Berros - Universidad Nacional del Litoral'}],
-     'moderadores': [{'nome':'DIEGO OLIVEIRA', 'bio':''}]
+     'moderadores': [{'nome':'Diego Oliveira', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: SALA 408',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: sala 408',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Amazônia: a última fronteira do capitalismo', 'bio': '- Patricia Vieira - Universidade de Coimbra'}, {'nome':'Para que o céu seja céu: o caráter de levante da obra de Davi Kopenawa Yanomami', 'bio':'- Ana Lígia Leite E Aguiar - Universidade Federal da Bahia'}, {'nome':'Pensamento ameríndio e crítica ao antropocentrismo', 'bio':'- Ana Paula Rodrigues Monteiro - Universidade da Integração Internacional da Lusofonia Afro-Brasileira'}, {'nome':'Dançar para segurar o céu', 'bio':'- Liliana Coutinho - Universidade Nova de Lisboa'}],
-     'moderadores': [{'nome':'CECILIA ANNE MCCALLUM', 'bio':''}]
+     'moderadores': [{'nome':'Cecília Anne McCallum', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: AUDITORIO 1',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'A necessária reabilitação do trabalho e dos trabalhadores para a pesquisa sobre os conflitos ambientais na américa latina no contexto de acumulação por espoliação', 'bio': '- Renata Belzunces Dos Santos - Universidade de São Paulo'}, {'nome':'A categoria de gênero no contexto de conflitos sócio-ambientais: o caso das mulheres zapatistas', 'bio':'- Laura Marquesan Eschberger - ESPM-Sul'}, {'nome':'Limites do capital ou limites da natureza? contradições e desigualdades no complexo industrial e portuário do Pecém, Ceará', 'bio':'- Iara Fraga - Universidade Federal de Pernambuco'}],
-     'moderadores': [{'nome':'RAQUEL RIGOTTO', 'bio':''}]
+     'moderadores': [{'nome':'Raquel Rigotto', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 5: AUDITORIO 1',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 5: Auditório 1',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Acesso à água em uma periferia da macrometrópole paulista: o caso de Novo Recreio, Guarulhos', 'bio': '- Izabela Penha De Oliveira Santos - Universidade de São Paulo'}, {'nome':'Narrativas da agência pública sobre os agentes e os conflitos nos projetos hidrelétricos do Tapajós', 'bio':'- Pedro Henryque Paes Loureiro De Bragança - Universidade Federal do Pará'}, {'nome':'Secando la imaginacion. reflexiones antropologicas sobre la burocratizacion del agua en Chile', 'bio':'- Gabriela Rocio Cabana Alvear - London School of Economics and Political Science'}, {'nome':'Fóruns alternativo e coorporativo mundial da água: uma crítica dos contrastes narrativos pela ecologia política', 'bio':'- Marcelo Aversa - Universidade Federal do ABC'}],
-     'moderadores': [{'nome':'MARIA CRISTINA FRAGKOU', 'bio':''}]
+     'moderadores': [{'nome':'Maria Cristina Fragkou', 'bio':''}]
     },
     {'imagem':'/assets/image/paf3.jpeg',
      'hora': '10:45 - 12:30',
-     'instituto':'PAF 3: AUDITORIO',
-     'titulo':'SESSÕES DE TRABALHOS',
+     'instituto':'PAF 3: Auditório',
+     'titulo':'Sessões de Trabalho',
      'participantes': [{'nome':'Capitaloceno, ecologia política do sul e as narrativas do desenvolvimento de uma modernização colonial', 'bio': '- Matheus Thomaz Da Silva - Universidade Federal Fluminense'}, {'nome':'Expressões contemporâneas da colonialidadeos: os arranjos políticos de desenvolvimento e a construção do discurso ambiental em municípios do Baixo Sul da Bahia', 'bio':'- Ramon Alves Malta - Universidade Federal Rural do Rio de Janeiro'}, {'nome':'Territórios em disputa: retomada e conservação entre os Tupinambá de Olivença (Ihéus-BA)', 'bio':'- Laila Sandroni - Universidade Federal do Rio de Janeiro'}, {'nome':'Entre preservação ambiental e justiça social: um estudo decaso sobre as comunidades nativas do Parque Nacional da Chapada Diamantina - Bahia', 'bio':'- Rayssa Saidel Cortez, - Universidade Federal do ABC'}, {'nome':'Antropoceno e conflitos ambientais: apontamentos sobre as experiências locais em Conceição do Mato Dentro (MG)', 'bio':'- Yasmin Rodrigues Antonietti - Universidade Federal de Minas Gerais'}, {'nome':'Complexo mínero-siderúrgico de Minas Gerais (Brasil): espacialização e conflitos ambientais', 'bio':'- Eder Jurandir Carneiro - Universidade Federal de São João del Rei'}, {'nome':'Conflitos socioambientais como contraconduta: a luta comum frente à governança da vida por corporações multinacionais extrativistas', 'bio':'- Isabella Alves Lamas - Pontificia Universidade Católica de São Paulo'}, {'nome':'Direitos da natureza: a ecologia jurídica e política do giro biocêntrico como paradigma para a recuperação do rio doce', 'bio':'- Andiara Cristine Mercini Fausto - Universidade Federal de Ouro Preto'}],
-     'moderadores': [{'nome':'JUREMA MACHADO', 'bio':''}, {'nome':'DANIEL ARAGÃO', 'bio':''}]
+     'moderadores': [{'nome':'Jurema Machado', 'bio':''}, {'nome':'Daniel Aragão', 'bio':''}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
@@ -412,7 +412,7 @@ export class Tab1Page {
     },
     {'imagem':'/assets/image/paf1.jpeg',
      'hora': '14:00 - 15:30',
-     'instituto':'Instituto de Matemática: Auditório',
+     'instituto':'PAF 1: Instituto de Matemática: Auditório',
      'titulo':'Hacia Una Ecología Política De Los Espacios Globales De Acumulación Del Capital Trasnacional',
      'participantes': [{'nome':'Alejandro Fabián Schweitzer', 'bio': ''}, {'nome':'Alejandro Pimienta Betancour', 'bio': ''}, {'nome':'Jodival Mauricio da Costa', 'bio': ''}, {'nome':'Jorge Aponte Motta', 'bio': ''}, {'nome':'María Laura Torres', 'bio': ''}, {'nome':'Roni Mayer Lomba', 'bio': ''}],
      'moderadores': [{'nome':'Grupo de Trabajo CLACSO: “Fronteras, regionalización y globalización” ', 'bio':''}]
@@ -422,7 +422,7 @@ export class Tab1Page {
      'instituto':'Auditório YEDA do Instituto de Geociências',
      'titulo':'De quando a questão da natureza e do social se torna crise civilizacional, multiespecífica e aberta para o cosmos',
      'participantes': [{'nome':'Maria Carman', 'bio': '- UBA'}, {'nome':'Stelio Marras', 'bio': '- USP'}, {'nome':'Ana Paula Perrota Franco', 'bio': '- UFRJ'}, {'nome':'Salvador Andrés Schavelzon', 'bio': '- UNIFESP, Argentina'}],
-     'moderadores': [{'nome':'SALVADOR ANDRÉS SCHAVELZON', 'bio': '- UNIFESP - ARGENTINA'}]
+     'moderadores': [{'nome':'Salvador Andrés Schavelzon', 'bio': '- UNIFESP - Argentina'}]
     }
   ];
 
@@ -612,7 +612,7 @@ export class Tab1Page {
      'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias ',
      'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes De Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
-     'moderadores': [{'nome':'FELIPE CRUZ TUXÁ', 'bio':'- UNEB E UNB'},{'nome':'FRANKLIM BANIWA', 'bio':'- UNB'}]
+     'moderadores': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB e UNB'},{'nome':'Franklim Baniwa', 'bio':'- UNB'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
@@ -624,7 +624,7 @@ export class Tab1Page {
     {'imagem':'/assets/image/arquitetura12.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
+     'titulo':'Movilizar los Cuerpos-Territorio: Performances Reflexivas para la Práctica Política',
      'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
@@ -632,7 +632,7 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 2 - Faculdade de Arquitetura e Urbanismo',
      'titulo':'PROSA: Escola de Formação de Autoprodutores em Processos Socioambientais',
-     'participantes': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
+     'participantes': [{'nome':'Viviane Zerlotini da Silva', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/congrega.jpeg',
@@ -664,7 +664,7 @@ export class Tab1Page {
      'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias ',
      'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes De Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
-     'moderadores': [{'nome':'FELIPE CRUZ TUXÁ', 'bio':'- UNEB E UNB'},{'nome':'FRANKLIM BANIWA', 'bio':'- UNB'}]
+     'moderadores': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB e UNB'},{'nome':'Franklim Baniwa', 'bio':'- UNB'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
@@ -676,7 +676,7 @@ export class Tab1Page {
     {'imagem':'/assets/image/arquitetura12.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
+     'titulo':'Movilizar los Cuerpos-Territorio: Performances Reflexivas para la Práctica Política',
      'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
@@ -684,7 +684,7 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 2 - Faculdade de Arquitetura e Urbanismo',
      'titulo':'PROSA: Escola de Formação de Autoprodutores em Processos Socioambientais',
-     'participantes': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
+     'participantes': [{'nome':'Viviane Zerlotini da Silva', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/congrega.jpeg',
@@ -729,14 +729,14 @@ export class Tab1Page {
      'hora': '10:30 - 12:30',
      'instituto':'PAF 5: sala 406',
      'titulo':'Sessão de Trabalho',
-     'participantes': [{'nome':'“NÓS SOMOS RAIZ DO LUGAR”: produção do espaço na Comunidade Quilombola São José do Barro Vermelho', 'bio':'- Renata Guimarães Vieira, UFOP'}, {'nome':'Conflitos e resistências no território do quilombo Rio dos Macacos', 'bio':'- Paula Regina De Oliveira Cordeiro, UFBA'}, {'nome':'Conflitos, educação ambiental e ecologia política: a leitura crítica do território a partir da desigualdade e injustiça ambiental', 'bio':'- Patrícia de Oliveira Plácido, Universidade Estadual do Rio de Janeiro'}],
+     'participantes': [{'nome':'“Nós Somos Raiz do Lugar”: produção do espaço na Comunidade Quilombola São José do Barro Vermelho', 'bio':'- Renata Guimarães Vieira, UFOP'}, {'nome':'Conflitos e resistências no território do quilombo Rio dos Macacos', 'bio':'- Paula Regina De Oliveira Cordeiro, UFBA'}, {'nome':'Conflitos, educação ambiental e ecologia política: a leitura crítica do território a partir da desigualdade e injustiça ambiental', 'bio':'- Patrícia de Oliveira Plácido, Universidade Estadual do Rio de Janeiro'}],
      'moderadores': [{'nome':'Catherine Prost', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:30 - 12:30',
      'instituto':'PAF 5: sala 407',
      'titulo':'Sessão de Trabalho',
-     'participantes': [{'nome':'Misrepresentations, asymmetries and imbalances of power: negative implications of “oriental institutionalism” for Concentrating Solar Power investments in MENA countries', 'bio':'- Luiz Souza, UFBA'}, {'nome':'SUMAK KAWSAY, MÁS ALLÁ DEL BUEN VIVIR', 'bio':'- Lissette Eliana Torres Arevalo, Universidade Federal do Rio Grande'}, {'nome':'El papel de la ciencia de los suelos en las luchas por el ecosocialismo', 'bio':'- Salvatore Engel-Di Mauro Suny'}, {'nome':'O Avanço Cosmopolítico das Plantas', 'bio':'- Salvador Andrés Schavelzon, UNIFESP'}],
+     'participantes': [{'nome':'Misrepresentations, asymmetries and imbalances of power: negative implications of “oriental institutionalism” for Concentrating Solar Power investments in MENA countries', 'bio':'- Luiz Souza, UFBA'}, {'nome':'Sumak Kawsay, Más Allá del Buen Vivir', 'bio':'- Lissette Eliana Torres Arevalo, Universidade Federal do Rio Grande'}, {'nome':'El papel de la ciencia de los suelos en las luchas por el ecosocialismo', 'bio':'- Salvatore Engel-Di Mauro Suny'}, {'nome':'O Avanço Cosmopolítico das Plantas', 'bio':'- Salvador Andrés Schavelzon, UNIFESP'}],
      'moderadores': [{'nome':'Horacio Machado Aráoz', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -751,14 +751,14 @@ export class Tab1Page {
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
      'titulo':'Candomblé e ecologia',
      'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'- Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'- Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Makota Valdina Pinto', 'bio': ''},{'nome':'Tanury Junçara', 'bio': ''}],
-     'moderadores': [{'nome':'Jussara Rego', 'bio': '- MARSOL/UFBA: FIOCRUZ'}]
+     'moderadores': [{'nome':'Jussara Rego', 'bio': '- MARSOL/UFBA - FIOCRUZ'}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias ',
      'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes De Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
-     'moderadores': [{'nome':'FELIPE CRUZ TUXÁ', 'bio':'- UNEB E UNB'},{'nome':'FRANKLIM BANIWA', 'bio':'- UNB'}]
+     'moderadores': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB e UNB'},{'nome':'Franklim Baniwa', 'bio':'- UNB'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '09:00 - 12:30',
@@ -770,7 +770,7 @@ export class Tab1Page {
     {'imagem':'/assets/image/arquitetura12.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 1 - Faculdade de Arquitetura e Urbanismo',
-     'titulo':'MOVILIZAR LOS CUERPOS-TERRITORIO : PERFORMANCES REFLEXIVAS PARA LA PRÁCTICA POLÍTICA',
+     'titulo':'Movilizar los Cuerpos-Territorio: Performances Reflexivas para la Práctica Política',
      'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio': ''}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
@@ -778,7 +778,7 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório 2 - Faculdade de Arquitetura e Urbanismo',
      'titulo':'PROSA: Escola de Formação de Autoprodutores em Processos Socioambientais',
-     'participantes': [{'nome':'VIVIANE ZERLOTINI DA SILVA', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
+     'participantes': [{'nome':'Viviane Zerlotini da Silva', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/congrega.jpeg',
@@ -1081,7 +1081,7 @@ export class Tab1Page {
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '15:45 - 17:00',
      'instituto':'Auditório externo do Instituto de Biologia',
-     'titulo':'ASSEMBLEIA FINAL DO CONGRESSO',
+     'titulo':'Assembleia Final do Congresso',
      'participantes': [{'nome':'Auditório externo do Instituto de Biologia', 'bio':''},{'nome':'Formação da Rede Brasileira de Ecologia Política', 'bio':''},{'nome':'Anúncio do próximo congresso e encaminhamentos emancipatórios', 'bio':''}],
      'moderadores': [{'nome':'', 'bio':'- '}]
     }
