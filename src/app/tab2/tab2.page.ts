@@ -13,8 +13,6 @@ export class Tab2Page {
   }
   v
   async presentModal(book: any){
-    console.log("Aqui o nome do livro");
-    console.log(book);
     const modal = await this.modalController.create({
       component: ModalPagePage,
       componentProps: {'value': book}
