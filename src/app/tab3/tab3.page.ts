@@ -68,9 +68,9 @@ export class Tab3Page {
     institutogeociencia.bindPopup("<p> IGEO </p>");
     faculdadearquitetura.bindPopup("<p> Faculdade de Arquitetura </p>");
     institutohumanidades.bindPopup("<p> IHAC </p>");
-    predioaulas1.bindPopup("<p> Prédio de Aulas 1 </p>");
-    predioaulas3.bindPopup("<p> Prédio de Aulas 3 </p>");
-    predioaulas5.bindPopup("<p> Prédio de Aulas 5 </p>");
+    predioaulas1.bindPopup("<p> PAF 1 </p>");
+    predioaulas3.bindPopup("<p> PAF 3 </p>");
+    predioaulas5.bindPopup("<p> PAF 5 </p>");
     teatro.bindPopup("<p> Teatro Vila Velha </p>");
 
     var shapeibio = leaflet.polygon([
