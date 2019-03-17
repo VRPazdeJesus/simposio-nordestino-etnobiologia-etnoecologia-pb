@@ -51,26 +51,27 @@ export class Tab1Page {
     } else if(dia == 19) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia19manha0830;
-      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto <= 15))) {
+      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15))) {
         this.agora = this.dia19manha0900;
-      } else if((hora == 10) && (minuto > 15) && (minuto < 45)) {
+      } else if((hora == 10) && (minuto >= 15) && (minuto < 30)) {
+        this.agora = this.dia19manha1015;
+      } else if((hora == 10) && (minuto >= 30) && (minuto < 45)) {
         this.agora = this.dia19manha1030;
       } else if(((hora == 10) && (minuto >= 45)) || (hora == 11) || ((hora == 12) && (minuto <= 30))) {
         this.agora = this.dia19manha1045;
       } else if(((hora == 12) && (minuto >= 30)) || ((hora > 12) && (hora <= 14)) || ((hora == 15) && (minuto < 30))){
         this.agora = this.dia19tarde1400;
-      } else if(((hora == 15) && (minuto >= 30)) || (hora == 16) || ((hora == 17) && (minuto < 15))) {
-        this.agora = this.dia19tarde1545;
+      } else if(((hora == 15) && (minuto >= 30)) || (hora == 16) || ((hora == 17) && (minuto <= 15))) {
+        this.agora = this.dia19tarde1530;
       } else if(((hora == 17) && (minuto > 15)) || (hora == 18)) {
         this.agora = this.dia19noite1830;
       } else if(hora == 19){
         this.agora = this.dia19noite1900;
       } else if((hora == 20) || (hora == 21)){
         this.agora = this.dia19noite2000;
-      }else if (hora > 22){
+      }else if (hora >= 22){
         this.agora = this.fim;
       }
-
     } else if(dia == 17) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia20manha0830;
