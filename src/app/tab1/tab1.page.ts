@@ -147,6 +147,20 @@ export class Tab1Page {
      'titulo':'Sessões de Trabalho',
      'participantes': [ {'nome':'Acumulación capitalista y ecología política: el acaparamiento de tierras en los países del sur global', 'bio':'- Agostina Costantino - Instituto de Investigaciones Económicas y Sociales del Sur'}, {'nome':'Algumas reflexões sobre a questão agráriaracial no recôncavo da Bahia', 'bio':'- Jánderson Santana Dos Santos - Movimento dos Pequenos Agricultores'}, {'nome':'Cosmopolíticas na terra: construção da paisagem e regime de propriedade avá-guarani no oeste do Paraná', 'bio':'- Diogo de Oliveira - Universidade Federal de Santa Catarina'}, {'nome':'Disputas socioterritoriais no Amapá - Brasil', 'bio':'- Roni Mayer Lomba - Universidade Federal do Amapá'}],
      'moderadores': [{'nome':'Salvatore Engel-Dimauro', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -241,6 +255,20 @@ export class Tab1Page {
      'titulo':'Dança Sensorial Háptica (ação dos Artivistas)s',
      'participantes': [{'nome':'Marta Bezerra', 'bio': ''}],
      'moderadores': [{'nome':'Marta Bezerra', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -286,6 +314,20 @@ export class Tab1Page {
      'titulo':'Dança Sensorial Háptica (ação dos Artivistas)s',
      'participantes': [{'nome':'Marta Bezerra', 'bio': ''}],
      'moderadores': [{'nome':'Marta Bezerra', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -387,6 +429,20 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'ATL', 'bio': 'Dir.: Edgar Xakriabá | Doc. | 7min. | 2017'}, {'nome':'Konãgxeka: o Dilúvio Maxakali', 'bio': 'Dir.: Charles Bicalho, Isael Maxakali | Anim. | 13 min. | 2016'}, {'nome':'A festa dos encantados', 'bio': 'Dir.: Masanori Ohashy | Anim. | 14min. | 2016'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
   
@@ -432,6 +488,20 @@ export class Tab1Page {
      'titulo':'De quando a questão da natureza e do social se torna crise civilizacional, multiespecífica e aberta para o cosmos',
      'participantes': [{'nome':'Maria Carman', 'bio': '- UBA'}, {'nome':'Stelio Marras', 'bio': '- USP'}, {'nome':'Ana Paula Perrota Franco', 'bio': '- UFRJ'}, {'nome':'Salvador Andrés Schavelzon', 'bio': '- UNIFESP, Argentina'}],
      'moderadores': [{'nome':'Salvador Andrés Schavelzon', 'bio': '- UNIFESP - Argentina'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -470,6 +540,20 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'De volta à terra boa', 'bio': 'Dir. Vincent Carelli e Mari Correa | Doc. | 15min. | 2008'}, {'nome':'Pirinop Meu Primeiro Contato', 'bio': 'Dir.  Mari Corrêa e Karané Ikpeng | Doc. | 83 min. | 2007'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -501,6 +585,20 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'De volta à terra boa', 'bio': 'Dir. Vincent Carelli e Mari Correa | Doc. | 15min. | 2008'}, {'nome':'Pirinop Meu Primeiro Contato', 'bio': 'Dir.  Mari Corrêa e Karané Ikpeng | Doc. | 83 min. | 2007'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -584,6 +682,20 @@ export class Tab1Page {
      'titulo':'Sessões de trabalho',
      'participantes': [{'nome':'Água e Região: Epistemologias Alternativas a partir do Enfoque Hidrossocial', 'bio': '- Hugo Kamiya Tsutsui (UFABC)'},{'nome':'Plantaciones de Monocultivos Forestales PMF y Aguas en disputa en la región del norte Caucano, Colombia', 'bio': '- Felipe Castiblanco Álvarez (Universidad Nacional de Colombia)'}],
      'moderadores': [{'nome':'Catalina Toro Perez', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -678,6 +790,20 @@ export class Tab1Page {
      'titulo':'Oficina de grafismos',
      'participantes': [{'nome':'Denilson Baniwa', 'bio':''}],
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -723,6 +849,20 @@ export class Tab1Page {
      'titulo':'Oficina de grafismos',
      'participantes': [{'nome':'Denilson Baniwa', 'bio':''}],
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
@@ -775,6 +915,20 @@ export class Tab1Page {
      'titulo':'Oficina de grafismos',
      'participantes': [{'nome':'Denilson Baniwa', 'bio':''}],
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
   
@@ -876,6 +1030,20 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'A Última Volta do Xingu', 'bio': 'Dir.: Kamikia Kisedjê e Wallace Nogueira | Doc. | 35 min. | 2015'}, {'nome':'Aquém Margens', 'bio': 'Dir.: Alexandra Duarte e Evandro Medeiros | Doc. | 48 min. | 2015'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
   
@@ -907,6 +1075,20 @@ export class Tab1Page {
      'titulo':'Conflitos territoriais ',
      'participantes': [{'nome':'Valdivino Sousa', 'bio':'- Central de Fundo e Fecho de Pasto'},{'nome':'Danilo Sodré', 'bio':'- Quilombo Pesqueiro Conceição de Salinas'},{'nome':'Clodoaldo Silva de Oliveira', 'bio':'- Assentamento Dois Riachões/CETA'},{'nome':'Carivaldo Ferreira dos Santos', 'bio':'- CPT/Barra'},{'nome':'Joaci Cunha', 'bio':'- CEAS/ UCSal'},{'nome':'Joice Bonfim', 'bio':'- AATR'}],
      'moderadores': [{'nome':'Gilca Garcia Oliveira', 'bio':'- Economia UFBA, POSGEO UFBA'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
  
@@ -952,6 +1134,20 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'Tekoha - O som da terra', 'bio': 'Dir. Rodrigo Arajeju e Valdelice Veron | Doc. experimental | 20min. | 2014 | Kaiowá'}, {'nome':'Ava Yvy Vera – A Terra do Povo do Raio', 'bio': 'Dir.: Genito Gomes, Valmir Gonçalves Cabreira, Jhonn Nara Gomes, Jhonatan Gomes, Edina Ximenez, Dulcídio Gomes, Sarah Brites, Joilson Brites | Doc. | 52 min. | 2016 | Kaiowá'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Breve História do Pó',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:30 - 18:00',
+     'instituto':'Hall do Instituto de Biologia',
+     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
+     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
+     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
     }
   ];
 
