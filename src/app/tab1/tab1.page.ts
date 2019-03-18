@@ -161,6 +161,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -269,6 +276,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -328,6 +342,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -443,6 +464,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
   
@@ -502,6 +530,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -554,6 +589,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -599,6 +641,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -696,6 +745,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -804,6 +860,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -863,6 +926,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -929,6 +999,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
   
@@ -1044,6 +1121,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
   
@@ -1089,6 +1173,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
  
@@ -1148,6 +1239,13 @@ export class Tab1Page {
      'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
      'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
      'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '08:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -1304,6 +1402,13 @@ export class Tab1Page {
      'titulo':'Sessões de Trabalhos',
      'participantes': [{'nome':'Capitaloceno, ecologia política do Sul e as narrativas do desenvolvimento de uma modernização colonial', 'bio':'- Matheus Thomaz Da Silva'},{'nome':'Territórios em disputa: retomada e conservação entre os Tupinambá de Olivença (Ihéus-BA)', 'bio':'- Laila Sandroni (UFRJ)'},{'nome':'Expressões contemporâneas da colonialidade: Os arranjos políticos de desenvolvimento e a construção do discurso ambiental em municípios do Baixo Sul da Bahia', 'bio':'- Ramon Alves Malta, Universidade Federal Rural do Rio de Janeiro'},{'nome':'O encontro entre a teoria descolonial e a ecologia política feminista: promover diálogos a partir do sul global', 'bio':'- Rayssa Saidel Cortez, UFABC'}],
      'moderadores': [{'nome':'Jurema Machado', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Oficina: Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -1335,6 +1440,13 @@ export class Tab1Page {
      'titulo':'Movilizar los cuerpos-territorio: Performances reflexivas para la prática política',
      'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio':''}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Oficina: Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
 
@@ -1415,6 +1527,13 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'Terra: Amanhã Será Tarde', 'bio': 'Dir.: Chico Carneiro | Doc. |  76min. | 1990'}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Oficina: Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
   
@@ -1439,6 +1558,13 @@ export class Tab1Page {
       'titulo':'Ecologia política e as cidades: Conflitos ambientais urbanos',
       'participantes': [{'nome':'Hortênsia Gomes Pinho', 'bio':'- Promotora de Justiça'},{'nome':'Rita Ferreira', 'bio':'- MTSB'}],
       'moderadores': [{'nome':'Marcelo Araujo', 'bio':''}]
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+     'hora': '13:00 - 18:00',
+     'instituto':'Corredor da feira agroecológica da UFBA',
+     'titulo':'Artes, Pneus e Soluções Socioambientais',
+     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
     }
   ];
   
@@ -1456,7 +1582,14 @@ export class Tab1Page {
      'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
      'participantes': [{'nome':'Os quilombos do vale do Iguape: uma história de vida, de terra, de direitos', 'bio': 'Dir. Lula Oliveira | Doc. | 17 min.'}, {'nome':'No Rio e No Mar', 'bio': 'Dir. Jan Willem Den Bok e Floor Koomen | Doc. | 57 min'}],
      'moderadores': [{'nome':'', 'bio':''}]
-    }
+    },
+    {'imagem':'/assets/image/ibio.jpg',
+    'hora': '13:00 - 18:00',
+    'instituto':'Corredor da feira agroecológica da UFBA',
+    'titulo':'Artes, Pneus e Soluções Socioambientais',
+    'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
+    'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
+   }
   ];
 
   public dia20tarde1800:Array<object> = [
