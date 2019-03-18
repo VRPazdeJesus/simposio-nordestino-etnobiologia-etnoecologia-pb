@@ -447,9 +447,9 @@ export class Tab1Page {
   ];
   
   public dia18tarde1400:Array<object> = [
-    {'imagem':'/assets/image/vaolivre-ihac.jpeg',
+    {'imagem':'/assets/image/arquitetura12.jpeg',
      'hora': '14:00 - 16:30',
-     'instituto':'Vão livre do IHAC - Instituto de Humanidades, Artes e Ciências',
+     'instituto':'Faculdade de Arquitetura: Auditório 1',
      'titulo':'Teatro do Oprimido',
      'participantes': [{'nome':'Flávio José Rocha da Silva', 'bio': '- Educação Ambiental e Teatro do Oprimido'}],
      'moderadores': [{'nome':'Flávio José Rocha da Silva', 'bio':'- Educação Ambiental e Teatro do Oprimido'}]
@@ -608,7 +608,7 @@ export class Tab1Page {
      'instituto':'Salão Nobre da Reitoria da UFBA (Canela)',
      'titulo':'Insurgências Decoloniais e Horizontes Emancipatórios para o enfrentamento às turbulências atuais',
      'participantes': [{'nome':'Magnífico Reitor João Carlos Salles ', 'bio': '- UFBA'}],
-     'moderadores': [{'nome':'Magnífico Reitor João Carlos Salles ', 'bio':'- UFBA'}]
+     'moderadores': [{'nome':'Os BusUFBAs que passam pela Reitoria são: Expresso, B2, B5, B1, B4 e o Residências.', 'bio':'- O B3 não passa na Reitoria.'}]
     }
   ];
 
@@ -645,7 +645,7 @@ export class Tab1Page {
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 2',
      'titulo':'Sessões de trabalho',
-     'participantes': [{'nome':'Complexo Logístico Intermodal Porto Sul: conflitos territoriais em Ilhéus, Bahia (2008-2018)', 'bio': 'Lorena Andrea Torres Higuera, UFES'},{'nome':'Formas de ocupação territorial em disputas e os conflitos ambientais', 'bio': '- Jaqueline G. Santos, UFRGS'}, {'nome':'Os conflitos territoriais na Bacia Hidrográfica do Rio Paraguaçu', 'bio':'- Claudio Dourado, Comissão Pastoral da Terra'}, {'nome':'Avanço das fronteiras do capitalismo na Amazônia, região da BR-163: espoliação, conflitos sociais e subalternidade', 'bio':'- Rosane De Seixas Brito Araújo, UFPA'}],
+     'participantes': [{'nome':'Complexo Logístico Intermodal Porto Sul: conflitos territoriais em Ilhéus, Bahia (2008-2018)', 'bio': 'Lorena Andrea Torres Higuera, UFES'},{'nome':'Formas de ocupação territorial em disputas e os conflitos ambientais', 'bio': '- Jaqueline G. Santos, UFRGS'}, {'nome':'Os conflitos territoriais na Bacia Hidrográfica do Rio Paraguaçu', 'bio':'- Claudio Dourado, Comissão Pastoral da Terra'}, {'nome':'Avanço das fronteiras do capitalismo na Amazônia, região da BR-163: espoliação, conflitos sociais e subalternidade', 'bio':'- Rosane De Seixas Brito Araújo, UFPA'}, {'nome':'Opará, o rio marcado para morrer', 'bio':'- Flávio José Rocha da Silva, Universidade de São Paulo'}],
      'moderadores': [{'nome':'Iñigo Arrazola', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -754,7 +754,7 @@ export class Tab1Page {
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
      'titulo':'Candomblé e ecologia: raízes, racismo e resistência',
      'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'- Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'- Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Babalorixá Duda', 'bio': '- Ilê Axé Icimimó, Cachoeira'}],
-     'moderadores': [{'nome':'Jussara Rego', 'bio': '- MARSOL/UFBA: FIOCRUZ'}, {'nome':'KOINONIA Presença Ecumênica e Serviço', 'bio': ''}]
+     'moderadores': [{'nome':'Jussara Rêgo', 'bio': '- MARSOL/UFBA; FIOCRUZ'}, {'nome':'KOINONIA Presença Ecumênica e Serviço', 'bio': ''}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
@@ -1357,7 +1357,7 @@ export class Tab1Page {
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: sala 406',
      'titulo':'Sessão de Trabalhos',
-     'participantes': [{'nome':'Territórios tradicionais valem ouro? A expansão do extrativismo do ouro à luz da ecologia política – estudos de casos dos projetos de mineração em Paracatu (MG) e Volta  Grande do Xingu (PA)', 'bio':'- Érika Castilho Brasil, Universidade Estácio de Sá; Larissa Vieira - UFF'},{'nome':'Paisajes inciertos. Ecología política del turismo en la costa de Oaxaca, Mexico', 'bio':'- Ignacio Rubio Carriquiriborde - Universidad Nacional Autónoma de Mexico'},{'nome':'El turismo como actividad neoextractivista: El caso de la isla de Holbox en APFF de Yum Balam, Quintana Roo, México', 'bio':'- Lidia Ivonne Blásquez Martínez, Universidad Autónoma Metropolitana'},{'nome':'Opará, o rio marcado para morrer', 'bio':'- Flávio José Rocha da Silva, Universidade de São Paulo'}],
+     'participantes': [{'nome':'Territórios tradicionais valem ouro? A expansão do extrativismo do ouro à luz da ecologia política – estudos de casos dos projetos de mineração em Paracatu (MG) e Volta  Grande do Xingu (PA)', 'bio':'- Érika Castilho Brasil, Universidade Estácio de Sá; Larissa Vieira - UFF'},{'nome':'Paisajes inciertos. Ecología política del turismo en la costa de Oaxaca, Mexico', 'bio':'- Ignacio Rubio Carriquiriborde - Universidad Nacional Autónoma de Mexico'},{'nome':'El turismo como actividad neoextractivista: El caso de la isla de Holbox en APFF de Yum Balam, Quintana Roo, México', 'bio':'- Lidia Ivonne Blásquez Martínez, Universidad Autónoma Metropolitana'}],
      'moderadores': [{'nome':'Iñigo Arrazola', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
