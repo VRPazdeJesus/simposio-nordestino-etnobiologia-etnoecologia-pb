@@ -380,6 +380,13 @@ export class Tab1Page {
      'titulo':'Dança Sensorial Háptica (ação dos Artivistas)s',
      'participantes': [{'nome':'Marta Bezerra', 'bio': ''}],
      'moderadores': [{'nome':'Marta Bezerra', 'bio':''}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '11:00 - 12:30',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'ATL', 'bio': 'Dir.: Edgar Xakriabá | Doc. | 7min. | 2017'}, {'nome':'Konãgxeka: o Dilúvio Maxakali', 'bio': 'Dir.: Charles Bicalho, Isael Maxakali | Anim. | 13 min. | 2016'}, {'nome':'A festa dos encantados', 'bio': 'Dir.: Masanori Ohashy | Anim. | 14min. | 2016'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
   
@@ -456,6 +463,13 @@ export class Tab1Page {
      'titulo':'El buen vivir en cuestión',
      'participantes': [{'nome':'Melissa Moreano', 'bio': ''},{'nome':'Diana Vela Almeida', 'bio': ''},{'nome':'Manuel Bayón', 'bio': ''},{'nome':'Inigo Arrazola', 'bio': ''}],
      'moderadores': [{'nome':'Org. Colectivo de Geografía Crítica del Ecuador', 'bio':''}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '16:00 - 17:45',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'De volta à terra boa', 'bio': 'Dir. Vincent Carelli e Mari Correa | Doc. | 15min. | 2008'}, {'nome':'Pirinop Meu Primeiro Contato', 'bio': 'Dir.  Mari Corrêa e Karané Ikpeng | Doc. | 83 min. | 2007'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
 
@@ -480,6 +494,13 @@ export class Tab1Page {
      'titulo':'El buen vivir en cuestión',
      'participantes': [{'nome':'Melissa Moreano', 'bio': ''},{'nome':'Diana Vela Almeida', 'bio': ''},{'nome':'Manuel Bayón', 'bio': ''},{'nome':'Inigo Arrazola', 'bio': ''}],
      'moderadores': [{'nome':'Org. Colectivo de Geografía Crítica del Ecuador', 'bio':''}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '16:00 - 17:45',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'De volta à terra boa', 'bio': 'Dir. Vincent Carelli e Mari Correa | Doc. | 15min. | 2008'}, {'nome':'Pirinop Meu Primeiro Contato', 'bio': 'Dir.  Mari Corrêa e Karané Ikpeng | Doc. | 83 min. | 2007'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
 
@@ -848,6 +869,13 @@ export class Tab1Page {
      'titulo':'Oficina de grafismos',
      'participantes': [{'nome':'Denilson Baniwa', 'bio':''}],
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '11:00 - 12:30',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'A Última Volta do Xingu', 'bio': 'Dir.: Kamikia Kisedjê e Wallace Nogueira | Doc. | 35 min. | 2015'}, {'nome':'Aquém Margens', 'bio': 'Dir.: Alexandra Duarte e Evandro Medeiros | Doc. | 48 min. | 2015'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
   
@@ -916,6 +944,13 @@ export class Tab1Page {
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Conhecimento científico em movimento: práxis, ecologia e emancipação',
      'participantes': [{'nome':'Lídia Maria Pires Soares Cardel', 'bio':'- UFBA'},{'nome':'José Geraldo Aquino', 'bio': '- UFBA'},{'nome':'Maria Aparecida José de Oliveira', 'bio': '- UFBA'}],
+     'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '16:00 - 17:15',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'Tekoha - O som da terra', 'bio': 'Dir. Rodrigo Arajeju e Valdelice Veron | Doc. experimental | 20min. | 2014 | Kaiowá'}, {'nome':'Ava Yvy Vera – A Terra do Povo do Raio', 'bio': 'Dir.: Genito Gomes, Valmir Gonçalves Cabreira, Jhonn Nara Gomes, Jhonatan Gomes, Edina Ximenez, Dulcídio Gomes, Sarah Brites, Joilson Brites | Doc. | 52 min. | 2016 | Kaiowá'}],
      'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
@@ -1177,6 +1212,13 @@ export class Tab1Page {
      'titulo':'Movilizar los cuerpos-territorio: Performances reflexivas para la prática política',
      'participantes': [{'nome':'Lucrecia Raquel Greco', 'bio':'- Universidade de Buenos Aires'},{'nome':'Armindo Pinto', 'bio':''},{'nome':'Teatro do Oprimido de Salvador', 'bio':''}],
      'moderadores': [{'nome':'', 'bio':''}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '11:00 - 12:30',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'Terra: Amanhã Será Tarde', 'bio': 'Dir.: Chico Carneiro | Doc. |  76min. | 1990'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
   
@@ -1211,6 +1253,13 @@ export class Tab1Page {
      'titulo':'Assembleia Final do Congresso',
      'participantes': [{'nome':'Comunicados oficiais', 'bio':''},{'nome':'Formação da Rede Brasileira de Ecologia Política', 'bio':''},{'nome':'Anúncio do próximo congresso e encaminhamentos emancipatórios', 'bio':''}],
      'moderadores': [{'nome':'', 'bio':'- '}]
+    },
+    {'imagem':'/assets/image/facom.jpg',
+     'hora': '16:00 - 17:15',
+     'instituto':'FACOM - Auditório',
+     'titulo':'Ciclo de Cinema - Ecologias Decoloniais',
+     'participantes': [{'nome':'Os quilombos do vale do Iguape: uma história de vida, de terra, de direitos', 'bio': 'Dir. Lula Oliveira | Doc. | 17 min.'}, {'nome':'No Rio e No Mar', 'bio': 'Dir. Jan Willem Den Bok e Floor Koomen | Doc. | 57 min'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
 
