@@ -22,6 +22,7 @@ export class Tab3Page {
   public reitoriaufba:leaflet.PointTuple;
   public prediodanca:leaflet.PointTuple;
   public facom:leaflet.PointTuple;
+  public biologia:leaflet.PointTuple;
  
   constructor(private geolocation: Geolocation) { 
     this.center = [-13.000568540806505, -38.50881973885408];
@@ -36,6 +37,7 @@ export class Tab3Page {
     this.reitoriaufba = [-12.99281, -38.52059];
     this.prediodanca = [-13.00534, -38.50983];
     this.facom = [-13.00146, -38.51026];
+    this.biologia = [-13.0011, -38.50855];
   }
  
   ionViewDidEnter(){
@@ -63,6 +65,7 @@ export class Tab3Page {
     var reitoria = new leaflet.Marker(this.reitoriaufba);
     var danca = new leaflet.Marker(this.prediodanca);
     var prediofacom = new leaflet.Marker(this.facom);
+    var predioibio = new leaflet.Marker(this.biologia);
 
     this.map.addLayer(auditorioibio);
     this.map.addLayer(institutogeociencia);
@@ -75,6 +78,7 @@ export class Tab3Page {
     this.map.addLayer(reitoria);
     this.map.addLayer(danca);
     this.map.addLayer(prediofacom);
+    this.map.addLayer(predioibio);
  
     auditorioibio.bindPopup("<p> Auditório Externo do IBIO </p>");
     institutogeociencia.bindPopup("<p> IGEO </p>");
@@ -87,6 +91,7 @@ export class Tab3Page {
     reitoria.bindPopup("<p> Reitoria da UFBA </p>");
     danca.bindPopup("<p> Escola de Dança da UFBA </p>");
     prediofacom.bindPopup("<p> FACOM </p>");
+    predioibio.bindPopup("<p> Instituto de Biologia </p>");
 
     var shapeibio = leaflet.polygon([
         [-13.00073, -38.50886],
@@ -218,6 +223,30 @@ export class Tab3Page {
         [-13.00112, -38.51022],
         [-13.00147, -38.51055],
         [-13.00158, -38.51046]
+    ]).addTo(this.map);
+    
+    var shapebiologia= leaflet.polygon([
+        [-13.00099, -38.50905],
+        [-13.00135, -38.50871],
+        [-13.00127, -38.50862],
+        [-13.00132, -38.50856],
+        [-13.00142, -38.50864],
+        [-13.00155, -38.50847],
+        [-13.00119, -38.50811],
+        [-13.00104, -38.50827],
+        [-13.00116, -38.50839],
+        [-13.00109, -38.50845],
+        [-13.00097, -38.50834],
+        [-13.00082, -38.5085],
+        [-13.00097, -38.50865],
+        [-13.0008, -38.50883]
+    ]).addTo(this.map);
+
+    var shapecongregart= leaflet.polygon([
+        [-12.997, -38.5084],
+        [-12.99727, -38.50836],
+        [-12.99724, -38.50816],
+        [-12.99696, -38.5082]
     ]).addTo(this.map);
     
     //Pegando a localizacao pelo dispositivo
