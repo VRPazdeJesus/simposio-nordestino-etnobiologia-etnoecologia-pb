@@ -118,6 +118,15 @@ export class Tab2Page {
      'editora': 'Andros Impresores',
      'sinopse': 'O propósito do livro é visualizar a história e aspirações das parceiras do sindicato n° 2, cuja luta por melhores horizontes tem mais de uma década e que foi seriamente afectada pelo terremoto e tsunami de 2010. Segundo expressam os autores em O texto este propósito implica o enraizamento do sindicato num contexto de sustentabilidade futura, entendendo como tal que o sindicato e as suas parceiras possam manter-se no tempo sem esgotar os recursos, ou prejudicar gravemente o meio ambiente o livro visa além disso contribuir para a discussão geral Sobre as áreas de manejo e, em especial, sobre a entrada das mulheres para a pesca no Chile.',
      'site': ''
+    },
+    {'imagem':'/assets/image/fracking.jpg',
+     'titulo': 'Fracking e exploração de recursos não convencionais no Brasil: riscos e ameaças',
+     'subtitulo': '',
+     'autores':'Júlio Holanda',
+     'ano': '2017',
+     'editora': 'IBASE - Instituto de Análises Sociais e Econômicos',
+     'sinopse': 'A obra espera contribuir com o debate público acerca dos riscos e ameaças do fracking, e principalmente, da discussão mais ampla sobre a geração de energia, controle social e participação democrática, definição de políticas públicas e modelo de desenvolvimento do nosso país. Vários autores contribuem com uma discussão sincera e ampla sobre o tema a partir de vários pontos de vista. Vale a pena a leitura!',
+     'site': ''
     }
   ];
 }
