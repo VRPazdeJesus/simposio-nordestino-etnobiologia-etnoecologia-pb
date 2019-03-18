@@ -10,7 +10,6 @@ export class Tab1Page {
   public dia;
   public hora;
   public minuto;
-
   public agora:Array<object> = [];
 
   constructor() { 
@@ -22,7 +21,7 @@ export class Tab1Page {
 
     this.atribuirGrade(this.dia, this.hora, this.minuto);
   } 
-
+  
   atribuirGrade(dia:any, hora:any, minuto:any){
     if(dia < 18) {
       this.agora = this.dia18manha0830;
@@ -95,6 +94,22 @@ export class Tab1Page {
     } else if(dia > 20) {
       this.agora = this.encerramento;
     }
+  }
+
+  getinfo(){
+    console.log("Peguei as datas");
+    let date =  new Date(); 
+
+    this.dia = date.getDate();
+    this.hora = date.getHours();
+    this.minuto = date.getMinutes();
+
+    this.atribuirGrade(this.dia, this.hora, this.minuto);
+  }
+
+  ionViewWillEnter() {
+    console.log("Fui carregado");
+    this.getinfo();
   }
 
   // Cronograma do primeiro dia

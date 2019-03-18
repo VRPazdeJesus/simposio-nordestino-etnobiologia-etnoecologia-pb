@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card" *ngFor="let atividade of agora">
+  <ion-card class="welcome-card" *ngFor="let atividade of agora">
       <ion-img src="{{atividade.imagem}}"></ion-img>
       <ion-card-header>
         <ion-card-subtitle class="info-black"><span class="destaque">Local:</span> {{atividade.instituto}} </ion-card-subtitle>
@@ -24,5 +24,5 @@
             <li *ngFor="let moderador of atividade.moderadores">{{moderador.nome}} <span class="description-speaker">{{moderador.bio}}</span></li>
           </ul>
       </ion-card-content>
-    </ion-card>
+    </ion-card>  
 </ion-content>
