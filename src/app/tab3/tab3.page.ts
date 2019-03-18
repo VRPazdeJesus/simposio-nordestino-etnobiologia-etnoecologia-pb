@@ -21,19 +21,21 @@ export class Tab3Page {
   public vilavelha:leaflet.PointTuple;
   public reitoriaufba:leaflet.PointTuple;
   public prediodanca:leaflet.PointTuple;
+  public facom:leaflet.PointTuple;
  
   constructor(private geolocation: Geolocation) { 
     this.center = [-13.000568540806505, -38.50881973885408];
     this.ibio = [-13.000797590631436, -38.508692781097125];
     this.igeo = [-12.998279414804692, -38.50707014393266];
     this.faufba = [-12.997683687857446, -38.50811680102198];
-    this.ihac = [-13.003146285462813, -38.50967109203339];
+    this.ihac = [-13.00366, -38.51];
     this.paf1 = [-13.000723873900453, -38.50780705583248];
     this.paf3 = [-13.002837723143662, -38.50940922918199];
     this.paf5 = [-13.003838718191286, -38.50945870115538];
     this.vilavelha = [-12.986501260928508, -38.521125316738114];
     this.reitoriaufba = [-12.99281, -38.52059];
     this.prediodanca = [-13.00534, -38.50983];
+    this.facom = [-13.00146, -38.51026];
   }
  
   ionViewDidEnter(){
@@ -60,6 +62,7 @@ export class Tab3Page {
     var teatro = new leaflet.Marker(this.vilavelha);
     var reitoria = new leaflet.Marker(this.reitoriaufba);
     var danca = new leaflet.Marker(this.prediodanca);
+    var prediofacom = new leaflet.Marker(this.facom);
 
     this.map.addLayer(auditorioibio);
     this.map.addLayer(institutogeociencia);
@@ -71,17 +74,19 @@ export class Tab3Page {
     this.map.addLayer(teatro);
     this.map.addLayer(reitoria);
     this.map.addLayer(danca);
+    this.map.addLayer(prediofacom);
  
     auditorioibio.bindPopup("<p> Auditório Externo do IBIO </p>");
     institutogeociencia.bindPopup("<p> IGEO </p>");
     faculdadearquitetura.bindPopup("<p> Faculdade de Arquitetura </p>");
-    institutohumanidades.bindPopup("<p> IHAC </p>");
+    institutohumanidades.bindPopup("<p> Vão livre do IHAC </p>");
     predioaulas1.bindPopup("<p> PAF 1 </p>");
     predioaulas3.bindPopup("<p> PAF 3 </p>");
     predioaulas5.bindPopup("<p> PAF 5 </p>");
     teatro.bindPopup("<p> Teatro Vila Velha </p>");
     reitoria.bindPopup("<p> Reitoria da UFBA </p>");
     danca.bindPopup("<p> Escola de Dança da UFBA </p>");
+    prediofacom.bindPopup("<p> FACOM </p>");
 
     var shapeibio = leaflet.polygon([
         [-13.00073, -38.50886],
@@ -133,10 +138,10 @@ export class Tab3Page {
     ]).addTo(this.map);
 
     var shapeihac = leaflet.polygon([
-        [-13.00297, -38.50991],
-        [-13.00288, -38.50981],
-        [-13.00324, -38.50944],
-        [-13.00333, -38.50955]
+        [-13.00374, -38.51037],
+        [-13.004, -38.51003],
+        [-13.00366, -38.50967],
+        [-13.00334, -38.5099]
     ]).addTo(this.map);
 
     var shapeigeo = leaflet.polygon([
@@ -198,6 +203,21 @@ export class Tab3Page {
         [-13.00472, -38.50969],
         [-13.00472, -38.50997],
         [-13.0053, -38.50996]
+    ]).addTo(this.map);
+    
+    var shapefacom = leaflet.polygon([
+        [-13.00176, -38.51061],
+        [-13.00191, -38.51042],
+        [-13.00165, -38.51018],
+        [-13.00172, -38.51011],
+        [-13.00162, -38.51],
+        [-13.00154, -38.51006],
+        [-13.00138, -38.50988],
+        [-13.00119, -38.51004],
+        [-13.00126, -38.51009],
+        [-13.00112, -38.51022],
+        [-13.00147, -38.51055],
+        [-13.00158, -38.51046]
     ]).addTo(this.map);
     
     //Pegando a localizacao pelo dispositivo
