@@ -256,9 +256,9 @@ export class Tab1Page {
      'participantes': [{'nome':'Josana Pinto da Costa', 'bio': '- Pará, Comunidade amador. Associação pescadores e pescadores artesanais. Coordenação Nacional do Movimento de Pescadores e Pescadoras Artesanais (MPP)'}, {'nome':'Maria Alice Borges da Silva', 'bio':'- Lagoa do Curralinho / Juazeiro e Movimento de Pescadores e Pescadoras Artesanais BA (MPP)'}, {'nome':'João Barba', 'bio':'- Reserva Extrativista Marinha Canavieiras - CONFREM'}, {'nome':'Edson Falcão', 'bio':'- Reserva Extrativista Marinha Baía do Iguape, Movimento de Pescadores e Pescadoras Artesanais (MPP)'}],
      'moderadores': [{'nome':'Ivana Muricy', 'bio':''},{'nome':'Eliete Paraguaçu Conceição', 'bio':''},{'nome':'Andrea Rocha do Espirito Santo', 'bio':''}]
     },
-    {'imagem':'/assets/image/paf1.jpeg',
+    {'imagem':'/assets/image/ime.jpg',
      'hora': '09:00 - 12:30',
-     'instituto':'PAF 1: Auditório Instituto de Matemática',
+     'instituto':'Instituto de Matemática: Auditório',
      'titulo':'Construindo propostas a partir das pedagogias que emergem dos conflitos ambientais, das lutas populares e dos movimentos sociais: perspectivas desde a Educação Ambiental e a Ecologia Política',
      'participantes': [{'nome':'Grupo de Estudos em Educação Ambiental Desde el Sur: Anne Kassiadou - UNIRIO', 'bio': ''}, {'nome':'Celso Sánchez', 'bio':'- UNIRIO'}, {'nome':'Stephanie Di Chiara Salgado', 'bio':'- UNIRIO - Grupo de Estudos em Educação Ambiental Desde el Sur'}],
      'moderadores': [{'nome':'', 'bio':''}]
@@ -437,9 +437,9 @@ export class Tab1Page {
      'participantes': [{'nome':'Josana Pinto da Costa', 'bio': '- Pará, Comunidade amador. Associação pescadores e pescadores artesanais. Coordenação Nacional do Movimento de Pescadores e Pescadoras Artesanais (MPP)'}, {'nome':'Maria Alice Borges da Silva', 'bio':'- Lagoa do Curralinho / Juazeiro e Movimento de Pescadores e Pescadoras Artesanais BA (MPP)'}, {'nome':'João Barba', 'bio':'- Reserva Extrativista Marinha Canavieiras - CONFREM'}, {'nome':'Edson Falcão', 'bio':'- Reserva Extrativista Marinha Baía do Iguape, Movimento de Pescadores e Pescadoras Artesanais (MPP)'}],
      'moderadores': [{'nome':'Ivana Muricy', 'bio':''},{'nome':'Eliete Paraguaçu Conceição', 'bio':''},{'nome':'Andrea Rocha do Espirito Santo', 'bio':''}]
     },
-    {'imagem':'/assets/image/paf1.jpeg',
+    {'imagem':'/assets/image/ime.jpg',
      'hora': '09:00 - 12:30',
-     'instituto':'PAF 1: Auditório Instituto de Matemática',
+     'instituto':'Instituto de Matemática: Auditório',
      'titulo':'Construindo propostas a partir das pedagogias que emergem dos conflitos ambientais, das lutas populares e dos movimentos sociais: perspectivas desde a Educação Ambiental e a Ecologia Política',
      'participantes': [{'nome':'Grupo de Estudos em Educação Ambiental Desde el Sur: Anne Kassiadou - UNIRIO', 'bio': ''}, {'nome':'Celso Sánchez', 'bio':'- UNIRIO'}, {'nome':'Stephanie Di Chiara Salgado', 'bio':'- UNIRIO - Grupo de Estudos em Educação Ambiental Desde el Sur'}],
      'moderadores': [{'nome':'', 'bio':''}]
@@ -510,9 +510,9 @@ export class Tab1Page {
      'participantes': [{'nome':'Tádzio Coelho', 'bio': '- UFMA e POeMAS'}, {'nome':'Charles Trocate', 'bio': '- MAM'},{'nome':'Guiomar Germani', 'bio': '- Geografar/UFBA'},{'nome':'Carol Moura', 'bio': '- Movimento dos Atingidos pela Vale'}, {'nome':'Edna Castro', 'bio': '- NAEA/UFPA'}, {'nome':'Magno Luiz', 'bio': '- CPT'}, {'nome':'Milton Sanchez', 'bio': '- Peru'}, {'nome':'Joan Martinez-Alier', 'bio': '- ICTA/UAB'}],
      'moderadores': [{'nome':'Tádzio Coelho', 'bio': '- UFMA e POeMAS'}]
     },
-    {'imagem':'/assets/image/paf1.jpeg',
+    {'imagem':'/assets/image/ime.jpg',
      'hora': '14:00 - 15:30',
-     'instituto':'PAF 1: Instituto de Matemática: Auditório',
+     'instituto':'Instituto de Matemática: Auditório',
      'titulo':'Hacia Una Ecología Política De Los Espacios Globales De Acumulación Del Capital Trasnacional',
      'participantes': [{'nome':'Alejandro Fabián Schweitzer', 'bio': ''}, {'nome':'Alejandro Pimienta Betancour', 'bio': ''}, {'nome':'Jodival Mauricio da Costa', 'bio': ''}, {'nome':'Jorge Aponte Motta', 'bio': ''}, {'nome':'María Laura Torres', 'bio': ''}, {'nome':'Roni Mayer Lomba', 'bio': ''}],
      'moderadores': [{'nome':'Grupo de Trabajo CLACSO: “Fronteras, regionalización y globalización” ', 'bio':''}]
@@ -1205,9 +1205,9 @@ export class Tab1Page {
      'participantes': [{'nome':'Stefania Barca', 'bio':'- Centro de Estudos Sociais, Universidade de Coimbra, Portugal'},{'nome':'Elionice Sacramento', 'bio':'- Articulação das Mulheres Pescadoras e MPP'},{'nome':'Antonia Mello', 'bio': '- Movimento Xingu Vivo'},{'nome':'Mina Lorena Navarro Trujillo', 'bio': '- Benemérita Universidad Autónoma de Puebla, México'},{'nome':'Caroline Cotta De Mello Freitas', 'bio': '- Fundação Escola de Sociologia e Política'}],
      'moderadores': [{'nome':'Luisa de Pinho Valle', 'bio':'- Centro de Estudos Sociais, Universidade de Coimbra, Portugal'}]
     },
-    {'imagem':'/assets/image/paf1.jpeg',
+    {'imagem':'/assets/image/ime.jpg',
      'hora': '15:45 - 17:15',
-     'instituto':'PAF 1: Auditório Instituto de Matemática',
+     'instituto':'Instituto de Matemática: Auditório',
      'titulo':'Ecologia e Economia na Era do Antropoceno',
      'participantes': [{'nome':'Clóvis Cavalcanti', 'bio':'- UFPE'},{'nome':'Daniel Andrade', 'bio':'- UFU'},{'nome':'Maria Cristina Fragkou', 'bio': '- Universidad de Chile'},{'nome':'Pablo Solón', 'bio': '- Fundación Solón'}],
      'moderadores': [{'nome':'Daniel Jeziorny ', 'bio':'- UFBA'}]
