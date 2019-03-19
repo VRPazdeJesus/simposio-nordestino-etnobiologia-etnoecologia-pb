@@ -11,6 +11,11 @@ import { AppComponent } from './app.component';
 
 import { ModalPagePage } from './modal-page/modal-page.page';
 
+import { File } from '@ionic-native/File/ngx';
+import { FileOpener } from '@ionic-native/file-opener/ngx';
+import { FileTransfer } from '@ionic-native/file-transfer/ngx';
+import { DocumentViewer } from '@ionic-native/document-viewer/ngx';
+
 @NgModule({
   declarations: [AppComponent, ModalPagePage],
   entryComponents: [ModalPagePage],
@@ -18,7 +23,11 @@ import { ModalPagePage } from './modal-page/modal-page.page';
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    File,
+    FileOpener,
+    FileTransfer,
+    DocumentViewer
   ],
   bootstrap: [AppComponent]
 })

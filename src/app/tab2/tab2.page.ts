@@ -63,7 +63,7 @@ export class Tab2Page {
      'ano': '2019',
      'editora': 'Escola de Ativismo',
      'sinopse': 'Uma revista que é muitas. Que não faz contar o que acontece na hora em que acontece. Que toma distância, mas não é distante. Que faz avaliação, que faz análise, mas que (quase) não faz citação. Que extrapola a situação. Que faz paradoxo, que transita pelo arco do devir. 1968, 2018. 50 anos de paradoxos. Nada mudou, nada está no (mesmo) lugar. Anarco-situacionista-caiapó. Facão na cara do desenvolvimentismo. Violência é o que cometem contra nós. Inundam nossa história, matam nossa comida, nos expulsam de tudo aquilo que somos nós: nossa terra, nossa vida. Para gerar luz que não ilumina nossas casas. Que nos joga diretamente nas sombras. Não nos enganemos: do coração das trevas, e não da pacificação, nasce a rebelião. Não só Tuíra, mas tantas tuiragens: múltiplas vozes – da aldeia para o mundo – fazem das lutas poesia e revolução. Colocar a revolução a serviço da poesia! Quando vozes negras, indígenas, trans, das bordas se levantam, o mundo estremece! Fazem ruir o mundo de mentiras erigido pelos kubēn. E não nos peça para termos calma! Amplificaremos nossas vozes por todos os meios necessários. O que pode uma ação? Somos tantos ativistas, tantos são os ativismos. Um mosaico. Não tem encaixe perfeito. Perfeito é o encaixe que buscamos no sentido de multiplicar essas lutas e essas vidas que se encontram na vida e nas lutas. Qual é a sua forma de lutar? Corpos ativistas. Co-fundimos e confundimos: corpos e prazeres. Somos experimentação, atravessamento tecno-ciência-xamã, acelerando as partículas do pensamento. Transformar o mundo segundo nosso desejo: eis a carne da teoria! Quanto custa entregar o cuidado de nossos corpos aos impérios? Quanto custa entregar o tempo a uma causa? Quanto custa manter a opacidade disso que chamamos civilização? Ocupar, ou desocupar, as terras, as casas, as escolas, as ruas, os imaginários e os corações. Inventar outra gramática. Destruir a organização dominante da vida. Criar outro mundo – um mundo onde caibam muitos mundos.',
-     'site':'https://escoladeativismo.org.br/wp-content/uploads/2019/02/Tuira01_WEB.pdf'
+     'site':'https://static.wixstatic.com/ugd/b542e1_68b4e0a3ac13430290d5bd28f2926364.pdf'
     },
     {'imagem':'/assets/image/ilha-mare.png',
      'titulo': 'A Arte de Caminhar',
@@ -108,7 +108,7 @@ export class Tab2Page {
      'ano': '',
      'editora': '',
      'sinopse': 'O projeto Amazonas – Histórias de um rio, é uma cartografia audiovisual interativa/afetiva, que foi elaborado a partir da reunião de material audiovisual, feito durante uma expedição da professora Karla Brunet pela Amazônia, tendo como ponto de partida Santarém e ponto de chegada Belém. Nesta cartografia, há um compartilhamento de histórias, observamos o trajeto feito de canoa, chegando aos seus quase mil quilômetros, também é possível ver vídeos e dados estatísticos da região. O mapa apesar de apresentar uma ordem cronológica, também permite a navegação por diferentes tópicos sem necessariamente haver uma ordem, assim quem visita o site tem a possibilidade de criar seu próprio roteiro, indo direto a pontos que mais aguçam sua curiosidade.',
-     'site': 'http://amazonas.ecoarte.info'
+     'site': ''
     },
     {'imagem':'/assets/image/granjeras.png',
      'titulo': 'Granjeras del Mar:Luchas y Sueños en Coliumo',
@@ -126,7 +126,7 @@ export class Tab2Page {
      'ano': '2017',
      'editora': 'IBASE - Instituto de Análises Sociais e Econômicos',
      'sinopse': 'A obra espera contribuir com o debate público acerca dos riscos e ameaças do fracking, e principalmente, da discussão mais ampla sobre a geração de energia, controle social e participação democrática, definição de políticas públicas e modelo de desenvolvimento do nosso país. Vários autores contribuem com uma discussão sincera e ampla sobre o tema a partir de vários pontos de vista. Vale a pena a leitura!',
-     'site': ''
+     'site': 'https://static.wixstatic.com/ugd/b542e1_d581c9d7ee46466d9ae5a29dc01a85a3.pdf'
     }
   ];
 }
