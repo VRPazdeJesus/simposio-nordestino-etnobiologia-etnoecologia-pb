@@ -763,13 +763,6 @@ export class Tab1Page {
   ];
 
   public dia19manha0900:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
@@ -885,13 +878,6 @@ export class Tab1Page {
   ];
 
   public dia19manha1015:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
@@ -958,13 +944,6 @@ export class Tab1Page {
   ];
 
   public dia19manha1030:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '10:30 - 10:45',
      'instituto':'Vão livre do IHAC - Instituto de Humanidades, Artes e Ciências',
@@ -1038,13 +1017,6 @@ export class Tab1Page {
   ];
   
   public dia19manha1045:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: Auditório 1',
@@ -1167,13 +1139,6 @@ export class Tab1Page {
   ];
   
   public dia19tarde1400:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '14:00 - 15:30',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1226,13 +1191,6 @@ export class Tab1Page {
   ];
  
   public dia19tarde1530:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '15:45 - 17:15',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
@@ -1299,13 +1257,6 @@ export class Tab1Page {
   ];
 
   public dia19noite1830:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '18:30 - 20:00',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1316,13 +1267,6 @@ export class Tab1Page {
   ];
 
   public dia19noite1900:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
       'hora': '18:30 - 20:00',
       'instituto':'Auditório externo do Instituto de Biologia',
@@ -1340,13 +1284,6 @@ export class Tab1Page {
   ];
 
   public dia19noite2000:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/vilavelha.jpeg',
      'hora': '19:00 - 22:00',
      'instituto':'Teatro Vila Velha, Passeio Público, Salvador',
@@ -1358,13 +1295,6 @@ export class Tab1Page {
 
   //Cronograma do terceiro dia
   public dia20manha0830:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
@@ -1410,13 +1340,6 @@ export class Tab1Page {
   ];
 
   public dia20manha0900:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do Instituto de Geociências',
@@ -1497,13 +1420,6 @@ export class Tab1Page {
   ];
 
   public dia20manha1015:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do Instituto de Geociências',
@@ -1542,13 +1458,6 @@ export class Tab1Page {
   ];
 
   public dia20manha1045:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: Auditório 1',
@@ -1636,13 +1545,6 @@ export class Tab1Page {
   ];
   
   public dia20tarde1400:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '14:00 - 15:30',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1674,13 +1576,6 @@ export class Tab1Page {
   ];
   
   public dia20tarde1545:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '15:45 - 17:00',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1705,13 +1600,6 @@ export class Tab1Page {
   ];
 
   public dia20tarde1800:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '18:00 - 20:30',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1722,13 +1610,6 @@ export class Tab1Page {
   ];
   
   public dia20noite2100:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/rv.jpeg',
      'hora': '21:00 - 00:00',
      'instituto':'Bairro do Rio Vermelho',
@@ -1739,13 +1620,6 @@ export class Tab1Page {
   ];
   
   public encerramento:Array<object> = [
-    {'imagem':'/assets/image/valdina.jpeg',
-     'hora': '-----',
-     'instituto':'Congresso Latino-Americano de Ecologia Política',
-     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
-     'participantes': [{'nome':'--------------', 'bio':''}],
-     'moderadores': [{'nome':'----------------', 'bio': ''}]
-    },
     {'imagem':'/assets/image/reitoria.jpg',
      'hora': '--:-- - --:--',
      'instituto':'',
