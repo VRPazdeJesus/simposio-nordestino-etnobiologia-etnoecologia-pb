@@ -13,13 +13,7 @@ export class Tab1Page {
   public agora:Array<object> = [];
 
   constructor() { 
-    let date =  new Date(); 
-
-    this.dia = date.getDate();
-    this.hora = date.getHours();
-    this.minuto = date.getMinutes();
-
-    this.atribuirGrade(this.dia, this.hora, this.minuto);
+    this.getinfo();
   } 
   
   atribuirGrade(dia:any, hora:any, minuto:any){
@@ -97,7 +91,6 @@ export class Tab1Page {
   }
 
   getinfo(){
-    console.log("Peguei as datas");
     let date =  new Date(); 
 
     this.dia = date.getDate();
@@ -108,7 +101,6 @@ export class Tab1Page {
   }
 
   ionViewWillEnter() {
-    console.log("Fui carregado");
     this.getinfo();
   }
 
