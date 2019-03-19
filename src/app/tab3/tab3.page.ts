@@ -30,7 +30,7 @@ export class Tab3Page {
     this.igeo = [-12.998279414804692, -38.50707014393266];
     this.faufba = [-12.997683687857446, -38.50811680102198];
     this.ihac = [-13.00366, -38.51];
-    this.paf1 = [-13.000723873900453, -38.50780705583248];
+    this.paf1 = [-13.00123, -38.50731];
     this.paf3 = [-13.002837723143662, -38.50940922918199];
     this.paf5 = [-13.003838718191286, -38.50945870115538];
     this.vilavelha = [-12.986501260928508, -38.521125316738114];
@@ -84,7 +84,7 @@ export class Tab3Page {
     institutogeociencia.bindPopup("<p> IGEO </p>");
     faculdadearquitetura.bindPopup("<p> Faculdade de Arquitetura </p>");
     institutohumanidades.bindPopup("<p> Vão livre do IHAC </p>");
-    predioaulas1.bindPopup("<p> PAF 1 </p>");
+    predioaulas1.bindPopup("<p> Instituto de Matemática </p>");
     predioaulas3.bindPopup("<p> PAF 3 </p>");
     predioaulas5.bindPopup("<p> PAF 5 </p>");
     teatro.bindPopup("<p> Teatro Vila Velha </p>");
@@ -101,10 +101,14 @@ export class Tab3Page {
     ]).addTo(this.map);
 
     var shapepaf1 = leaflet.polygon([
-        [-13.00069, -38.50812],
-        [-13.00094, -38.50786],
-        [-13.00046, -38.50737],
-        [-13.00021, -38.50764]
+        [-13.00114, -38.50765],
+        [-13.00144, -38.5073],
+        [-13.00121, -38.50707],
+        [-13.00105, -38.50725],
+        [-13.00111, -38.50731],
+        [-13.00107, -38.50736],
+        [-13.001, -38.5073],
+        [-13.0009, -38.5074]
     ]).addTo(this.map);
 
     var shapepaf3 = leaflet.polygon([
