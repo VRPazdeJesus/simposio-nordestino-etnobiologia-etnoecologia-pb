@@ -763,6 +763,13 @@ export class Tab1Page {
   ];
 
   public dia19manha0900:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
@@ -815,7 +822,7 @@ export class Tab1Page {
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
-     'titulo':'Candomblé e ecologia: raízes, racismo e resistência',
+     'titulo':'Candomblé e ecologia: raízes, racismo e resistência (CANCELADA)',
      'participantes': [{'nome':'Iyá Jaciara Ribeiro dos Santos', 'bio':'- Ilê Axé Abassá de Ogum'},{'nome':'Ekede Sinha', 'bio':'- Casa Branca - Ilê Axé Iyá Nassô Oká'},{'nome':'Babalorixá Duda', 'bio': '- Ilê Axé Icimimó, Cachoeira'}],
      'moderadores': [{'nome':'Jussara Rêgo', 'bio': '- MARSOL/UFBA; FIOCRUZ'}, {'nome':'KOINONIA Presença Ecumênica e Serviço', 'bio': ''}]
     },
@@ -847,9 +854,9 @@ export class Tab1Page {
      'participantes': [{'nome':'Viviane Zerlotini da Silva', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}],
      'moderadores': [{'nome':'Viviane Zerlotini da Silva', 'bio':'- Pontifícia Universidade Católica de Minas Gerais'}]
     },
-    {'imagem':'/assets/image/congrega.jpeg',
+    {'imagem':'/assets/image/arquitetura12.jpeg',
      'hora': '09:00 - 12:30',
-     'instituto':'Congregação - Faculdade de Arquitetura e Urbanismo',
+     'instituto':'Faculdade de Arquitetura e Urbanismo: Sala 1B',
      'titulo':'Oficina de grafismos',
      'participantes': [{'nome':'Denilson Baniwa', 'bio':''}],
      'moderadores': [{'nome':'Denilson Baniwa', 'bio':''}]
@@ -878,6 +885,13 @@ export class Tab1Page {
   ];
 
   public dia19manha1015:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
@@ -944,6 +958,13 @@ export class Tab1Page {
   ];
 
   public dia19manha1030:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/vaolivre-ihac.jpeg',
      'hora': '10:30 - 10:45',
      'instituto':'Vão livre do IHAC - Instituto de Humanidades, Artes e Ciências',
@@ -1017,6 +1038,13 @@ export class Tab1Page {
   ];
   
   public dia19manha1045:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: Auditório 1',
@@ -1064,7 +1092,7 @@ export class Tab1Page {
      'instituto':'PAF 5: sala 408',
      'titulo':'Sessão de Trabalho',
      'participantes': [{'nome':'Termo de compromisso como instrumento para promover justiça ambiental em Unidades de Conservação Brasileiras', 'bio':'- Lílian Lindoso (Instituto Chico Mendes)'}, {'nome':'Terra, papel, tesoura: sobrevivendo à expropriação', 'bio':'- Mariana Peceguini Ruggieri (UNICAMP)'}, {'nome':'O Tamanduá e a Sucuri Gigante: Autodemarcação Territorial e Colaborações  Interétnicas na Amazônia Brasileira', 'bio':'- Jeremy M. Campbell (Roger Williams University)'}, {'nome':'Autonomia nos processos decisórios como elemento fundamental para a resiliência de sistemas de co-manejo de quelônios no Baixo Amazona', 'bio':'- Fernanda Carneiro Romagnoli, Universidade Federal Rural da Amazônia'}],
-     'moderadores': [{'nome':'Bruna Rocha', 'bio':''}]
+     'moderadores': [{'nome':'James Angus Fraser ', 'bio':'- University of Lancaster, Reino Unido'}]
     },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
@@ -1139,6 +1167,13 @@ export class Tab1Page {
   ];
   
   public dia19tarde1400:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '14:00 - 15:30',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1191,6 +1226,13 @@ export class Tab1Page {
   ];
  
   public dia19tarde1530:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '15:45 - 17:15',
      'instituto':'Auditório A do IGEO  - Instituto de Geociências',
@@ -1257,6 +1299,13 @@ export class Tab1Page {
   ];
 
   public dia19noite1830:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '18:30 - 20:00',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1267,6 +1316,13 @@ export class Tab1Page {
   ];
 
   public dia19noite1900:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
       'hora': '18:30 - 20:00',
       'instituto':'Auditório externo do Instituto de Biologia',
@@ -1284,6 +1340,13 @@ export class Tab1Page {
   ];
 
   public dia19noite2000:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/vilavelha.jpeg',
      'hora': '19:00 - 22:00',
      'instituto':'Teatro Vila Velha, Passeio Público, Salvador',
@@ -1295,11 +1358,18 @@ export class Tab1Page {
 
   //Cronograma do terceiro dia
   public dia20manha0830:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '08:30 - 10:15',
      'instituto':'PAF 5: Auditório 1',
      'titulo':'Sessões de Trabalhos',
-     'participantes': [{'nome':'O ecomarxismo e a disputa pela água', 'bio':'- Carolina Silva Ribeiro, UFBA; Gilca Garcia de Oliveira, UFBA'},{'nome':'Escalas da injustiça hídrica: estudo de caso em Ilhabela – litoral norte de São Paulo', 'bio':'- Natalia Dias Tadeu, USP'},{'nome':'Escasez hídrica y respuestas estatales; construyendo territorios hidrosociales en Chile', 'bio':'- Maria Christina Fragkou - Universidad de Chile'},{'nome':'A peleja dos índios Anacé contra o roubo da água para as empresas do Pecém na defesa do Lagamar do Cauípe', 'bio':'- João Alfredo Telles Mello, Centro Universitário 7 de Setembro'}],
+     'participantes': [{'nome':'O ecomarxismo e a disputa pela água', 'bio':'- Carolina Silva Ribeiro, UFBA; Gilca Garcia de Oliveira, UFBA'},{'nome':'Escalas da injustiça hídrica: estudo de caso em Ilhabela – litoral norte de São Paulo', 'bio':'- Natalia Dias Tadeu, USP'},{'nome':'Escasez hídrica y respuestas estatales; construyendo territorios hidrosociales en Chile', 'bio':'- Maria Christina Fragkou - Universidad de Chile'},{'nome':'A peleja dos índios Anacé contra o roubo da água para as empresas do Pecém na defesa do Lagamar do Cauípe', 'bio':'- João Alfredo Telles Mello, Centro Universitário 7 de Setembro'},{'nome':'Água e Região: Epistemologias Alternativas a partir do Enfoque Hidrossocial', 'bio': '- Hugo Kamiya Tsutsui (UFABC)'}],
      'moderadores': [{'nome':'Vanessa Empinotti', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -1340,6 +1410,13 @@ export class Tab1Page {
   ];
 
   public dia20manha0900:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do Instituto de Geociências',
@@ -1420,6 +1497,13 @@ export class Tab1Page {
   ];
 
   public dia20manha1015:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/igeo.jpeg',
      'hora': '09:00 - 12:30',
      'instituto':'Auditório A do Instituto de Geociências',
@@ -1458,6 +1542,13 @@ export class Tab1Page {
   ];
 
   public dia20manha1045:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/paf5.jpeg',
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: Auditório 1',
@@ -1545,6 +1636,13 @@ export class Tab1Page {
   ];
   
   public dia20tarde1400:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '14:00 - 15:30',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1576,6 +1674,13 @@ export class Tab1Page {
   ];
   
   public dia20tarde1545:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '15:45 - 17:00',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1600,6 +1705,13 @@ export class Tab1Page {
   ];
 
   public dia20tarde1800:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
      'hora': '18:00 - 20:30',
      'instituto':'Auditório externo do Instituto de Biologia',
@@ -1610,6 +1722,13 @@ export class Tab1Page {
   ];
   
   public dia20noite2100:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/rv.jpeg',
      'hora': '21:00 - 00:00',
      'instituto':'Bairro do Rio Vermelho',
@@ -1620,6 +1739,13 @@ export class Tab1Page {
   ];
   
   public encerramento:Array<object> = [
+    {'imagem':'/assets/image/valdina.jpeg',
+     'hora': '-----',
+     'instituto':'Congresso Latino-Americano de Ecologia Política',
+     'titulo':'Makota Valdina, nosso respeito, nossa saudade.',
+     'participantes': [{'nome':'--------------', 'bio':''}],
+     'moderadores': [{'nome':'----------------', 'bio': ''}]
+    },
     {'imagem':'/assets/image/reitoria.jpg',
      'hora': '--:-- - --:--',
      'instituto':'',
