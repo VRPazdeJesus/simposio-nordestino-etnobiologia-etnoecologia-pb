@@ -823,7 +823,7 @@ export class Tab1Page {
      'hora': '09:00 - 12:30',
      'instituto':'Auditório B do IGEO - Instituto de Geociências',
      'titulo':'Ecologia Política e epistemologia: Interculturalidade, formas de apropriação do saber acadêmico e novas experiências universitárias',
-     'participantes': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB e UNB'},{'nome':'Edilena Krikati', 'bio':'- Coordenação das Organizações Indígenas da Amazônia Brasileira - Coiab'}],
+     'participantes': [{'nome':'Felipe Cruz', 'bio':'- UNEB'},{'nome':'Ana Cláudia Gomes de Souza', 'bio':'- UNILAB'},{'nome':'Florêncio Almeida Vaz Filho', 'bio':'- UFOPA'}],
      'moderadores': [{'nome':'Felipe Cruz Tuxá', 'bio':'- UNEB e UNB'},{'nome':'Edilena Krikati', 'bio':'- Coordenação das Organizações Indígenas da Amazônia Brasileira - Coiab'}]
     },
     {'imagem':'/assets/image/instituto-biologia.jpeg',
@@ -1223,7 +1223,7 @@ export class Tab1Page {
      'hora': '15:45 - 17:15',
      'instituto':'Auditório externo do Instituto de Biologia',
      'titulo':'Conhecimento científico em movimento: práxis, ecologia e emancipação',
-     'participantes': [{'nome':'Lídia Maria Pires Soares Cardel', 'bio':'- UFBA'},{'nome':'José Geraldo Aquino', 'bio': '- UFBA'},{'nome':'Maria Aparecida José de Oliveira', 'bio': '- UFBA'}],
+     'participantes': [{'nome':'Lídia Maria Pires Soares Cardel', 'bio':'- UFBA'},{'nome':'José Geraldo Aquino', 'bio': '- UFBA'},{'nome':'Maria Aparecida José de Oliveira', 'bio': '- UFBA'},{'nome':'Pedro Marinho', 'bio': '- UFRJ'}],
      'moderadores': [{'nome':'', 'bio':''}]
     },
     {'imagem':'/assets/image/facom.jpg',
