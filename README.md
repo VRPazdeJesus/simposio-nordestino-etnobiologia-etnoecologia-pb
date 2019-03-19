@@ -48,7 +48,6 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore congressoecolog
 ```
 
 ### Empacotar o app com o zipalign. O executável do zipalign está dentro do SDK do Android Studio. Copia e cola o executável dentro da pasta build do projeto Ionic
-senha: Victor2019.@
 ```
 platforms\android\app\build\outputs\apk\zipalign -v 4 platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk congressoecologiapolitica.apk
 ```
