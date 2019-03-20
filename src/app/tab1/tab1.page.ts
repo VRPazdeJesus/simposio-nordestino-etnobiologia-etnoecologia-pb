@@ -364,7 +364,7 @@ export class Tab1Page {
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: sala 404',
      'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'Bem viver, gestão social e emancipação', 'bio':'- Alex Luiz Barros Vargas - Universidade Federal Rural do Rio de Janeiro'}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':'- Suenya Santos Da Cruz - Universidade Federal Fluminense'}, {'nome':'Ecologia política no reconcavo da baía da Guanabara: lutas e disputas territoriais', 'bio':'- Marcelo Stortti - Universidade Federal do Estado do Rio de Janeiro'}, {'nome':'A perspectiva ecosófica nas práticas comunitárias emergentes para transformações socioespaciais', 'bio': '- Heliana Faria Mettig Rocha - UFBA'}, {'nome':'A quimera do desenvolvimento sustentável para supressão da pobreza e da crise ecológica', 'bio': '- Raquel Mota Mascarenhas, UFOP'}            ],
+     'participantes': [{'nome':'Bem viver, gestão social e emancipação', 'bio':'- Alex Luiz Barros Vargas - Universidade Federal Rural do Rio de Janeiro'}, {'nome':'Desenvolvimento sustentável: reforma ou revolução?', 'bio':'- Suenya Santos Da Cruz - Universidade Federal Fluminense'}, {'nome':'Ecologia política no reconcavo da baía da Guanabara: lutas e disputas territoriais', 'bio':'- Marcelo Stortti - Universidade Federal do Estado do Rio de Janeiro'},{'nome':'A quimera do desenvolvimento sustentável para supressão da pobreza e da crise ecológica', 'bio': '- Raquel Mota Mascarenhas, UFOP'}            ],
      'moderadores': [{'nome':'Luis Antonio Araújo Costa', 'bio':''}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -1416,6 +1416,13 @@ export class Tab1Page {
      'titulo':'Oficina: Artes, Pneus e Soluções Socioambientais',
      'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
      'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
+    },
+    {'imagem':'/assets/image/igeo.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Intituto de Geociências: Auditório B',
+     'titulo':'Restauração Agroecológica e Emancipação: A proposta da teia dos povos para o sul da Bahia.',
+     'participantes': [ {'nome':'Joelson Ferreira', 'bio':'- Teia dos Povos'}, {'nome':'Spency Pimentel', 'bio':'- Teia dos Povos'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
 
@@ -1454,6 +1461,13 @@ export class Tab1Page {
      'titulo':'Oficina: Artes, Pneus e Soluções Socioambientais',
      'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
      'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
+    },
+    {'imagem':'/assets/image/igeo.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Intituto de Geociências: Auditório B',
+     'titulo':'Restauração Agroecológica e Emancipação: A proposta da teia dos povos para o sul da Bahia.',
+     'participantes': [ {'nome':'Joelson Ferreira', 'bio':'- Teia dos Povos'}, {'nome':'Spency Pimentel', 'bio':'- Teia dos Povos'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
 
@@ -1462,7 +1476,7 @@ export class Tab1Page {
      'hora': '10:45 - 12:30',
      'instituto':'PAF 5: Auditório 1',
      'titulo':'Sessão de Trabalhos',
-     'participantes': [{'nome':'Expansão urbana e questões ambientais em Redenção, Ceará', 'bio':'- Lailson Ferreira da Silva, Universidade da Integração Internacional da Lusofonia Afro-Brasileira'},{'nome':'Forum Permanente de Itapuã e a defesa do Parque Metropolitano do Abaeté', 'bio':'- Pedro Rodolpho Jungers Abib - UFB'},{'nome':'Fronteiras de água x fronteiras de poder: o caso dos rios urbanos no Brasil', 'bio':'- Renata Cristina Ferreira, UNESP'}],
+     'participantes': [{'nome':'Expansão urbana e questões ambientais em Redenção, Ceará', 'bio':'- Lailson Ferreira da Silva, Universidade da Integração Internacional da Lusofonia Afro-Brasileira'},{'nome':'Forum Permanente de Itapuã e a defesa do Parque Metropolitano do Abaeté', 'bio':'- Pedro Rodolpho Jungers Abib - UFB'},{'nome':'Fronteiras de água x fronteiras de poder: o caso dos rios urbanos no Brasil', 'bio':'- Renata Cristina Ferreira, UNESP'},{'nome':'A perspectiva ecosófica nas práticas comunitárias emergentes para transformações socioespaciais', 'bio': '- Heliana Faria Mettig Rocha - UFBA'}],
      'moderadores': [{'nome':'Heliana Faria Mettig Rocha', 'bio':'- UFBA'}]
     },
     {'imagem':'/assets/image/paf5.jpeg',
@@ -1541,6 +1555,13 @@ export class Tab1Page {
      'titulo':'Oficina: Artes, Pneus e Soluções Socioambientais',
      'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
      'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
+    },
+    {'imagem':'/assets/image/igeo.jpeg',
+     'hora': '09:00 - 12:30',
+     'instituto':'Intituto de Geociências: Auditório B',
+     'titulo':'Restauração Agroecológica e Emancipação: A proposta da teia dos povos para o sul da Bahia.',
+     'participantes': [ {'nome':'Joelson Ferreira', 'bio':'- Teia dos Povos'}, {'nome':'Spency Pimentel', 'bio':'- Teia dos Povos'}],
+     'moderadores': [{'nome':'', 'bio':''}]
     }
   ];
   
