@@ -81,7 +81,7 @@ export class Tab2Page {
      'ano': '',
      'editora': 'Itacaiúnas',
      'sinopse': '',
-     'site': ''
+     'site': 'https://static.wixstatic.com/ugd/b542e1_6b0ede3b89bb4f04a140db586422d836.pdf'
     },
     {'imagem':'/assets/image/latinoamericana.jpg',
      'titulo': 'Ecología Política Latinoamericana Vol. 1',
