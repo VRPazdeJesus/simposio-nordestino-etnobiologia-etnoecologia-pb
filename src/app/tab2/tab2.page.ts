@@ -11,7 +11,7 @@ export class Tab2Page {
   constructor(public modalController: ModalController){
 
   }
-  v
+  
   async presentModal(book: any){
     const modal = await this.modalController.create({
       component: ModalPagePage,
