@@ -1,4 +1,4 @@
-# Terceiro Congresso Latino-Americano de Ecologia Política
+# Décimo Simpósio Nordestino de Etnobiologia Etnoecologia
 - Ano: 2019
 - Objetivo: 
      - Exibir em tempo real, as atividades que estão acontecendo naquele momento e em quais prédios. 
