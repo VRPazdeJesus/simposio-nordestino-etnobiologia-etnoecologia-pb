@@ -8,17 +8,17 @@
 }
 
 .info-green {
-  color: #339E2D;
+  color: #81459D;
 }
 
 .title-tab {
   text-align: center;
-  color: #339E2D;
+  color: #81459D;
 }
 
 .title-cards {
   font-size: 18px;
-  color: #339E2D;
+  color: #81459D;
   line-height: 1.0;
 }
 
@@ -38,9 +38,15 @@ ul {
 }
 
 ion-content {
-  --background: url('../../assets/image/bg.jpg') no-repeat 100% 100%;
+  --ion-background-color: #81459D !important;
 }
 
 ion-card {
   background-color: white !important;
+}
+
+.gradiente {
+  background: -webkit-linear-gradient(top, rgba(27,113,214,0.5) 0%, rgba(197,77,170,0.5) 100%);
+  background: linear-gradient(to bottom, rgba(27,113,214,0.5) 0%, rgba(197,77,170,0.5) 100%);
+  position: relative;
 }

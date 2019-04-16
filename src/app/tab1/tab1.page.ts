@@ -106,75 +106,32 @@ export class Tab1Page {
 
   // Cronograma do primeiro dia
   public dia18manha0830:Array<object> = [
-    {'imagem':'/assets/image/paf5.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: sala 404',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'A retomada da cidade como insurgência radical na construção de modos de “ser indígena”', 'bio': '- Gabriela De Freitas Figueiredo Rocha - Universidade de Coimbra'}, {'nome':'Conservação do pecado: trajetória e conflitos de praia em Macaé – RJ', 'bio':'- Astrea Gomes Castro - Universidade Federal do Rio de Janeiro'}, {'nome':'Estrategias de descontaminacion del aire en algunas ciudades ubicadas en condiciones de valle-montaña', 'bio':'- Dora Luz Yepes Palacio - Politécnico Colombiano Jaime Isaza Cadavid'}],
-     'moderadores': [{'nome':'Gilca Garcia Oliveira', 'bio':'- Economia UFBA/POSGEO/UFBA'}]
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 16:00',
+     'instituto':'Auditório do PRODEMA/UFPB',
+     'titulo':'Credenciamento',
+     'titulolista': 'Observação:',
+     'participantes': [{'nome':'Após esse horário, o credenciamento deverá ser realizado no dia 23 pela manhã.','bio':'' }],
+     'titulomoderador':'Recepção:',
+     'moderadores': [{'nome':'Organização', 'bio':''}]
     }, 
-    {'imagem':'/assets/image/paf5.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: sala 406',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'A luta por justiça ambiental e soberania alimentar através da educação ambiental', 'bio': '- Letícia Riguetto Nunes - Universidade Federal de Juiz de Fora'}, {'nome':'Agroecologia, educação popular e resistência na primeira favella do Rio de Janeiro', 'bio':'- Lorena Portela Soares - Horta Inteligente'}, {'nome':'Caminhos para práticas de consumo responsável: o caso da feira popular agroecológica no município de Barbacena, Minas Gerais, Brasil', 'bio':'- Suelen Couto - Universidade Federal do Rio de Janeiro'}, {'nome':'O ecofeminismo como prática pedagógica e a experiência do grupo de mulheres do assentamento Dandara dos Palmares na roça agroecológica', 'bio':'- Luísa De Pinho Valle - Universidade de Coimbra'}],
-     'moderadores': [{'nome':'Michel Fernandes Rosa', 'bio':'- UFRB'}]
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '15:00 - 17:00',
+     'instituto':'Sala de Aula do PRODEMA',
+     'titulo':'Vivência Xamânica: Jornada Animal no Poder',
+     'titulolista': 'Observação:',
+     'participantes': [{'nome':'Atividade gratuita', 'bio': ''}, {'nome':'Inscrição: decimosnee@gmail.com', 'bio':''}],
+     'titulomoderador':'Ministrante:',
+     'moderadores': [{'nome':'Eraldo Medeiros Costa Neto', 'bio':''}]
     },
-    {'imagem':'/assets/image/paf5.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: sala 407',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'Transiciones pedagogicas para la infancia desde la ecologia y la interculturalidad', 'bio': '- Correa Zanotti-Cavazzoni Chiara Leticia - Universidad San Francisco de Quito'}, {'nome':'A pertinência da ecologia política nos processos dedesconstrução de injusticas socioambientais e na construçãode alternativas decoloniais', 'bio':'- Luciano Zanetti Pessoa Candiotto - Universidade Estadual do Oeste do Paraná'}, {'nome':'Aprender a entreser: aprendizaje transformacional y formación de adultos en ecología política', 'bio':'- María Paz Aedo Zuñiga - Universidad Academia de Humanismo Cristiano'}, {'nome':'Extractivismo, conflictos socio-ecológicos, ecociudadanía y emergencia de alternativas: dimensiones crítica y política de la educación ambiental en la resistencia social"', 'bio':'- Isabel Orellana - Universidade de Quebec'}],
-     'moderadores': [{'nome':'Evandro Costa de Medeiros', 'bio':'- UNIFESSPA'}]
-    },
-    {'imagem':'/assets/image/paf5.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: sala 408',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'Acidentes nucleares, corpos e ambientes contaminados: os processos de publicização e a questão do urânio em Caetité/Ba', 'bio': '- Israel De Jesus Rocha - Universidade Federal do Amazonas'}, {'nome':'Ocupações urbanas e autoprodução do espaço', 'bio':'- Viviane Zerlotini Da Silva - Pontificia Universidade Católica de Minas Gerais'}, {'nome':'Outras Práxis Possíveis: Reflexões sobre a Posição do Trabalho Humano para a Economia Política e a Visão de Mundo das Populações não Ocidentais', 'bio':'- Isabela Prado Callegari (UFRGS), Queren Hapuque Borges Rodrigues (Universidade de Campinas), Rodrigo Costa de Andrade (UFMG)'}],
-     'moderadores': [{'nome':'Vanessa Empinotti', 'bio':'- UFABC'}]
-    },
-    {'imagem':'/assets/image/paf5.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: Auditório 1',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'A conquista dos recursos naturais e das paisagens de Minas Gerais (1780 - 1804)', 'bio': '- Mark De Soldi Matzner - Universidade Federal de Ouro Preto'}, {'nome':'Conflitos agroambientais e programa fomento florestal: pela historicidade e informalidade', 'bio':'- Frederico Magalhães Siman - Universidade Federal de Viçosa'}, {'nome':'Dreams of development and haunted modernity: colonial memories in contemporary potosí', 'bio':'- Sue Angélica Serra Iamamoto - Universidade Federal da Bahia'}, {'nome':'Caboclos contra o progresso: a guerra do contestado como um conflito ambiental', 'bio':'- Daniel Vieira Nunes - Universidade Federal Rural do Rio de Janeiro'}],
-     'moderadores': [{'nome':'Horacio Machado Araoz', 'bio':''}]
-    },
-    {'imagem':'/assets/image/paf5.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 5: Auditório 2',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [{'nome':'Agronegocio y extractivismo en la argentina contemporanea: un estudio de la cadena sojera', 'bio': '- Virginia Toledo López - Instituto de Investigaciones Gino Germani'}, {'nome':'Monocultivo de la caña de azucar, caso norte del valle del cauca, Colombia: una mirada desde la ecología política', 'bio':'- Fernando Moreno Betancourt - Universidad del Valle'}, {'nome':'¿objeto o proceso? un acercamiento a la construcción en madera desde una perspectiva sistémica a la sustentabilidad', 'bio':'- Massimiliano Farris - Universidad de Chile'}],
-     'moderadores': [{'nome':'Beatriz Bustos', 'bio':''}]
-    },
-    {'imagem':'/assets/image/paf3.jpeg',
-     'hora': '08:30 - 10:15',
-     'instituto':'PAF 3: Auditório',
-     'titulo':'Sessões de Trabalho',
-     'participantes': [ {'nome':'Acumulación capitalista y ecología política: el acaparamiento de tierras en los países del sur global', 'bio':'- Agostina Costantino - Instituto de Investigaciones Económicas y Sociales del Sur'}, {'nome':'Algumas reflexões sobre a questão agráriaracial no recôncavo da Bahia', 'bio':'- Jánderson Santana Dos Santos - Movimento dos Pequenos Agricultores'}, {'nome':'Cosmopolíticas na terra: construção da paisagem e regime de propriedade avá-guarani no oeste do Paraná', 'bio':'- Diogo de Oliveira - Universidade Federal de Santa Catarina'}, {'nome':'Disputas socioterritoriais no Amapá - Brasil', 'bio':'- Roni Mayer Lomba - Universidade Federal do Amapá'}],
-     'moderadores': [{'nome':'Salvatore Engel-Dimauro', 'bio':''}]
-    },
-    {'imagem':'/assets/image/ibio.jpg',
-     'hora': '08:00 - 18:00',
-     'instituto':'Hall do Instituto de Biologia',
-     'titulo':'Breve História do Pó',
-     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
-     'moderadores': [{'nome':'Tomaz Klotzel', 'bio':'- Fotógrafo, vive em São Paulo'}]
-    },
-    {'imagem':'/assets/image/ibio.jpg',
-     'hora': '08:30 - 18:00',
-     'instituto':'Hall do Instituto de Biologia',
-     'titulo':'Floresta em pé, mulheres vivas: Escutas de (R) Existências',
-     'participantes': [ {'nome':'Breve História do Pó é uma instalação a partir da investigação sobre a memória de locais de assassinatos por disputa de terra na região Sul e Sudeste do Pará. Ao realizar uma cartografia precisa dos locais dos assassinatos, um levantamento junto à testemunhas e parentes se fez necessário. Além do registro dessas narrativas, outros depoimentos encontrados ao longo da pesquisa foram coletados, como testemunhos para os inquéritos; e os discursos de um julgamento em que o mandante de um dos assassinatos foi considerado culpado e condenado. A justaposição destas falas junto às fotografias revela níveis da linguagem produzida em relação aos eventos, que os torna menos palpáveis a cada novo estágio do discurso. A pesquisa investiga o quanto a observação destas reminiscências reserva a possibilidade de enxergar o invisível dos mortos sempre presentes.', 'bio':''}],
-     'moderadores': [{'nome':'Anastasia G. Itokazu', 'bio':'- UFABC'}, {'nome':'Giovanna Moller', 'bio':'- UFABC'}, {'nome':'Henrique P. Xavier', 'bio':'- USP'}, {'nome':'Juliana de Souza', 'bio':'- UNESP'}, {'nome':'Lea Tosold', 'bio':'- USP'}, {'nome':'Luciana Furlanetto Pereira', 'bio':'- UFSCar'}, {'nome':'Mariana Ruggieri', 'bio':'- Unicamp'}, {'nome':'Marilia M. Pisani', 'bio':'- UFABC'}, {'nome':'Silvana Ramos', 'bio':'- USP'}]
-    },
-    {'imagem':'/assets/image/ibio.jpg',
-     'hora': '08:00 - 18:00',
-     'instituto':'Corredor da feira agroecológica da UFBA',
-     'titulo':'Artes, Pneus e Soluções Socioambientais',
-     'participantes': [ {'nome':'A oficina irá abordar técnicas e conceitos destinados à reutilização de pneus inservíveis para a produção criativa de cadeiras, brinquedos, vasos e outros. O objetivo, além do compartilhamento das técnicas envolvidas, é promover a conscientização sobre os impactos sociais e ambientais gerados pelo descarte irregular de pneus usados e inservíveis.  O que é um problema ambiental e de saúde  pública poderá ser uma solução alternativa de renda. Serão também discutidas noções sobre a politica nacional de residuos sólidos e especialmente sobre a resolucao sobre pneus', 'bio':'- As inscrições deverão ser efetuadas presencialmente.'}],
-     'moderadores': [{'nome':'Arnaldo Ramos', 'bio':''}]
+    {'imagem':'/assets/image/radigundesfeitosa.jpeg',
+     'hora': '17:30 - 22:00',
+     'instituto':'Sala de Concertos Radigundes Feitosa (UFPB)',
+     'titulo':'Cerimônia de abertura',
+     'titulolista': 'Cronograma:',
+     'participantes': [{'nome':'Composição da Mesa', 'bio': ''}, {'nome':'Palestra | Etnobiologia: Visões do passado, olhar para o futuro ', 'bio':'- Prof. Dr. Ulysses Paulino de Albuquerque – UFPE'}, {'nome':'Orquestra de Violões da Paraíba', 'bio': ''}, {'nome':'Apresentação Musical: Rubacão Jazz', 'bio': ''}],
+     'titulomoderador':'Apresentação:',
+     'moderadores': [{'nome':'Organização', 'bio':''}]
     }
   ];
 
