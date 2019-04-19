@@ -45,17 +45,16 @@ ion-card {
   background-color: white !important;
 }
 
-.icon-center {
-  margin-left: 60px;
+.icon-header {
   width: 30px;
+  border-radius: 5px;
+  display:inline-block;
 }
 
-.alinhamento-titulo {
-  text-align: left;
-  margin-top: 5px;
+.text-header {
+  display:inline-block;
 }
 
-.ios .alinhamento-titulo {
+ion-toolbar {
   text-align: center;
-  margin-top: 0;
 }
