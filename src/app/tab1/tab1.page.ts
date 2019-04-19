@@ -34,32 +34,18 @@ export class Tab1Page {
         this.agora = this.fim;
       }
     } else if(dia == 23) {
-      if((hora < 8) || ((hora == 8) && (minuto <= 30))){
+      if(hora < 12){
         this.agora = this.dia23manha800;
-      } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15))) {
-        this.agora = this.dia23manha800;
-      } else if((hora == 10) && (minuto >= 15) && (minuto < 30)) {
-        this.agora = this.dia23manha800;
-      } else if((hora == 10) && (minuto >= 30) && (minuto < 45)) {
-        this.agora = this.dia23manha800;
-      } else if(((hora == 10) && (minuto >= 45)) || (hora == 11) || ((hora == 12) && (minuto <= 30))) {
-        this.agora = this.dia23manha800;
-      } else if(((hora == 12) && (minuto >= 30)) || ((hora > 12) && (hora <= 14)) || ((hora == 15) && (minuto < 30))){
-        this.agora = this.dia23manha800;
-      } else if(((hora == 15) && (minuto >= 30)) || (hora == 16) || ((hora == 17) && (minuto <= 15))) {
-        this.agora = this.dia23manha800;
-      } else if(((hora == 17) && (minuto > 15)) || (hora == 18)) {
-        this.agora = this.dia23manha800;
-      } else if(hora == 19){
-        this.agora = this.dia23manha800;
+      } else if((hora == 12) && (minuto < 30)) {
+        this.agora = this.dia23manha1200;
       } else if((hora == 20) || (hora == 21)){
-        this.agora = this.dia23manha800;
+        this.agora = this.dia23manha1200;
       }else if (hora >= 22){
         this.agora = this.fim;
       }
     } else if(dia == 20) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
-        this.agora = this.dia20manha0830;
+        this.agora = this.dia23manha800;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
         this.agora = this.dia20manha0900;
       } else if((hora == 10) && (minuto >= 15) && (minuto < 45)) {
@@ -84,7 +70,7 @@ export class Tab1Page {
 
   getinfo(){
     let date =  new Date(); 
-    this.dia = 22;
+    this.dia = 23;
     this.hora = 8;
     // this.dia = date.getDate();
     // this.hora = date.getHours();
@@ -183,7 +169,7 @@ export class Tab1Page {
      'instituto':'Geografia - Sala A3',
      'titulo':'Mini curso | Abordagem da ancestralidade como método na etnobiologia',
      'titulolista': 'Ministrante:',
-     'participantes': [{'nome':'Dra. Rebeca Mascarenhas Fonseca Barreto','bio':'- UNIVASF' }],
+     'participantes': [{'nome':'Dra. Rebeca Mascarenhas Fonseca Barreto','bio':' - UNIVASF' }],
      'titulomoderador':'Monitor:',
      'moderadores': [{'nome':'Wysllayne', 'bio':''}]
     },
@@ -192,16 +178,16 @@ export class Tab1Page {
      'instituto':'Sala de aula do Prodema',
      'titulo':'Mini curso | Introdução a etnobiologia evolutiva',
      'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dr. André Luiz Borba do Nascimento','bio':'- UFPE'}, {'nome':'Doutorando Joelson Brito Mouras','bio':'- UFPE'}],
-     'titulomoderador':'Monitora:',
-     'moderadores': [{'nome':'Jéssica Maria Vanessa', 'bio':''}]
+     'participantes': [{'nome':'Dr. André Luiz Borba do Nascimento','bio':' - UFPE'}, {'nome':'Doutorando Joelson Brito Mouras','bio':' - UFPE'}],
+     'titulomoderador':'Monitoras:',
+     'moderadores': [{'nome':'Jéssica', 'bio':''},{'nome':'Maria Vanessa', 'bio':''}]
     },
     {'imagem':'/assets/image/prodema.jpeg',
      'hora': '08:00 - 12:00',
      'instituto':'Auditório do PRODEMA',
      'titulo':'Mini curso | Métodos etnobiológicos e de modelagem aplicados às mudanças climáticas',
      'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dr. José Ribamar de Farias Lima','bio':'- UFPB'}, {'nome':'Doutoranda Thamires Kelly Nunes Carvalho','bio':'- UFPB'}],
+     'participantes': [{'nome':'Dr. José Ribamar de Farias Lima','bio':' - UFPB'}, {'nome':'Doutoranda Thamires Kelly Nunes Carvalho','bio':' - UFPB'}],
      'titulomoderador':'Monitor:',
      'moderadores': [{'nome':'Lucas Gomes', 'bio':''}]
     },
@@ -209,28 +195,130 @@ export class Tab1Page {
      'hora': '08:00 - 12:00',
      'instituto':'Auditório do PRODEMA',
      'titulo':'Mini curso | Plantas medicinais e evolução humana',
-     'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dr. Washington Soares Ferreira Júnior','bio':'- UPE'}],
-     'titulomoderador':'Monitora:',
-     'moderadores': [{'nome':'Sara Juliane', 'bio':''}]
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Washington Soares Ferreira Júnior','bio':' - UPE'}],
+     'titulomoderador':'Monitoras:',
+     'moderadores': [{'nome':'Sara', 'bio':''},{'nome':'Juliane', 'bio':''}]
     },
     {'imagem':'/assets/image/prodema.jpeg',
      'hora': '08:00 - 12:00',
      'instituto':'Mini Museu- Geografia',
      'titulo':'Mini curso | Introdução a Etnobotânica',
      'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dr. Carlos Antônio Belarmino Alves','bio':'- UEPB'}, {'nome':'Doutorando Ezequiel da Costa Ferreira','bio':'- UFPB'}],
-     'titulomoderador':'Monitora:',
-     'moderadores': [{'nome':'Maria Beatriz Regina', 'bio':''}]
+     'participantes': [{'nome':'Dr. Carlos Antônio Belarmino Alves','bio':' - UEPB'}, {'nome':'Doutorando Ezequiel da Costa Ferreira','bio':' - UFPB'}],
+     'titulomoderador':'Monitoras:',
+     'moderadores': [{'nome':'Maria Beatriz', 'bio':''},{'nome':'Regina', 'bio':''}]
     },
     {'imagem':'/assets/image/prodema.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Mini Museu- Geografia',
+     'instituto':'Sala B103- Geografia',
      'titulo':'Mini curso | Análise de redes para compreensão de sistemas etnobotânicos',
      'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dr. Carlos Antônio Belarmino Alves','bio':'- UEPB'}, {'nome':'Doutorando Ezequiel da Costa Ferreira','bio':'- UFPB'}],
+     'participantes': [{'nome':'Dra. Elena Castiñeira Latorre','bio':' - Universidad de la República Uruguay'}, {'nome':'Dr. Andrés Canavero Rodríguez','bio':' - Universidad de la República Uruguay'}],
+     'titulomoderador':'Monitoras:',
+     'moderadores': [{'nome':'Lidiane', 'bio':''},{'nome':'Vitória', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Etnozoologia nas sombras: Estratégias de coleta, implicações e potencialidades dos mercados negros da fauna',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dr. Wedson de Medeiros Silva Souto','bio':' - UFPI'}, {'nome':'Dr. Felipe Silva Ferreira','bio':' - UNIVASF'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Mateus', 'bio':''},{'nome':'Érika', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Dos diários de campo para as publicações: forma acessória de registro de dados e de incremento da produção',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dra. Edna Maria Ferreira Chaves','bio':' - IFPI'}],
+     'titulomoderador':'Monitoras:',
+     'moderadores': [{'nome':'Rosangela', 'bio':''},{'nome':'Iara', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Etnoecologia com pescadores artesanais',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dra. Glória Cristina Cornélio do Nascimento','bio':' - IFPB'},{'nome':'Dr. Eduardo Beltrão de Lucena Córdula','bio':' - Ong MAR'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Flavio', 'bio':''},{'nome':'Maria Julia', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Introdução à Etnozoologia',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dra. Kallyne Machado Bonifácio','bio':' - UFPB'},{'nome':'Doutoranda Suellen da Silva Santos','bio':' - UFPB'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Willian', 'bio':''},{'nome':'José Wilker', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Introdução a Etnofarmacologia',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Thiago Antônio de Sousa Araújo','bio':' - UNINASSAU'}],
      'titulomoderador':'Monitora:',
-     'moderadores': [{'nome':'Maria Beatriz Regina', 'bio':''}]
+     'moderadores': [{'nome':'Thuany', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Etnobiologia e o Ensino de Ciências e Biologia',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dra. Geilsa Costa Santos Bapti’ta','bio':' - UEFS'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Edson', 'bio':''},{'nome':'Mayara', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Bases metodológicas e éticas na pesquisa etnobiológica',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Henrique Costa Hermenegildo da Silva','bio':' - UFAL'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Barbara', 'bio':''},{'nome':'Iranilda', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Etnoecologia política e da ação ',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dr. Flávio Bezerra Barros','bio':' - UFPA'},{'nome':'Dr. Dídac Santos Fita','bio':' - UFPA'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Andreia', 'bio':''},{'nome':'Tiago', 'bio':''}]
+    },
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '08:00 - 12:00',
+     'instituto':'Auditório do CCEN',
+     'titulo':'Mini curso | Saúde ambiental; Etnobiologia e Etnoecologia em sistemas de produção rural',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. José Rodrigues de Almeida Neto','bio':' - UFPI'}],
+     'titulomoderador':'Monitores:',
+     'moderadores': [{'nome':'Rafael', 'bio':''},{'nome':'Rozeane', 'bio':''}]
+    },
+    {'imagem':'/assets/image/reitoria.jpeg',
+     'hora': '08:20 - 12:30',
+     'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
+     'titulo':'Roda da Tradição Oral',
+     'titulolista': 'Mestres tradicionais:',
+     'participantes': [{'nome':'Cacique Natan','bio':' - Tribo Indígena Potiguara'},{'nome':'João Macedo (João Caatinga)','bio':' - agricultura e pecuária'},{'nome':'Joseane Izidro da Silva','bio':' - Associação de Artesãos das Sereias da Penhas'},{'nome':'Maria dos Anjos Mendes Gomes (Mestre D’oci)','bio':' - Escola Viva Olho do Tempo'}],
+     'titulomoderador':'Mediadora:',
+     'moderadores': [{'nome':'Dra. Márcia Freire Pinto', 'bio':' - UECE / FAFIDAM'}]
+    }
+  ];
+
+  public dia23manha1200:Array<object> = [
+    {'imagem':'/assets/image/reitoria.jpeg',
+     'hora': '08:20 - 12:30',
+     'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
+     'titulo':'Roda da Tradição Oral',
+     'titulolista': 'Mestres tradicionais:',
+     'participantes': [{'nome':'Cacique Natan','bio':'- Tribo Indígena Potiguara'},{'nome':'João Macedo (João Caatinga)','bio':'- agricultura e pecuária'},{'nome':'Joseane Izidro da Silva','bio':'- Associação de Artesãos das Sereias da Penhas'},{'nome':'Maria dos Anjos Mendes Gomes (Mestre D’oci)','bio':'- Escola Viva Olho do Tempo'}],
+     'titulomoderador':'Mediadora:',
+     'moderadores': [{'nome':'Dra. Márcia Freire Pinto', 'bio':'- UECE / FAFIDAM'}]
     }
   ];
 
