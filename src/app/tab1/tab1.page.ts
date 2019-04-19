@@ -34,20 +34,26 @@ export class Tab1Page {
         this.agora = this.fim;
       }
     } else if(dia == 23) {
-      if(hora < 12){
+      if(hora < 12) {
         this.agora = this.dia23manha800;
       } else if((hora == 12) && (minuto < 30)) {
         this.agora = this.dia23manha1200;
-      } else if((hora == 20) || (hora == 21)){
-        this.agora = this.dia23manha1200;
-      }else if (hora >= 22){
+      } else if(((hora == 12) && (minuto >= 30)) || (hora == 13) || (hora == 14) || ((hora == 15) && (minuto < 55))) {
+        this.agora = this.dia23tarde1400;
+      } else if(((hora == 15) && (minuto >= 55)) || ((hora == 16) && (minuto < 55))) {
+        this.agora = this.dia23tarde1600;
+      } else if(((hora == 16) && (minuto >= 55)) || (hora == 17)) {
+        this.agora = this.dia23tarde1700;
+      } else if((hora == 18) || (hora == 19) || (hora == 20) || (hora == 21) || (hora == 22)){
+        this.agora = this.dia23tarde2000;
+      } else if(hora == 23) {
         this.agora = this.fim;
       }
     } else if(dia == 20) {
       if((hora < 8) || ((hora == 8) && (minuto <= 30))){
         this.agora = this.dia23manha800;
       } else if(((hora == 8) && (minuto > 30)) || (hora == 9) || ((hora == 10) && (minuto < 15)))  {
-        this.agora = this.dia20manha0900;
+        this.agora = this.dia23tarde1400;
       } else if((hora == 10) && (minuto >= 15) && (minuto < 45)) {
         this.agora = this.dia20manha1015;
       } else if(((hora == 10) && (minuto >= 45)) || (hora == 11) || ((hora == 12) && (minuto < 30))) {
@@ -71,9 +77,8 @@ export class Tab1Page {
   getinfo(){
     let date =  new Date(); 
     this.dia = 23;
-    this.hora = 8;
     // this.dia = date.getDate();
-    // this.hora = date.getHours();
+    this.hora = date.getHours();
     this.minuto = date.getMinutes();
 
     this.atribuirGrade(this.dia, this.hora, this.minuto);
@@ -316,11 +321,69 @@ export class Tab1Page {
      'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
      'titulo':'Roda da Tradição Oral',
      'titulolista': 'Mestres tradicionais:',
-     'participantes': [{'nome':'Cacique Natan','bio':'- Tribo Indígena Potiguara'},{'nome':'João Macedo (João Caatinga)','bio':'- agricultura e pecuária'},{'nome':'Joseane Izidro da Silva','bio':'- Associação de Artesãos das Sereias da Penhas'},{'nome':'Maria dos Anjos Mendes Gomes (Mestre D’oci)','bio':'- Escola Viva Olho do Tempo'}],
+     'participantes': [{'nome':'Cacique Natan','bio':' - Tribo Indígena Potiguara'},{'nome':'João Macedo (João Caatinga)','bio':' - agricultura e pecuária'},{'nome':'Joseane Izidro da Silva','bio':' - Associação de Artesãos das Sereias da Penhas'},{'nome':'Maria dos Anjos Mendes Gomes (Mestre D’oci)','bio':' - Escola Viva Olho do Tempo'}],
      'titulomoderador':'Mediadora:',
-     'moderadores': [{'nome':'Dra. Márcia Freire Pinto', 'bio':'- UECE / FAFIDAM'}]
+     'moderadores': [{'nome':'Dra. Márcia Freire Pinto', 'bio':' - UECE / FAFIDAM'}]
     }
   ];
+
+  public dia23tarde1400:Array<object> = [
+    {'imagem':'/assets/image/reitoria.jpeg',
+     'hora': '14:00 - 16:00',
+     'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
+     'titulo':'Diálogos com Populações Tradicionais e Indígenas',
+     'titulolista': 'Participantes da mesa:',
+     'participantes': [{'nome':'Ana Nascimento','bio':' - Quilombo Ipiranga'},{'nome':'Cacique Ednaldo/ Tabajara','bio':' - Indígena'},{'nome':'Luzia Bezerra da Silva','bio':' - Comunidade Serra Velha Itatuba, PB – rede Sementes ASA/PB'},{'nome':'Daniel Virgílio Basílio Crispim da Silva','bio':' - Associação de Pescadores de Tambaú – Colônia Z3 e Associação Náutica Extremo Oriental/ PB'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Dr. Flávio Bezerra Barros', 'bio':' - UFPA – Presidente da SBEE'}]
+    }
+  ];
+
+  public dia23tarde1600:Array<object> = [
+    {'imagem':'/assets/image/ead.jpeg',
+     'hora': '16:15 - 17:10',
+     'instituto':'Auditório da EaD (Ensino a Distância)',
+     'titulo':'Palestra | Dimensões espirituais da natureza: valores ancestrais e novas perspectivas para a etnobiologia e etnoecologia',
+     'titulolista': 'Participante:',
+     'participantes': [{'nome':'Érika Fernandes-Pinto','bio':' - ICMBio – Brasília'}],
+     'titulomoderador':'Ministrante:',
+     'moderadores': [{'nome':'Érika Fernandes-Pinto', 'bio':' - ICMBio – Brasília'}]
+    },
+    {'imagem':'/assets/image/reitoria.jpeg',
+     'hora': '16:15 - 17:10',
+     'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
+     'titulo':'Palestra | Processo de desertificação do semiárido e suas consequências para as pop. tradicionais',
+     'titulolista': 'Participante:',
+     'participantes': [{'nome':'Dr. Bartolomeu Israel de Souza','bio':' - UFPB'}],
+     'titulomoderador':'Ministrante:',
+     'moderadores': [{'nome':'Dr. Bartolomeu Israel de Souza', 'bio':' - UFPB'}]
+    }
+  ];
+  
+  public dia23tarde1700:Array<object> = [
+    {'imagem':'/assets/image/prodema.jpeg',
+     'hora': '17:00 - 18:00',
+     'instituto':'PRODEMA',
+     'titulo':'Apresentação de trabalhos',
+     'titulolista': 'Apresentação Oral:',
+     'participantes': [{'nome':'PRODEMA','bio':''}],
+     'titulomoderador':'Banner:',
+     'moderadores': [{'nome':'Hall da Reitoria', 'bio':''}]
+    }
+  ];
+
+  public dia23tarde2000:Array<object> = [
+    {'imagem':'/assets/image/rock.PNG',
+     'hora': '20:00 - 23:00',
+     'instituto':'Boteco Pub - orla da praia de Cabo Branco',
+     'titulo':'Festival do Rock',
+     'titulolista': 'Banda:',
+     'participantes': [{'nome':'Banda Viral','bio':' - @viral_banda'}],
+     'titulomoderador':'Local:',
+     'moderadores': [{'nome':'Boteco Pub - orla da praia de Cabo Branco', 'bio':' - (83)98876-3078'}]
+    }
+  ];
+
 
   //Cronograma do terceiro dia
   public dia20manha0830:Array<object> = [
