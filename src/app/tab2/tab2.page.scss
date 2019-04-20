@@ -1,6 +1,6 @@
 .title-tab {
     text-align: center;
-    color: #339E2D;
+    color: #81459D;
 }
 
 .justificado {
@@ -28,7 +28,7 @@ ion-content {
 }
 
 .info-green {
-    color: #339E2D;
+    color: #81459D;
 }
 
 ion-card {
@@ -78,4 +78,17 @@ ion-list {
 
 .tamanho-letra {
     font-size: 14px;
+}
+
+.icon-header {
+    width: 30px;
+    display:inline-block;
+}
+
+.text-header {
+    display:inline-block;
+}
+
+ion-toolbar {
+    text-align: center;
 }
