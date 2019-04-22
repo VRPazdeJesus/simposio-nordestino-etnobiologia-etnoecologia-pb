@@ -148,6 +148,15 @@ export class Tab2Page {
      'editora': 'Editora da UFPB',
      'sinopse': '',
      'site':'https://static.wixstatic.com/ugd/88df49_4896c4956a6349d8a7c5e13be15e9cf5.pdf'
+    },
+    {'imagem':'/assets/image/parceiros.png',
+     'titulo': 'Parceiros!',
+     'subtitulo': 'Nosso muito obrigado, por fazer parte deste evento!',
+     'autores':'Organização',
+     'ano': '2019',
+     'editora': '',
+     'sinopse': '',
+     'site':'https://static.wixstatic.com/ugd/88df49_e1cc500af1e045bb8cfddaf6471ee8c8.pdf'
     }
   ];
 }
