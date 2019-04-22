@@ -108,10 +108,9 @@ export class Tab1Page {
 
   getinfo(){
     let date =  new Date(); 
-    this.dia = 24;
-    this.hora = 10;
-    // this.dia = date.getDate();
-    // this.hora = date.getHours();
+
+    this.dia = date.getDate();
+    this.hora = date.getHours();
     this.minuto = date.getMinutes();
 
     this.atribuirGrade(this.dia, this.hora, this.minuto);
@@ -202,144 +201,144 @@ export class Tab1Page {
 
   // Cronograma do segundo dia 23
   public dia23manha800:Array<object> = [
-    {'imagem':'/assets/image/geociencias.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Praça da Geociências',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Oficina | Vasos de Pet: horta de plantas medicinais',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Esp. Neide Martins','bio':'- Bióloga, Especialista em Gestão Ambiental – PMJP' }],
      'titulomoderador':'Inscrição:',
      'moderadores': [{'nome':'decimosnee@gmail.com', 'bio':''}]
     },
-    {'imagem':'/assets/image/geociencias.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Geografia - Sala A3',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Abordagem da ancestralidade como método na etnobiologia',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dra. Rebeca Mascarenhas Fonseca Barreto','bio':' - UNIVASF' }],
      'titulomoderador':'Monitor:',
      'moderadores': [{'nome':'Wysllayne', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Sala de aula do Prodema',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Introdução a etnobiologia evolutiva',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dr. André Luiz Borba do Nascimento','bio':' - UFPE'}, {'nome':'Doutorando Joelson Brito Mouras','bio':' - UFPE'}],
      'titulomoderador':'Monitoras:',
      'moderadores': [{'nome':'Jéssica', 'bio':''},{'nome':'Maria Vanessa', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do PRODEMA',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Métodos etnobiológicos e de modelagem aplicados às mudanças climáticas',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dr. José Ribamar de Farias Lima','bio':' - UFPB'}, {'nome':'Doutoranda Thamires Kelly Nunes Carvalho','bio':' - UFPB'}],
      'titulomoderador':'Monitor:',
      'moderadores': [{'nome':'Lucas Gomes', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do PRODEMA',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Plantas medicinais e evolução humana',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Washington Soares Ferreira Júnior','bio':' - UPE'}],
      'titulomoderador':'Monitoras:',
      'moderadores': [{'nome':'Sara', 'bio':''},{'nome':'Juliane', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Mini Museu- Geografia',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Introdução a Etnobotânica',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dr. Carlos Antônio Belarmino Alves','bio':' - UEPB'}, {'nome':'Doutorando Ezequiel da Costa Ferreira','bio':' - UFPB'}],
      'titulomoderador':'Monitoras:',
      'moderadores': [{'nome':'Maria Beatriz', 'bio':''},{'nome':'Regina', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Sala B103- Geografia',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Análise de redes para compreensão de sistemas etnobotânicos',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dra. Elena Castiñeira Latorre','bio':' - Universidad de la República Uruguay'}, {'nome':'Dr. Andrés Canavero Rodríguez','bio':' - Universidad de la República Uruguay'}],
      'titulomoderador':'Monitoras:',
      'moderadores': [{'nome':'Lidiane', 'bio':''},{'nome':'Vitória', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Etnozoologia nas sombras: Estratégias de coleta, implicações e potencialidades dos mercados negros da fauna',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dr. Wedson de Medeiros Silva Souto','bio':' - UFPI'}, {'nome':'Dr. Felipe Silva Ferreira','bio':' - UNIVASF'}],
      'titulomoderador':'Monitores:',
      'moderadores': [{'nome':'Mateus', 'bio':''},{'nome':'Érika', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Dos diários de campo para as publicações: forma acessória de registro de dados e de incremento da produção',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dra. Edna Maria Ferreira Chaves','bio':' - IFPI'}],
      'titulomoderador':'Monitoras:',
      'moderadores': [{'nome':'Rosangela', 'bio':''},{'nome':'Iara', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Etnoecologia com pescadores artesanais',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dra. Glória Cristina Cornélio do Nascimento','bio':' - IFPB'},{'nome':'Dr. Eduardo Beltrão de Lucena Córdula','bio':' - Ong MAR'}],
      'titulomoderador':'Monitores:',
      'moderadores': [{'nome':'Flavio', 'bio':''},{'nome':'Maria Julia', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Introdução à Etnozoologia',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dra. Kallyne Machado Bonifácio','bio':' - UFPB'},{'nome':'Doutoranda Suellen da Silva Santos','bio':' - UFPB'}],
      'titulomoderador':'Monitores:',
      'moderadores': [{'nome':'Willian', 'bio':''},{'nome':'José Wilker', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Introdução a Etnofarmacologia',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Thiago Antônio de Sousa Araújo','bio':' - UNINASSAU'}],
      'titulomoderador':'Monitora:',
      'moderadores': [{'nome':'Thuany', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Etnobiologia e o Ensino de Ciências e Biologia',
      'titulolista': 'Ministrante:',
-     'participantes': [{'nome':'Dra. Geilsa Costa Santos Bapti’ta','bio':' - UEFS'}],
+     'participantes': [{'nome':'Dra. Márcia Freire Pinto','bio':''}],
      'titulomoderador':'Monitores:',
      'moderadores': [{'nome':'Edson', 'bio':''},{'nome':'Mayara', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Bases metodológicas e éticas na pesquisa etnobiológica',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Henrique Costa Hermenegildo da Silva','bio':' - UFAL'}],
      'titulomoderador':'Monitores:',
      'moderadores': [{'nome':'Barbara', 'bio':''},{'nome':'Iranilda', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Etnoecologia política e da ação ',
      'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Dr. Flávio Bezerra Barros','bio':' - UFPA'},{'nome':'Dr. Dídac Santos Fita','bio':' - UFPA'}],
      'titulomoderador':'Monitores:',
      'moderadores': [{'nome':'Andreia', 'bio':''},{'nome':'Tiago', 'bio':''}]
     },
-    {'imagem':'/assets/image/prodema.jpeg',
+    {'imagem':'/assets/image/ccen.jpeg',
      'hora': '08:00 - 12:00',
-     'instituto':'Auditório do CCEN',
+     'instituto':'CCEN - Centro de Ciências Exatas e da Natureza',
      'titulo':'Mini curso | Saúde ambiental; Etnobiologia e Etnoecologia em sistemas de produção rural',
      'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. José Rodrigues de Almeida Neto','bio':' - UFPI'}],
@@ -353,7 +352,7 @@ export class Tab1Page {
      'titulolista': 'Mestres tradicionais:',
      'participantes': [{'nome':'Cacique Natan','bio':' - Tribo Indígena Potiguara'},{'nome':'João Macedo (João Caatinga)','bio':' - agricultura e pecuária'},{'nome':'Joseane Izidro da Silva','bio':' - Associação de Artesãos das Sereias da Penhas'},{'nome':'Maria dos Anjos Mendes Gomes (Mestre D’oci)','bio':' - Escola Viva Olho do Tempo'}],
      'titulomoderador':'Mediadora:',
-     'moderadores': [{'nome':'Dra. Márcia Freire Pinto', 'bio':' - UECE / FAFIDAM'}]
+     'moderadores': [{'nome':'Dr. Eraldo Medeiros Costa Neto', 'bio':''}, {'nome':'Dr. José da Silva Mourão', 'bio':''}]
     }
   ];
 
@@ -693,13 +692,13 @@ export class Tab1Page {
 
   public dia25hora1400:Array<object> = [
     {'imagem':'/assets/image/administrativo.jpeg',
-     'hora': '14:00 - 16:00',
+     'hora': '14:00 - 16:30',
      'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
-     'titulo':'Plantas alimentícias na América Latina: Estudos de caso',
+     'titulo':'Mesa Redonda | Manejo e domesticação de recursos genéticos na América Latina',
      'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dra. Ana Haydeé Ladio','bio':' - Universidad Nacional del Comahue – Argentina'},{'nome':'Dr. Ernane Nogueira Nunes','bio':' - LECA/UFPB'},{'nome':'Dr. Valdely Ferreira Knupp','bio':' - IFAM – CMZL'}],
+     'participantes': [{'nome':'Dra. Camilla Marques de Lucena','bio':' - IESP'},{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'},{'nome':'Dr. Ernani Machado de Freitas Lins Neto','bio':' - UNIVASF'},{'nome':'Dra. Elizanilda Ramalho do Rego','bio':' - UFPB'}],
      'titulomoderador':'Mediador:',
-     'moderadores': [{'nome':'Dr. Ernane Nogueira Nunes','bio':' - LECA/UFPB'}]
+     'moderadores': [{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'}]
     },
     {'imagem':'/assets/image/multimidia.jpeg',
      'hora': '14:00 - 16:00',
@@ -770,7 +769,7 @@ export class Tab1Page {
   public dia26hora900:Array<object> = [
     {'imagem':'/assets/image/ccen.jpeg',
      'hora': '09:00 - 12:00',
-     'instituto':'Auditório do CCEN (Centro de Ciências Exatas e da Natureza)',
+     'instituto':'Auditório do CCEN (CCEN - Centro de Ciências Exatas e da Natureza)',
      'titulo':'Discussão sobre a criação do Mestrado Profissional ASSOCIAÇÃO NACIONAL SUSTENTABILIDADE: COMUNIDADES TRADICIONAIS E POVOS INDÍGENAS',
      'titulolista': '',
      'participantes': [],
@@ -808,13 +807,13 @@ export class Tab1Page {
      'moderadores': []
     },
     {'imagem':'/assets/image/administrativo.jpeg',
-     'hora': '10:10 - 12:30',
+     'hora': '10:10 - 12:00',
      'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
-     'titulo':'Mesa Redonda | Manejo e domesticação de recursos genéticos na América Latina',
+     'titulo':'Plantas alimentícias na América Latina: Estudos de caso',
      'titulolista': 'Ministrantes:',
-     'participantes': [{'nome':'Dra. Camilla Marques de Lucena','bio':' - IESP'},{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'},{'nome':'Dr. Ernani Machado de Freitas Lins Neto','bio':' - UNIVASF'},{'nome':'Dra. Elizanilda Ramalho do Rego','bio':' - UFPB'}],
+     'participantes': [{'nome':'Dra. Ana Haydeé Ladio','bio':' - Universidad Nacional del Comahue – Argentina'},{'nome':'Dr. Ernane Nogueira Nunes','bio':' - LECA/UFPB'},{'nome':'Dr. Valdely Ferreira Knupp','bio':' - IFAM – CMZL'}],
      'titulomoderador':'Mediador:',
-     'moderadores': [{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'}]
+     'moderadores': [{'nome':'Dr. Ernane Nogueira Nunes','bio':' - LECA/UFPB'}]
     },
     {'imagem':'/assets/image/multimidia.jpeg',
      'hora': '10:10 - 12:00',
@@ -866,11 +865,13 @@ export class Tab1Page {
 
   public encerramento:Array<object> = [
     {'imagem':'/assets/image/multimidia.jpeg',
-     'hora': '--:-- - --:--',
-     'instituto':'',
+     'hora': '',
+     'instituto':'Centro de Tecnologia',
      'titulo':'Obrigado por ter participado do congresso e utilizado o app!',
+     'titulolista': '',
      'participantes': [{'nome':'Em breve este app será atualizado, e você vai poder ver o que aconteceu no congresso!', 'bio': ''}],
-     'moderadores': [{'nome':'', 'bio': ''}]
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
 
