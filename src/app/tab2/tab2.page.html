@@ -9,7 +9,7 @@
   <br>
   <ion-list>
       <ion-item lines="full" class="info-purple">
-        <ion-label>Vitrine</ion-label>
+        <ion-label>Livros</ion-label>
         <ion-icon name="code" slot="end"></ion-icon>
       </ion-item>
       <div class="scrolling-wrapper">
@@ -17,6 +17,21 @@
             <ion-img class="imagem-card" src="{{livro.imagem}}"></ion-img>
             <ion-card-content>
               <ion-card-subtitle class="sub"> {{livro.titulo}} </ion-card-subtitle>
+            </ion-card-content>
+        </ion-card>
+      </div>
+  </ion-list>
+  <br>
+  <ion-list>
+      <ion-item lines="full" class="info-purple">
+        <ion-label>Mais livros</ion-label>
+        <ion-icon name="code" slot="end"></ion-icon>
+      </ion-item>
+      <div class="scrolling-wrapper">
+        <ion-card class="welcome-card card conteudo-card" *ngFor="let livroc of livroscomplementares" (click)="presentModal(livroc)">
+            <ion-img class="imagem-card" src="{{livroc.imagem}}"></ion-img>
+            <ion-card-content>
+              <ion-card-subtitle class="sub"> {{livroc.titulo}} </ion-card-subtitle>
             </ion-card-content>
         </ion-card>
       </div>
