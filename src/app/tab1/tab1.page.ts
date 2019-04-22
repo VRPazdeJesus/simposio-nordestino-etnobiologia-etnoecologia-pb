@@ -176,6 +176,15 @@ export class Tab1Page {
      'participantes': [{'nome':'Composição da Mesa', 'bio': ''}, {'nome':'Palestra | Etnobiologia: Visões do passado, olhar para o futuro ', 'bio':'- Prof. Dr. Ulysses Paulino de Albuquerque – UFPE'}, {'nome':'Orquestra de Violões da Paraíba', 'bio': ''}, {'nome':'Apresentação Musical: Rubacão Jazz', 'bio': ''}],
      'titulomoderador':'Apresentação:',
      'moderadores': [{'nome':'Organização', 'bio':''}]
+    },
+    {'imagem':'/assets/image/radigundesfeitosa.jpeg',
+     'hora': '17:30 - 22:00',
+     'instituto':'Sala de Concertos Radigundes Feitosa (UFPB)',
+     'titulo':'Rubacão Jazz',
+     'titulolista': 'Repertório:',
+     'participantes': [{'nome':'1 – FLY ME TO THE MOON', 'bio': ' - Abertura'}, {'nome':'2 - THREE FOR THE SHOW', 'bio':' - Harry James; Arr: Adail Fernandes; Editoração: Clailton França'}, {'nome':'3 – CANTALOUPE ISLAND', 'bio': ' - Herbie Hancock; Arr: Adail Fernandes; Editoração: Clailton França'}, {'nome':'4 - COTOVIA', 'bio': ' - Marcelo Vilor'}, {'nome':'5 – Intervalo', 'bio': ' - Adil Silva'}, {'nome':'6 – JACKSOLÂNDIA', 'bio': ' - Vários autores'}, {'nome':'7 – GILBERT NO FREVO (BIG BAND)', 'bio': ' - Clailton Frnça'}, {'nome':'8 – RELEMBRANDO O NORTE (FREVO)', 'bio': ' - Severino Araújo; Arr: DUDA'}],
+     'titulomoderador':'Ficha Técnica:',
+     'moderadores': [{'nome':'Alexandre Magno Ferreira e Silva', 'bio':' - Maestro'},{'nome':'Isaac Santos', 'bio':' - Sax Alto/Flauta Transversal'},{'nome':'Adailton Simplício', 'bio':' - Sax Alto'},{'nome':'Gilbert Monteiro', 'bio':' - Sax Tenor'},{'nome':'Junior Farias', 'bio':' - Sax Tenor'},{'nome':'Moises Rodrigues', 'bio':' - Sax Barítono'},{'nome':'Clailton França', 'bio':' - Trombone'},{'nome':'Robson Franklin', 'bio':' - Trombone'},{'nome':'Jadson Oliveira', 'bio':' - Trombone'},{'nome':'Flávio José', 'bio':' - Trombone'},{'nome':'Erivaldo Silva', 'bio':' - Trombone Baixo'},{'nome':'Eudes Nascimento', 'bio':' - Trompetes'},{'nome':'Adriano Alves', 'bio':' - Trompetes'},{'nome':'Emanuel Mattos', 'bio':' - Trompetes'},{'nome':'José Vasconcelos Junior', 'bio':' - Trompetes'},{'nome':'Geilson Nascimento de Souza', 'bio':' - Trompetes'},{'nome':'Joelson Montes', 'bio':' - Guitarra'},{'nome':'Ana Luiza Miranda', 'bio':' - Piano'},{'nome':'David Martins (Fera Gorda)', 'bio':' - Contra Baixo'},{'nome':'Bennett Oliveira', 'bio':' - Bateria'},{'nome':'Deilde Santos', 'bio':' - Percussão'},{'nome':'Geimisson Bronzeado', 'bio':' - Percussão'}]
     }
   ];
 
