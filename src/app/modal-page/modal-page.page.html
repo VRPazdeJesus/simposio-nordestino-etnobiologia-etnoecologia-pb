@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-      <ion-title class="info-green"><ion-icon (click)="dismiss()" name="undo"></ion-icon> {{valor.titulo}}</ion-title>
+      <ion-title class="info-purple"><ion-icon (click)="dismiss()" name="undo"></ion-icon> {{valor.titulo}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -9,14 +9,14 @@
     <ion-card class="welcome-card">
       <ion-img src="{{valor.imagem}}"></ion-img>
       <ion-card-header>
-        <ion-card-subtitle class="info-black"><span class="destaque info-green">Título:</span> {{valor.titulo}} </ion-card-subtitle>
+        <ion-card-subtitle class="info-black"><span class="destaque info-purple">Título:</span> {{valor.titulo}} </ion-card-subtitle>
         <ion-card-subtitle class="info-black">{{valor.subtitulo}}</ion-card-subtitle>
-        <ion-card-subtitle class="info-black"><span class="destaque info-green">Autores:</span> {{valor.autores}}</ion-card-subtitle>
-        <ion-card-subtitle class="info-black"><span class="destaque info-green">Ano:</span> {{valor.ano}}</ion-card-subtitle>
-        <ion-card-subtitle class="info-black"><span class="destaque info-green">Editora:</span> {{valor.editora}}</ion-card-subtitle>
+        <ion-card-subtitle class="info-black"><span class="destaque info-purple">Autores:</span> {{valor.autores}}</ion-card-subtitle>
+        <ion-card-subtitle class="info-black"><span class="destaque info-purple">Ano:</span> {{valor.ano}}</ion-card-subtitle>
+        <ion-card-subtitle class="info-black"><span class="destaque info-purple">Editora:</span> {{valor.editora}}</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
-          <ion-card-subtitle><span class="destaque info-green">Descrição:</span> </ion-card-subtitle>
+          <ion-card-subtitle><span class="destaque info-purple">Descrição:</span> </ion-card-subtitle>
           <ion-card-subtitle class="info-black text-center">{{valor.sinopse}}</ion-card-subtitle>
           <ion-button *ngIf=" valor.site != ''" (click)="downloadAndOpenPdf(valor.site)" expand="block">Download</ion-button>
       </ion-card-content>

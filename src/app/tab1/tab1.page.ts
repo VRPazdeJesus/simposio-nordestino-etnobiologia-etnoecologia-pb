@@ -73,7 +73,35 @@ export class Tab1Page {
       } else if(hora == 23) {
         this.agora = this.fim;
       }
-    } else if(dia > 20) {
+    } else if(dia == 25) {
+      if((hora < 8) || ((hora == 8) && (minuto < 50))){
+        this.agora = this.dia25hora800;
+      } else if(((hora == 8) && (minuto > 50)) || (hora == 9) || (hora == 10) || (hora == 11) || (hora == 12) || ((hora == 13) && (minuto <= 30)))  {
+        this.agora = this.dia25hora900;
+      } else if(((hora == 13) && (minuto > 30)) || (hora == 14) || (hora == 15)) {
+        this.agora = this.dia25hora1400;
+      } else if((hora == 16) || ((hora == 17) && (minuto < 20))) {
+        this.agora = this.dia25hora1620;
+      } else if(((hora == 17) && (minuto > 20)) || (hora == 18) || (hora == 19) || (hora == 20) || (hora == 21) || (hora == 22)) {
+        this.agora = this.dia25tarde2000;
+      }
+    } else if(dia == 26) {
+      if((hora < 8) || ((hora == 8) && (minuto < 50))){
+        this.agora = this.dia26hora800;
+      } else if(((hora == 8) && (minuto >= 50)) || (hora == 9))  {
+        this.agora = this.dia26hora900;
+      } else if((hora == 10) || ((hora == 11) && (minuto < 50))) {
+        this.agora = this.dia26hora1010;
+      } else if(((hora == 11) && (minuto >= 50)) || ((hora == 12) && (minuto < 30))) {
+        this.agora = this.dia26hora1200;
+      } else if(((hora == 12) && (minuto >= 30)) || (hora == 13) || (hora == 14) || ((hora == 15) && (minuto < 40))  ) {
+        this.agora = this.dia26hora1400;
+      } else if(((hora == 15) && (minuto >= 40)) || (hora == 16) || (hora == 17)) {
+        this.agora = this.dia26hora1600;
+      } else if ((hora == 18) || (hora == 19) || (hora == 20) || (hora == 21) || (hora == 22) || (hora == 23)) {
+        this.agora = this.encerramento;
+      }
+    } else if(dia > 26) {
       this.agora = this.encerramento;
     }
   }
@@ -349,19 +377,19 @@ export class Tab1Page {
      'hora': '16:15 - 17:10',
      'instituto':'Auditório da EaD (Ensino a Distância)',
      'titulo':'Palestra | Dimensões espirituais da natureza: valores ancestrais e novas perspectivas para a etnobiologia e etnoecologia',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Érika Fernandes-Pinto','bio':' - ICMBio – Brasília'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Érika Fernandes-Pinto', 'bio':' - ICMBio – Brasília'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/reitoria.jpeg',
      'hora': '16:15 - 17:10',
      'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
      'titulo':'Palestra | Processo de desertificação do semiárido e suas consequências para as pop. tradicionais',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Bartolomeu Israel de Souza','bio':' - UFPB'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dr. Bartolomeu Israel de Souza', 'bio':' - UFPB'}]
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
   
@@ -396,28 +424,28 @@ export class Tab1Page {
      'hora': '08:00 - 09:00',
      'instituto':'Auditório da EaD (Ensino a Distância)',
      'titulo':'Palestra | Avanços da pesquisa etnobiológica no Nordeste do Brasil',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dra. Roseli Farias Melo de Barros','bio':' - UFPI'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dra. Roseli Farias Melo de Barros', 'bio':' - UFPI'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/reitoria.jpeg',
      'hora': '08:00 - 09:00',
      'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
      'titulo':'Palestra | Avanços da Etnozoologia no Nordeste do Brasil',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Rômulo Romeu da Nóbrega Alves','bio':' - UEPB'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dr. Rômulo Romeu da Nóbrega Alves', 'bio':' - UEPB'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/posedufisica.jpeg',
      'hora': '08:00 - 09:00',
      'instituto':'Auditório da Educação Física, Campus I',
      'titulo':'Palestra | Banco de Extratos vegetais do SAB: O INSA em busca do potencial da caatinga',
-     'titulolista': 'Participantes:',
+     'titulolista': 'Ministrantes:',
      'participantes': [{'nome':'Daniel Rodrigo Cavalcante de Araujo','bio':' - INSA – Instituto Nacional do Semiárido'}, {'nome':'Juliana Gomes Freitas','bio':' - INSA – Instituto Nacional do Semiárido'}],
-     'titulomoderador':'Ministrantes:',
-     'moderadores': [{'nome':'Daniel Rodrigo Cavalcante de Araujo', 'bio':' - INSA – Instituto Nacional do Semiárido'},{'nome':'Juliana Gomes Freitas','bio':' - INSA – Instituto Nacional do Semiárido'}]
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
 
@@ -426,28 +454,28 @@ export class Tab1Page {
      'hora': '09:10 - 10:10',
      'instituto':'Auditório da EaD (Ensino a Distância)',
      'titulo':'Palestra | Bioxamanismo e as práticas etnoecológicas',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Eraldo Medeiros Costa Neto','bio':' - UEFS'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dr. Eraldo Medeiros Costa Neto', 'bio':' - UEFS'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/reitoria.jpeg',
      'hora': '09:10 - 10:10',
      'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
      'titulo':'Palestra | Recursos genéticos e conservação no Brasil',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dra. Patrícia Goulart Bustamante','bio':' - Embrapa - Centro Nacional de Pesquisa de Recursos Genéticos e Biotecnologia – Brasília'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dra. Patrícia Goulart Bustamante', 'bio':' - Embrapa - Centro Nacional de Pesquisa de Recursos Genéticos e Biotecnologia – Brasília'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/posedufisica.jpeg',
      'hora': '09:10 - 10:10',
      'instituto':'Auditório da Educação Física, Campus I',
      'titulo':'Palestra | Plantas alimentícias do Brasil do século XVI e XVII',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dr. Bernardo Tomchinsky','bio':' - Unifesspa – Universidade Federal do Sul e Sudeste do Pará'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dr. Bernardo Tomchinsky', 'bio':' - Unifesspa – Universidade Federal do Sul e Sudeste do Pará'}]
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
 
@@ -456,19 +484,19 @@ export class Tab1Page {
      'hora': '10:30 - 11:30',
      'instituto':'Auditório da Educação Física, Campus I',
      'titulo':'Palestra | Mulheres agricultoras guardiãs das galinhas de capoeira',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Marilene Nascimento Melo','bio':' - INSA – Instituto Nacional do Semiárido'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Marilene Nascimento Melo', 'bio':' - INSA – Instituto Nacional do Semiárido'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/posedufisica.jpeg',
      'hora': '10:30 - 11:30',
      'instituto':'Auditório da Educação Física, Campus I',
      'titulo':'Palestra | Inovações socioambientais do Semiárido',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'João Macêdo Moreira','bio':' - INSA – Instituto Nacional do Semiárido'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'João Macêdo Moreira', 'bio':' - INSA – Instituto Nacional do Semiárido'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/ead.jpeg',
      'hora': '10:30 - 12:30',
@@ -516,10 +544,10 @@ export class Tab1Page {
      'hora': '14:00 - 15:00',
      'instituto':'Auditório da EaD (Ensino a Distância)',
      'titulo':'Palestra | Como grupos humanos constroem relações complexas com as plantas?',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Washington Soares Ferreira Junior','bio':' - UPE – PE'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Washington Soares Ferreira Junior', 'bio':' - UPE – PE'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/reitoria.jpeg',
      'hora': '14:00 - 16:00',
@@ -549,28 +577,28 @@ export class Tab1Page {
      'hora': '16:20 - 17:20',
      'instituto':'Auditório da EaD (Ensino a Distância)',
      'titulo':'Palestra | Os desafios e oportunidades para formar e manter ativos os Etnobiólogos e Etnoecólogos no Brasil',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dra. Carolina Joana Silva','bio':' - UNEMAT – MT'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dra. Carolina Joana Silva', 'bio':' - UNEMAT – MT'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/reitoria.jpeg',
      'hora': '16:20 - 17:20',
      'instituto':'Auditório da Reitoria da Universidade Federal da Paraíba, Campus I',
      'titulo':'Palestra | Quintais Agroflorestais do Nordeste: uma abordagem etnobotânica',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Dra. Alissandra Trajano Nunes','bio':' - UFP - Garanhuns'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Dra. Alissandra Trajano Nunes', 'bio':' - UFP - Garanhuns'}]
+     'titulomoderador':'',
+     'moderadores': []
     },
     {'imagem':'/assets/image/posedufisica.jpeg',
      'hora': '16:20 - 17:20',
      'instituto':'Auditório da Educação Física, Campus I',
      'titulo':'Palestra | Análise de redes para compreensão de sistemas etnobiológicos',
-     'titulolista': 'Participante:',
+     'titulolista': 'Ministrante:',
      'participantes': [{'nome':'Andrés Canavero Rodríguez','bio':' - Universidad de la República Uruguay'}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'Andrés Canavero Rodríguez', 'bio':' - Universidad de la República Uruguay'}]
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
 
@@ -588,10 +616,10 @@ export class Tab1Page {
      'hora': '17:00 - 19:00',
      'instituto':'Auditório do DCE',
      'titulo':'Reunião da Diretoria da Sociedade Brasileira de Etnobiologia e Etnoecologia',
-     'titulolista': 'Participante:',
-     'participantes': [{'nome':'','bio':''}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'', 'bio':''}]
+     'titulolista': '',
+     'participantes': [],
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
 
@@ -600,10 +628,10 @@ export class Tab1Page {
      'hora': '17:00 - 19:00',
      'instituto':'Auditório do DCE',
      'titulo':'Reunião da Diretoria da Sociedade Brasileira de Etnobiologia e Etnoecologia',
-     'titulolista': 'Participante:',
-     'participantes': [{'nome':'','bio':''}],
-     'titulomoderador':'Ministrante:',
-     'moderadores': [{'nome':'', 'bio':''}]
+     'titulolista': '',
+     'participantes': [],
+     'titulomoderador':'',
+     'moderadores': []
     }
   ];
 
@@ -621,11 +649,214 @@ export class Tab1Page {
 
 
   //Cronograma do quarto dia 25
+  public dia25hora800:Array<object> = [
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '08:00 - 09:00',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'O semiárido: Tem futuro?',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Daniel Duarte Pereira','bio':' - UFPB'}],
+     'titulomoderador':'',
+     'moderadores': []
+    },
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '08:00 - 09:00',
+     'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
+     'titulo':'Populações indígenas e políticas públicas relacionadas com o uso da água',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Marcos José Salgado Vital','bio':' - UFRR'}],
+     'titulomoderador':'',
+     'moderadores': []
+    }
+  ];
 
+  public dia25hora900:Array<object> = [
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '09:00 - 13:30',
+     'instituto':'Centro de Vivência - CT (Centro de Tecnologia)',
+     'titulo':'Festival de Culinária Tradicional e Indígena',
+     'titulolista': 'Comissão de júri:',
+     'participantes': [{'nome':'Dra. Flávia de Oliveira Paulino','bio':' - UFPB'},{'nome':'Dra. Ana Haydeé Ladio','bio':' - Universidad Nacional del Comahue – Argentina'},{'nome':'Dr. Valdely Ferreira Knupp','bio':' - IFAM – CMZL'}],
+     'titulomoderador':'',
+     'moderadores': []
+    }
+  ];
+
+  public dia25hora1400:Array<object> = [
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '14:00 - 16:00',
+     'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
+     'titulo':'Plantas alimentícias na América Latina: Estudos de caso',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dra. Ana Haydeé Ladio','bio':' - Universidad Nacional del Comahue – Argentina'},{'nome':'Dr. Ernane Nogueira Nunes','bio':' - LECA/UFPB'},{'nome':'Dr. Valdely Ferreira Knupp','bio':' - IFAM – CMZL'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Dr. Ernane Nogueira Nunes','bio':' - LECA/UFPB'}]
+    },
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '14:00 - 16:00',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'20 e poucos anos de Etnoecologia: “Tamo aí mandando brasa!”',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dr. José da Silva Mourão','bio':' - UEPB'},{'nome':'Dr. Francisco José Bezerra Souto','bio':' - UEFS'},{'nome':'Dr. Ângelo Giuseppe Chaves Alves','bio':' - UFRPE'},{'nome':'Dr. Rafael Ricardo Vasconcelos da Silva','bio':' - UFAL'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Dr. Ângelo Giuseppe Chaves Alves','bio':' - UFRPE'}]
+    }
+  ];
+
+  public dia25hora1620:Array<object> = [
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '16:20 - 17:20',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Quando a ciência atinge milhões: um panorama da divulgação científica',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Hugo Fernandes-Ferreira','bio':' - UECE'}],
+     'titulomoderador':'',
+     'moderadores': []
+    },
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '16:20 - 17:20',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Agroecologia cultivando saberes e valorizando a agrobiodiversidade',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Fillipe Silveira Marini','bio':' - UFPB'}],
+     'titulomoderador':'',
+     'moderadores': []
+    }
+  ];
+
+  public dia25tarde2000:Array<object> = [
+    {'imagem':'/assets/image/boteco.png',
+     'hora': '20:00 - 23:00',
+     'instituto':'Boteco Pub - orla da praia de Cabo Branco',
+     'titulo':'Forró pé de serra',
+     'titulolista': 'Banda:',
+     'participantes': [{'nome':'3 do Norte','bio':''}],
+     'titulomoderador':'Local:',
+     'moderadores': [{'nome':'Boteco Pub - orla da praia de Cabo Branco', 'bio':' - (83)98876-3078'}]
+    }
+  ];
+  
+  //Cronograma do quarto dia 26
+  public dia26hora800:Array<object> = [
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '08:00 - 09:00',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Palestra | Caça, comida e cultura na Amazônia',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Flávio Bezerra Barros','bio':' - UFPA'}],
+     'titulomoderador':'',
+     'moderadores': []
+    },
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '08:00 - 09:00',
+     'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
+     'titulo':'Palestra | Importância e cuidados no uso de plantas medicinais',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dra. Valdeline Atanazio da Silva','bio':' - UFRPE'}],
+     'titulomoderador':'',
+     'moderadores': []
+    }
+  ];
+
+  public dia26hora900:Array<object> = [
+    {'imagem':'/assets/image/ccen.jpeg',
+     'hora': '09:00 - 12:00',
+     'instituto':'Auditório do CCEN (Centro de Ciências Exatas e da Natureza)',
+     'titulo':'Discussão sobre a criação do Mestrado Profissional ASSOCIAÇÃO NACIONAL SUSTENTABILIDADE: COMUNIDADES TRADICIONAIS E POVOS INDÍGENAS',
+     'titulolista': '',
+     'participantes': [],
+     'titulomoderador':'',
+     'moderadores': []
+    },
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '09:10 - 10:10',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Palestra | Etnobiologia e educação escolar: Um olhar intercultural para o ensino de ciência e biologia',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dr. Marcelo Alves Ramos','bio':' - UPE'}],
+     'titulomoderador':'',
+     'moderadores': []
+    },
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '09:10 - 10:10',
+     'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
+     'titulo':'Palestra | Etnobotânica aplicada a conservação no bioma Pampa: “Quebradas del Norte, Uruguay”',
+     'titulolista': 'Ministrante:',
+     'participantes': [{'nome':'Dra. Elena Castiñeira Latorre','bio':' - Universidad de la República Uruguay'}],
+     'titulomoderador':'',
+     'moderadores': []
+    }
+  ];
+  
+  public dia26hora1010:Array<object> = [
+    {'imagem':'/assets/image/ccen.jpeg',
+     'hora': '09:00 - 12:00',
+     'instituto':'Auditório do CCEN (Centro de Ciências Exatas e da Natureza)',
+     'titulo':'Discussão sobre a criação do Mestrado Profissional ASSOCIAÇÃO NACIONAL SUSTENTABILIDADE: COMUNIDADES TRADICIONAIS E POVOS INDÍGENAS',
+     'titulolista': '',
+     'participantes': [],
+     'titulomoderador':'',
+     'moderadores': []
+    },
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '10:10 - 12:30',
+     'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
+     'titulo':'Mesa Redonda | Manejo e domesticação de recursos genéticos na América Latina',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dra. Camilla Marques de Lucena','bio':' - IESP'},{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'},{'nome':'Dr. Ernani Machado de Freitas Lins Neto','bio':' - UNIVASF'},{'nome':'Dra. Elizanilda Ramalho do Rego','bio':' - UFPB'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'}]
+    },
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '10:10 - 12:00',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Mesa Redonda | O jovem etnobiólogo: Desafios e perspectivas',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dr. André Luiz Borba do Nascimento','bio':' - UFPE'},{'nome':'Dr. José Rodrigues de Almeida Neto','bio':' - UFPI'},{'nome':'Dra. Dandara Monalisa Mariz da S. Quirino Bezerra','bio':' - IFPB'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Prof. Dr. Alexandre Schiavetti','bio':' - UESC'}]
+    }
+  ];
+
+  public dia26hora1200:Array<object> = [
+    {'imagem':'/assets/image/administrativo.jpeg',
+     'hora': '10:10 - 12:30',
+     'instituto':'Auditório do Bloco Administrativo – CT (Centro de Tecnologia)',
+     'titulo':'Mesa Redonda | Manejo e domesticação de recursos genéticos na América Latina',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dra. Camilla Marques de Lucena','bio':' - IESP'},{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'},{'nome':'Dr. Ernani Machado de Freitas Lins Neto','bio':' - UNIVASF'},{'nome':'Dra. Elizanilda Ramalho do Rego','bio':' - UFPB'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Dr. Mailson Monteiro do Rego','bio':' - UFPB'}]
+    }
+  ];
+
+  public dia26hora1400:Array<object> = [
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '14:00 - 16:00',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Mesa Redonda | Quando tudo começou: lições do passado e perspectivas para o futuro',
+     'titulolista': 'Ministrantes:',
+     'participantes': [{'nome':'Dr. José Geraldo Wanderley Marques','bio':' - UEFS'},{'nome':'Dra. Laise de Holanda Cavalcanti Andrade','bio':' - UFPE'},{'nome':'Dr. Nivaldo Nordi','bio':' - UFSCar'}],
+     'titulomoderador':'Mediador:',
+     'moderadores': [{'nome':'Prof. Dr. Reinaldo Farias Paiva de Lucena','bio':' - UFPB'}]
+    }
+  ];
+
+  public dia26hora1600:Array<object> = [
+    {'imagem':'/assets/image/multimidia.jpeg',
+     'hora': '16:00 - 18:00',
+     'instituto':'Auditório Multimídia – CT (Centro de Tecnologia)',
+     'titulo':'Plenária de homenagens, premiações e encerramento',
+     'titulolista': '',
+     'participantes': [],
+     'titulomoderador':'',
+     'moderadores': []
+    }
+  ];
 
 
   public encerramento:Array<object> = [
-    {'imagem':'/assets/image/reitoria.jpg',
+    {'imagem':'/assets/image/multimidia.jpeg',
      'hora': '--:-- - --:--',
      'instituto':'',
      'titulo':'Obrigado por ter participado do congresso e utilizado o app!',
