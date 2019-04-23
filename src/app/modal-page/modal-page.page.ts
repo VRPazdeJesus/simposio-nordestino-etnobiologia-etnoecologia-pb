@@ -39,29 +39,4 @@ export class ModalPagePage implements OnInit {
     let browser = this.iab.create(endereco, '_system');
   }
 
-  downloadAndOpenPdf(endereco:any) {
-    this.downloadToast();
-    //window.open(endereco,'_system', 'location=yes');
-    let browser = this.iab.create(endereco, '_system');
-    // browser.show();
-    //let browser = new InAppBrowser('https://ionicframework.com/', '_system'); //For system browser
-    // console.log("Chamado link de download");
-    // console.log(endereco)
-    // let downloadUrl = endereco;
-    // let path = this.file.dataDirectory;
-    // const transfer = this.ft.create();
-   
-    // transfer.download(downloadUrl, path + titulo+'.pdf').then(entry => {
-    //   let url = entry.toURL();
-   
-    //   if (this.platform.is('ios')) {
-    //     this.document.viewDocument(url, 'application/pdf', {});
-    //   } else {
-    //     this.fileOpener.open(url, 'application/pdf')
-    //       .then(() => console.log('File is opened'))
-    //       .catch(e => console.log('Error opening file', e));
-    //   }
-    // });
-  }
-
 }

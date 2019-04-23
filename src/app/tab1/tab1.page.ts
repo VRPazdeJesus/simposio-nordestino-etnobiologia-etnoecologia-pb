@@ -108,8 +108,7 @@ export class Tab1Page {
 
   getinfo(){
     let date =  new Date(); 
-
-    this.dia = 23;
+    this.dia = 24;
     this.hora = 8;
 
     // this.dia = date.getDate();
