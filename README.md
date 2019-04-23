@@ -37,17 +37,17 @@ ionic cordova build --release android
 ### Gerar certificado para o projeto e este sempre ser usado em todas assinaturas do app
 senha: Victor2019.@
 ```
-keytool -genkey -v -keystore congressoecologiapolitica.keystore -alias congressoecologiapolitica -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore simposioetnobiologia.keystore -alias simposioetnobiologia -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 
 ### Assinar o app com o certificado gerado
 senha: Victor2019.@
 ```
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore congressoecologiapolitica.keystore platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk congressoecologiapolitica
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore simposioetnobiologia.keystore platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk simposioetnobiologia
 ```
 
 ### Empacotar o app com o zipalign. O executável do zipalign está dentro do SDK do Android Studio. Copia e cola o executável dentro da pasta build do projeto Ionic
 ```
-platforms\android\app\build\outputs\apk\zipalign -v 4 platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk congressoecologiapolitica.apk
+platforms\android\app\build\outputs\apk\zipalign -v 4 platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk simposioetnobiologia.apk
 ```
