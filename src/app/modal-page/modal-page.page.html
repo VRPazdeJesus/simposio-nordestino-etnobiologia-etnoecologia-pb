@@ -18,7 +18,8 @@
       <ion-card-content>
           <ion-card-subtitle><span class="destaque info-purple">Descrição:</span> </ion-card-subtitle>
           <ion-card-subtitle class="info-black text-center">{{valor.sinopse}}</ion-card-subtitle>
-          <ion-button *ngIf=" valor.site != ''" (click)="downloadAndOpenPdf(valor.site)" expand="block">Download</ion-button>
+          <ion-button *ngIf=" valor.site != ''" (click)="openBook(valor.site)" expand="block">Download</ion-button>
+          <!-- <ion-button href="#" (click)="window.open({{valor.site}}, '_system', 'location=yes'); return false;" expand="block"> Download</ion-button> -->
       </ion-card-content>
     </ion-card>
  

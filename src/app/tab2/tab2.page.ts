@@ -102,7 +102,7 @@ export class Tab2Page {
      'ano': '2019',
      'editora': 'UFPB',
      'sinopse': 'Anais e Resumos do X Simpósio de Etnobiologia e Etnoecologia.',
-     'site': 'https://www.dropbox.com/s/04sz0a8uatta1hf/ANAIS%20X%20SNEE.pdf'
+     'site': 'https://simposioetnobiologiahome.files.wordpress.com/2019/04/anais-x-snee.pdf'
     },
     {'imagem':'/assets/image/domesticacion.PNG',
      'titulo': 'Domesticatión en el continente americano volume 1',
@@ -111,7 +111,7 @@ export class Tab2Page {
      'ano': '2016',
      'editora': 'UNIVERSIDAD NACIONAL AGRARIA LA MOLINA (UNALM) DEL PERÚ',
      'sinopse': 'Se reúnen en este volumen información, reflexiones y teorías sobre los procesos de domesticación a escala de poblaciones biológicas, para explicar desde aproximaciones evolutivas darwinianas cómo se desarrolla la diversificación de recursos genéticos a lo largo de la historia. Asimismo, el libro incluye teorías sobre la domesticación de ecosistemas, paisajes y territorios. Es primordialmente un material de lectura para apoyar el curso "Domesticación y Manejo in situ de Resursos Genéticos", organizado desde 2006 por la Universidad Nacional Autónoma de México (UNAM) y la Universidad Nacional Agraria La Molina (UNALM).',
-     'site': 'https://www.dropbox.com/s/1jhzfkbcd7ou0y7/DOMESTICACIONENELCONTINENTEAMERICANOVol.1LIBROCOMPLETO20Nov.2016.pdf'
+     'site': 'https://simposioetnobiologiahome.files.wordpress.com/2019/04/domesticacionenelcontinenteamericanovol.1librocompleto20nov.2016.pdf'
     },
     {'imagem':'/assets/image/comunidades.PNG',
      'titulo': 'Comunidades quilombolas:',

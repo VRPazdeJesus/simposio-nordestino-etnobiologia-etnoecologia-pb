@@ -15,6 +15,7 @@ import { File } from '@ionic-native/File/ngx';
 import { FileOpener } from '@ionic-native/file-opener/ngx';
 import { FileTransfer } from '@ionic-native/file-transfer/ngx';
 import { DocumentViewer } from '@ionic-native/document-viewer/ngx';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 @NgModule({
   declarations: [AppComponent, ModalPagePage],
@@ -27,7 +28,8 @@ import { DocumentViewer } from '@ionic-native/document-viewer/ngx';
     File,
     FileOpener,
     FileTransfer,
-    DocumentViewer
+    DocumentViewer,
+    InAppBrowser
   ],
   bootstrap: [AppComponent]
 })

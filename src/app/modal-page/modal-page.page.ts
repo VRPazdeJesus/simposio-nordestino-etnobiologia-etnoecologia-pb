@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { ModalController, NavParams } from '@ionic/angular';
 import { Platform } from '@ionic/angular';
 import { File } from '@ionic-native/File/ngx';
 import { FileOpener } from '@ionic-native/file-opener/ngx';
 import { DocumentViewer, DocumentViewerOptions } from '@ionic-native/document-viewer/ngx';
 import { FileTransfer } from '@ionic-native/file-transfer/ngx';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-modal-page',
@@ -13,7 +15,7 @@ import { FileTransfer } from '@ionic-native/file-transfer/ngx';
 })
 export class ModalPagePage implements OnInit {
   public valor;
-  constructor(public modalController: ModalController, public navParams: NavParams, private platform: Platform, private file: File, private ft: FileTransfer, private fileOpener: FileOpener, private document: DocumentViewer) { 
+  constructor(public modalController: ModalController, public navParams: NavParams, private platform: Platform, private file: File, private ft: FileTransfer, private fileOpener: FileOpener, private document: DocumentViewer, public toastController: ToastController,private iab: InAppBrowser) { 
     this.valor = this.navParams.get('value');
   }
   
@@ -24,24 +26,42 @@ export class ModalPagePage implements OnInit {
     this.modalController.dismiss();
   }
 
-  downloadAndOpenPdf(endereco:any) {
-    console.log("Chamado link de download");
-    console.log(endereco)
-    let downloadUrl = endereco;
-    let path = this.file.dataDirectory;
-    const transfer = this.ft.create();
-   
-    transfer.download(downloadUrl, path + 'myfile.pdf').then(entry => {
-      let url = entry.toURL();
-   
-      if (this.platform.is('ios')) {
-        this.document.viewDocument(url, 'application/pdf', {});
-      } else {
-        this.fileOpener.open(url, 'application/pdf')
-          .then(() => console.log('File is opened'))
-          .catch(e => console.log('Error opening file', e));
-      }
+  async downloadToast() {
+    const toast = await this.toastController.create({
+      message: 'Baixando...Arquivo pesado!',
+      duration: 4000
     });
+    toast.present();
+  }
+
+  openBook(endereco:any) {
+    this.downloadToast();
+    let browser = this.iab.create(endereco, '_system');
+  }
+
+  downloadAndOpenPdf(endereco:any) {
+    this.downloadToast();
+    //window.open(endereco,'_system', 'location=yes');
+    let browser = this.iab.create(endereco, '_system');
+    // browser.show();
+    //let browser = new InAppBrowser('https://ionicframework.com/', '_system'); //For system browser
+    // console.log("Chamado link de download");
+    // console.log(endereco)
+    // let downloadUrl = endereco;
+    // let path = this.file.dataDirectory;
+    // const transfer = this.ft.create();
+   
+    // transfer.download(downloadUrl, path + titulo+'.pdf').then(entry => {
+    //   let url = entry.toURL();
+   
+    //   if (this.platform.is('ios')) {
+    //     this.document.viewDocument(url, 'application/pdf', {});
+    //   } else {
+    //     this.fileOpener.open(url, 'application/pdf')
+    //       .then(() => console.log('File is opened'))
+    //       .catch(e => console.log('Error opening file', e));
+    //   }
+    // });
   }
 
 }
