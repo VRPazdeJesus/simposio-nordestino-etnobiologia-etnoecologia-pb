@@ -108,11 +108,9 @@ export class Tab1Page {
 
   getinfo(){
     let date =  new Date(); 
-    this.dia = 24;
-    this.hora = 8;
 
-    // this.dia = date.getDate();
-    // this.hora = date.getHours();
+    this.dia = date.getDate();
+    this.hora = date.getHours();
     this.minuto = date.getMinutes();
 
     this.atribuirGrade(this.dia, this.hora, this.minuto);
